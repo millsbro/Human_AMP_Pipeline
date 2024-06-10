@@ -1,0 +1,126 @@
+IQ-TREE multicore version 2.2.0.3 COVID-edition for Linux 64-bit built May 11 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    submit1 (AVX2, FMA3, 31 GB RAM)
+Command: iqtree -s /scratch/millsbro/FINAL/Human_AMP_Pipeline/AMP_seqs_aln/SLAF9_HUMAN_squeak.fa -m TEST -nt 2
+Seed:    14637 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jun 10 01:02:44 2024
+Kernel:  AVX+FMA - 2 threads (16 CPU cores detected)
+
+Reading alignment file /scratch/millsbro/FINAL/Human_AMP_Pipeline/AMP_seqs_aln/SLAF9_HUMAN_squeak.fa ... Fasta format detected
+Reading fasta file: done in 0.00190306 secs using 92.06% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00208902 secs using 198.8% CPU
+Alignment has 100 sequences with 693 columns, 561 distinct patterns
+246 parsimony-informative, 174 singleton sites, 273 constant sites
+                                                                       Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000149012 secs using 199.3% CPU
+   1  XP0168582451SLAMFamilyMember9IsoformX1HomoSapiens                       53.97%    passed     59.31%
+   2  EAW527541SLAMFamilyMember9IsoformCRAAHomoSapiens                        48.34%    passed     88.06%
+   3  NP2542732SLAMFamilyMember9Isoform1PrecursorHomoSapiens                  58.30%    passed     99.92%
+   4  AAH747541SLAMFamilyMember9HomoSapiens                                   58.30%    passed     99.90%
+   5  NP0012895862SLAMFamilyMember9PrecursorPanTroglodytes                    58.44%    passed     99.97%
+   6  NP0012895841SLAMFamilyMember9PrecursorPanPaniscus                       58.44%    passed     99.99%
+   7  NP0011396441SLAMFamilyMember9Isoform2PrecursorHomoSapiens               71.43%    passed     89.78%
+   8  AAQ891611CD84H1HomoSapiens                                              71.43%    passed     87.83%
+   9  XP0635497991LOWQUALITYPROTEINSLAMFamilyMember9GorillaGorillaGorilla     58.44%    passed     99.99%
+  10  CAI96908831UnnamedProteinProductRangiferTarandusPlatyrhynchus           77.92%    passed     67.43%
+  11  XP0215683581LOWQUALITYPROTEINSLAMFamilyMember9CarlitoSyrichta           52.24%    passed     89.94%
+  12  OWK049291SLAMF9PartialCervusElaphusHippelaphus                          60.32%    passed     98.20%
+  13  KAB03876671HypotheticalProteinFD755002623MuntiacusReevesi               58.30%    passed     99.76%
+  14  XP0609757921LOWQUALITYPROTEINSLAMFamilyMember9DamaDama                  58.15%    passed     99.55%
+  15  XP0433021021LOWQUALITYPROTEINSLAMFamilyMember9CervusCanadensis          58.15%    passed     99.46%
+  16  KAB03593411HypotheticalProteinFD754003497MuntiacusMuntjak               58.30%    passed     99.92%
+  17  CAI91512131UnnamedProteinProductRangiferTarandusPlatyrhynchus           58.30%    passed     99.96%
+  18  XP0179018551PREDICTEDSLAMFamilyMember9CapraHircus                       58.30%    passed     99.55%
+  19  XP0207601451LOWQUALI___NSLAMFamilyMember9OdocoileusVirginianusTexanus   58.30%    passed     99.42%
+  20  KAI45487831HypotheticalProteinMG293001113OvisAmmonPolii                 58.30%    passed     99.95%
+  21  NP0012895902SLAMFamilyMember9PrecursorOvisAries                         58.30%    passed     99.90%
+  22  XP0118125971PREDICTEDSLAMFamilyMember9ColobusAngolensisPalliatus        58.44%    passed     99.79%
+  23  XP0321167361SLAMFamilyMember9IsoformX3SapajusApella                     56.71%    passed     99.77%
+  24  XP0321167381SLAMFamilyMember9IsoformX4SapajusApella                     58.44%    passed     99.97%
+  25  NP0012895961SLAMFamilyMember9PrecursorCallithrixJacchus                 60.46%    passed     94.76%
+  26  XP0306791091LOWQUALITYPROTEINSLAMFamilyMember9NomascusLeucogenys        58.59%    passed    100.00%
+  27  XP0306649291LOWQUALITYPROTEINSLAMFamilyMember9NomascusLeucogenys        58.73%    passed    100.00%
+  28  XP0200411041SLAMFamilyMember9CastorCanadensis                           58.01%    passed     99.40%
+  29  XP0123051212SLAMFamilyMember9AotusNancymaae                             58.01%    passed     99.99%
+  30  XP0337039091LOWQUALITYPROTEINSLAMFamilyMember9TursiopsTruncatus         58.73%    passed     98.78%
+  31  XP0233722301LOWQUALITYPROTEINSLAMFamilyMember9OtolemurGarnettii         58.59%    passed     97.06%
+  32  XP0173591391SLAMFamilyMember9CebusImitator                              58.44%    passed     99.85%
+  33  TEA380321HypotheticalProteinDBR06SOUSAS27910024PartialSousaChinensis    79.22%    passed     96.54%
+  34  AAH702131SLAMF9ProteinHomoSapiens                                       94.52%    failed      0.04%
+  35  XP0230699832SLAMFamilyMember9PiliocolobusTephrosceles                   58.44%    passed     99.73%
+  36  XP0598647051LOWQUALITYPROTEINSLAMFamilyMember9DelphinusDelphis          71.72%    passed     74.03%
+  37  XP0068955941PREDICTEDLOW___OTEINSLAMFamilyMember9ElephantulusEdwardii   58.30%    passed     91.12%
+  38  XP0376693811SLAMFamilyMember9CholoepusDidactylus                        58.44%    passed     98.48%
+  39  XP0320099141LOWQUALITYPROTEINSLAMFamilyMember9HylobatesMoloch           58.59%    passed    100.00%
+  40  XP0177203031PREDICTEDSLAMFamilyMember9RhinopithecusBieti                58.44%    passed     99.45%
+  41  XP0554398551SLAMFamilyMember9BubalusKerabau                             59.88%    passed     99.07%
+  42  XP0103590791SLAMFamilyMember9RhinopithecusRoxellana                     58.44%    passed     99.57%
+  43  NP0012895891SLAMFamilyMember9PrecursorChlorocebusSabaeus                58.44%    passed     99.75%
+  44  XP0448000891SLAMFamilyMember9IsoformX5BubalusBubalis                    64.36%    passed     98.08%
+  45  XP0126046361SLAMFamilyMember9MicrocebusMurinus                          58.44%    passed     93.58%
+  46  XP0448000871SLAMFamilyMember9IsoformX3BubalusBubalis                    62.48%    passed     98.86%
+  47  XP0448000791SLAMFamilyMember9IsoformX2BubalusBubalis                    59.88%    passed     98.77%
+  48  XP0448000781SLAMFamilyMember9IsoformX1BubalusBubalis                    58.30%    passed     99.77%
+  49  XP0367267771LOWQUALITYPROTEINSLAMFamilyMember9BalaenopteraMusculus      64.07%    passed     99.88%
+  50  XP0330511831SLAMFamilyMember9TrachypithecusFrancoisi                    58.44%    passed     99.62%
+  51  XP0290826191LOWQUALITYPROTEINSLAMFamilyMember9MonodonMonoceros          58.15%    passed     99.85%
+  52  XP0252553301LOWQUALITYPROTEINSLAMFamilyMember9TheropithecusGelada       58.30%    passed     99.81%
+  53  XP0118257961PREDICTEDSLAMFamilyMember9MandrillusLeucophaeus             58.44%    passed     99.80%
+  54  TKC484291HypotheticalProteinEI555001982PartialMonodonMonoceros          64.65%    passed     99.97%
+  55  XP0599978381LOWQUALIT___EINSLAMFamilyMember9LagenorhynchusAlbirostris   60.32%    passed     99.97%
+  56  XP0123939332LOWQUALITYPROTEINSLAMFamilyMember9OrcinusOrca               59.31%    passed     98.16%
+  57  XP0610418251LOWQUALITYPROTEINSLAMFamilyMember9EubalaenaGlacialis        57.14%    passed     99.87%
+  58  XP0269509591LOWQUALIT___EINSLAMFamilyMember9LagenorhynchusObliquidens   55.12%    passed     98.18%
+  59  XP0071297022LOWQUALITYPROTEINSLAMFamilyMember9PhyseterCatodon           58.73%    passed     99.69%
+  60  XP0246067931LOW___Member9NeophocaenaAsiaeorientalisAsiaeorientalis      58.73%    passed     99.84%
+  61  XP0074721141PREDICTEDLOWQ___PROTEINSLAMFamilyMember9LipotesVexillifer   58.59%    passed     99.07%
+  62  NP0012895951SLAMFamilyMember9PrecursorMacacaMulatta                     58.59%    passed     99.57%
+  63  XP0117683411SLAMFamilyMember9IsoformX2MacacaNemestrina                  58.44%    passed     99.08%
+  64  NP0012895871SLAMFamilyMember9PrecursorMacacaFascicularis                58.44%    passed     99.56%
+  65  NP0012895921SLAMFamilyMember9PrecursorSaimiriBoliviensis                58.44%    passed     99.84%
+  66  XP0117683401SLAMFamilyMember9IsoformX1MacacaNemestrina                  55.27%    passed     98.97%
+  67  XP0153074321SLAMFamilyMember9IsoformX1MacacaFascicularis                55.27%    passed     99.58%
+  68  XP0597804201LOWQUALITYPROTEINSLAMFamilyMember9BalaenopteraRicei         46.32%    passed     99.55%
+  69  XP0589331651LOWQUALITYPROTEINSLAMFamilyMember9KogiaBreviceps            58.87%    passed     98.75%
+  70  NP0012895881SLAMFamilyMember9PrecursorPapioAnubis                       58.44%    passed     99.80%
+  71  XP0178108492SLAMFamilyMember9IsoformX2PapioAnubis                       56.71%    passed     98.62%
+  72  XP0306981911LOWQUALITYPROTEINSLAMFamilyMember9GlobicephalaMelas         58.73%    passed     99.01%
+  73  XP0091828823SLAMFamilyMember9IsoformX1PapioAnubis                       55.27%    passed     99.01%
+  74  XP0400858301SLAMFamilyMember9OryxDammah                                 58.30%    passed     99.10%
+  75  XP0109539301SLAMFamilyMember9IsoformX1CamelusBactrianus                 58.30%    passed     99.97%
+  76  XP0044484971SLAMFamilyMember9IsoformX1DasypusNovemcinctus               58.44%    passed     85.75%
+  77  XP0534640681SLAMFamilyMember9NycticebusCoucang                          58.44%    passed     90.48%
+  78  XP0109753611SLAMFamilyMember9IsoformX1CamelusDromedarius                45.17%    passed     97.33%
+  79  EPY857291SLAMFamilyMember9CamelusFerus                                  41.56%    passed     82.28%
+  80  XP0125173011PREDICTEDSLAMFamilyMember9PropithecusCoquereli              58.44%    passed     99.29%
+  81  XP0244282962LOWQUALITYPROTEINSLAMFamilyMember9DesmodusRotundus          60.32%    passed     98.46%
+  82  XP0552584731SLAMFamilyMember9IsoformX2MoschusBerezovskii                64.36%    passed     98.03%
+  83  XP0552584691SLAMFamilyMember9IsoformX1MoschusBerezovskii                58.30%    passed     99.78%
+  84  XP0524939581SLAMFamilyMember9BudorcasTaxicolor                          58.30%    passed     99.71%
+  85  XP0224153951LOWQUALITYPROTEINSLAMFamilyMember9DelphinapterusLeucas      58.59%    passed     99.60%
+  86  XP0597389551SLAMFamilyMember9IsoformX1BosTaurus                         64.36%    passed     99.93%
+  87  XP0315450261SLAMFamilyMember9IsoformX3VicugnaPacos                      58.30%    passed     99.94%
+  88  XP0151044951SLAMFamilyMember9IsoformX1VicugnaPacos                      46.90%    passed     98.81%
+  89  XP0273940861LOWQUALITYPROTEINSLAMFamilyMember9BosIndicusXBosTaurus      58.15%    passed     99.99%
+  90  XP0198138841PREDICTEDLOWQUALITYPROTEINSLAMFamilyMember9BosIndicus       58.15%    passed     99.91%
+  91  NP0012895911SLAMFamilyMember9PrecursorBosTaurus                         58.30%    passed     99.99%
+  92  XP0575834241SLAMFamilyMember9HippopotamusAmphibiusKiboko                59.02%    passed    100.00%
+  93  XP0058921451PREDICTEDLOWQUALITYPROTEINSLAMFamilyMember9BosMutus         58.15%    passed     99.96%
+  94  ELR589961SLAMFamilyMember9BosMutus                                      58.30%    passed     99.98%
+  95  XP0476389431SLAMFamilyMember9PhacochoerusAfricanus                      58.44%    passed     97.89%
+  96  XP0138523312SLAMFamilyMember9SusScrofa                                  46.75%    passed     64.33%
+  97  XP0358716331LOWQUALITYPROTEINSLAMFamilyMember9PhyllostomusDiscolor      45.89%    passed     15.40%
+  98  XP0454024861SLAMFamilyMember9LemurCatta                                 46.90%    passed     69.08%
+  99  XP0634810421SLAMFamilyMember9SymphalangusSyndactylus                    57.29%    passed    100.00%
+ 100  XP0473768571SLAMFamilyMember9SciurusCarolinensis                        58.59%    passed     86.28%
+WARNING: 92 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                   58.74%  1 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.000643969 secs using 150.8% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.038 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)

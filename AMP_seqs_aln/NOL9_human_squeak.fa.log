@@ -1,0 +1,127 @@
+IQ-TREE multicore version 2.2.0.3 COVID-edition for Linux 64-bit built May 11 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    submit1 (AVX2, FMA3, 31 GB RAM)
+Command: iqtree -s /scratch/millsbro/FINAL/Human_AMP_Pipeline/AMP_seqs_aln/NOL9_human_squeak.fa -m TEST -nt 2
+Seed:    660038 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jun 10 01:02:45 2024
+Kernel:  AVX+FMA - 2 threads (16 CPU cores detected)
+
+Reading alignment file /scratch/millsbro/FINAL/Human_AMP_Pipeline/AMP_seqs_aln/NOL9_human_squeak.fa ... Fasta format detected
+Reading fasta file: done in 0.00211501 secs using 70.92% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00236297 secs using 92.26% CPU
+WARNING: 6 sites contain only gaps or ambiguous characters.
+Alignment has 100 sequences with 787 columns, 644 distinct patterns
+302 parsimony-informative, 141 singleton sites, 344 constant sites
+                                                                       Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000144005 secs using 79.16% CPU
+   1  NP0789304Polynucleotide5HydroxylKinaseNOL9HomoSapiens                   10.80%    passed    100.00%
+   2  XP0552391921Polynucleotide5HydroxylKinase___X5GorillaGorillaGorilla     67.98%    passed     31.34%
+   3  XP0552391891Polynucleotide5HydroxylKinase___X4GorillaGorillaGorilla     67.73%    passed     34.31%
+   4  EAW715501NucleolarProtein9HomoSapiens                                   10.80%    passed    100.00%
+   5  XP0308585141Polynucleotide5HydroxylKinase___X1GorillaGorillaGorilla     10.80%    passed    100.00%
+   6  XP0552391711Polynucleotide5HydroxylKinase___X2GorillaGorillaGorilla     17.66%    passed    100.00%
+   7  XP0038221931Polynucleotide5HydroxylKinaseNOL9PanPaniscus                10.80%    passed    100.00%
+   8  XP0094456821Polynucleotide5HydroxylKinaseNOL9IsoformX2PanTroglodytes    30.24%    passed     99.91%
+   9  XP5143402Polynucleotide5HydroxylKinaseNOL9IsoformX1PanTroglodytes       10.80%    passed    100.00%
+  10  AAI050961NucleolarProtein9HomoSapiens                                   10.80%    passed    100.00%
+  11  KAI25148511NucleolarProtein9HomoSapiens                                 10.80%    passed    100.00%
+  12  AIC585981NOL9PartialSyntheticConstruct                                  10.80%    passed    100.00%
+  13  XP0263039391Polynucleotide5HydroxylKinaseNOL9PiliocolobusTephrosceles   81.19%    failed      0.02%
+  14  XP0119049491PREDICT___HydroxylKinaseNOL9LikeCercocebusAtys              81.19%    failed      0.01%
+  15  XP0177114891PREDIC___HydroxylKinaseNOL9RhinopithecusBieti               14.74%    passed    100.00%
+  16  XP0307691571Polynucleotide5Hydroxyl___IsoformX1RhinopithecusRoxellana   11.05%    passed    100.00%
+  17  XP0330844651Polynucleotide5Hydroxyl___X1TrachypithecusFrancoisi         11.05%    passed    100.00%
+  18  XP0117358341Polynucleotide5HydroxylKinaseNOL9MacacaNemestrina           11.05%    passed    100.00%
+  19  XP0055449651PREDICTE___HydroxylKinaseNOL9IsoformX1MacacaFascicularis    11.05%    passed    100.00%
+  20  XP0252380481Polynucleotide5HydroxylKinaseNOL9TheropithecusGelada        15.12%    passed    100.00%
+  21  XP0307691581Polynucleotide5Hydroxyl___IsoformX2RhinopithecusRoxellana   22.49%    passed    100.00%
+  22  XP0315163741LOWQUALI___INPolynucleotide5HydroxylKinaseNOL9PapioAnubis   10.67%    passed     99.98%
+  23  XP0653865041Polynucleotide5Hydroxyl___IsoformX2MacacaFascicularis       20.97%    passed     99.81%
+  24  XP0506432141Polynucleotide5Hydroxyl___X2MacacaThibetanaThibetana        21.22%    passed     99.98%
+  25  XP0028116081Polynucleotide5HydroxylKinaseNOL9IsoformX1PongoAbelii       10.80%    passed    100.00%
+  26  XP0551181391Polynucleotide5HydroxylKinaseNOL9SymphalangusSyndactylus    10.80%    passed    100.00%
+  27  XP0326146471Polynucleotide5HydroxylKinaseNOL9IsoformX1HylobatesMoloch   10.80%    passed    100.00%
+  28  XP0032743692Polynucleotide5Hydroxyl___IsoformX1NomascusLeucogenys       10.55%    passed    100.00%
+  29  XP0079789282LOWQUA___HydroxylKinaseNOL9ChlorocebusSabaeus               11.94%    passed    100.00%
+  30  XP0117936981PREDICT___HydroxylKinaseNOL9ColobusAngolensisPalliatus      13.98%    passed     99.90%
+  31  XP0286963061Polynucleotide5HydroxylKinaseNOL9IsoformX1MacacaMulatta     11.05%    passed    100.00%
+  32  XP0469403701Polynucleotide5HydroxylKinaseNOL9IsoformX1LynxRufus         12.45%    passed    100.00%
+  33  XP0301808421Polynucleotide5HydroxylKinaseNOL9IsoformX1LynxCanadensis    12.45%    passed    100.00%
+  34  XP0301808431Polynucleotide5HydroxylKinaseNOL9IsoformX2LynxCanadensis    12.58%    passed    100.00%
+  35  XP0469403711Polynucleotide5HydroxylKinaseNOL9IsoformX2LynxRufus         12.58%    passed    100.00%
+  36  XP0604840291Polynucleotide5HydroxylKinase___LikeIsoformX3PantheraOnca   74.33%    failed      0.21%
+  37  XP0453314581Polynucleotide5Hydroxyl___IsoformX1LeopardusGeoffroyi       12.45%    passed    100.00%
+  38  XP0453314591Polynucleotide5Hydroxyl___IsoformX2LeopardusGeoffroyi       12.58%    passed    100.00%
+  39  XP0193167921Polynucleotide5HydroxylKinaseNOL9IsoformX2PantheraPardus    12.58%    passed    100.00%
+  40  XP0269163541Polynucleotide5HydroxylKinaseNOL9IsoformX1AcinonyxJubatus   12.45%    passed    100.00%
+  41  XP0193167901Polynucleotide5HydroxylKinaseNOL9IsoformX1PantheraPardus    12.45%    passed    100.00%
+  42  XP0434296081Polynucleotide5Hydroxyl___X2PrionailurusBengalensis         12.58%    passed    100.00%
+  43  XP0494741411Polynucleotide5HydroxylKinaseNOL9PantheraUncia              12.45%    passed    100.00%
+  44  XP0434296071Polynucleotide5Hydroxyl___X1PrionailurusBengalensis         12.45%    passed    100.00%
+  45  XP0269163551Polynucleotide5HydroxylKinaseNOL9IsoformX2AcinonyxJubatus   12.58%    passed    100.00%
+  46  XP0231138131Polynucleotide5HydroxylKinaseNOL9IsoformX2FelisCatus        12.58%    passed    100.00%
+  47  XP0231138121Polynucleotide5HydroxylKinaseNOL9IsoformX1FelisCatus        12.45%    passed    100.00%
+  48  XP0604840271Polynucleotide5HydroxylKinase___LikeIsoformX1PantheraOnca   54.00%    passed     96.60%
+  49  XP0604840281Polynucleotide5HydroxylKinase___LikeIsoformX2PantheraOnca   54.13%    passed     95.75%
+  50  XP0345279281LOWQUA___HydroxylKinaseNOL9AiluropodaMelanoleuca            31.13%    passed     98.62%
+  51  KAK21058261Polynucleotide5HydroxylKinaseNol9SaguinusOedipus             65.18%    passed     31.94%
+  52  XP0321561411Polynucleotide5HydroxylKinaseNOL9SapajusApella              11.05%    passed    100.00%
+  53  XP0465190731Polynucleotide5HydroxylKinaseNOL9EquusQuagga                11.31%    passed    100.00%
+  54  XP0123290731Polynucleotide5HydroxylKinaseNOL9AotusNancymaae             11.05%    passed     99.99%
+  55  XP0351634791Polynucleotide5HydroxylKinaseNOL9CallithrixJacchus          11.56%    passed     99.99%
+  56  XP0014920211Polynucleotide5HydroxylKinaseNOL9EquusCaballus              11.31%    passed    100.00%
+  57  XP0308762421LOWQUA___HydroxylKinaseNOL9LeptonychotesWeddellii           15.37%    passed     94.64%
+  58  XP0446255101Polynucleotide5HydroxylKinaseNOL9EquusAsinus                11.31%    passed    100.00%
+  59  KAB12688271Polynucleotide5HydroxylKinaseNOL9CamelusDromedarius          22.74%    passed     98.99%
+  60  XP0144088992Polynucleotide5HydroxylKinaseNOL9CamelusFerus               11.94%    passed     99.99%
+  61  XP0456595051Polynucleotide5HydroxylKinaseNOL9IsoformX1UrsusAmericanus   12.45%    passed    100.00%
+  62  XP0263757371Polynucleotide5HydroxylKinaseNOL9IsoformX2UrsusArctos       12.58%    passed    100.00%
+  63  KAI57682311NOL9GuloGuloLuscus                                           12.45%    passed    100.00%
+  64  XP0456595061Polynucleotide5HydroxylKinaseNOL9IsoformX2UrsusAmericanus   12.58%    passed    100.00%
+  65  XP0263757361Polynucleotide5HydroxylKinaseNOL9IsoformX1UrsusArctos       12.45%    passed    100.00%
+  66  XP0322506211Polynucleotide5HydroxylKinaseNOL9PhocaVitulina              12.45%    passed    100.00%
+  67  XP0359204531Polynucleotide5Hydroxyl___IsoformX2HalichoerusGrypus        12.58%    passed    100.00%
+  68  XP0215390681Polynucleotide5HydroxylKinaseNOL9NeomonachusSchauinslandi   12.45%    passed    100.00%
+  69  XP0279642571Polynucleotide5Hydroxyl___IsoformX2EumetopiasJubatus        12.58%    passed    100.00%
+  70  XP0279642561Polynucleotide5Hydroxyl___IsoformX1EumetopiasJubatus        12.45%    passed    100.00%
+  71  XP0274630451Polynucleotide5Hydroxyl___IsoformX1ZalophusCalifornianus    12.45%    passed    100.00%
+  72  XP0274630461Polynucleotide5Hydroxyl___IsoformX2ZalophusCalifornianus    12.58%    passed    100.00%
+  73  XP0391091601Polynucleotide5HydroxylKinaseNOL9HyaenaHyaena               11.94%    passed     99.98%
+  74  XP0173537951Polynucleotide5HydroxylKinaseNOL9CebusImitator              11.05%    passed    100.00%
+  75  XP0359204541Polynucleotide5Hydroxyl___IsoformX3HalichoerusGrypus        25.41%    passed     98.55%
+  76  XP0044111091PREDICT___HydroxylKinaseNOL9OdobenusRosmarusDivergens       28.46%    passed     99.96%
+  77  XP0393298881Polynucleotide5Hydroxyl___L9SaimiriBoliviensisBoliviensis   11.05%    passed    100.00%
+  78  XP0223701361Polynucleotide5HydroxylKinase___X2EnhydraLutrisKenyoni      12.58%    passed    100.00%
+  79  XP0327191731Polynucleotide5HydroxylKinase___IsoformX2LontraCanadensis   12.58%    passed    100.00%
+  80  XP0223701341Polynucleotide5HydroxylKinase___X1EnhydraLutrisKenyoni      12.45%    passed    100.00%
+  81  XP0475800531Polynucleotide5HydroxylKinaseNOL9IsoformX1LutraLutra        12.45%    passed    100.00%
+  82  XP0327191721Polynucleotide5HydroxylKinase___IsoformX1LontraCanadensis   12.45%    passed    100.00%
+  83  XP0458809101Polynucleotide5HydroxylKinaseNOL9IsoformX3MelesMeles        12.58%    passed    100.00%
+  84  XP0458809011Polynucleotide5HydroxylKinaseNOL9IsoformX2MelesMeles        12.45%    passed    100.00%
+  85  XP0475800541Polynucleotide5HydroxylKinaseNOL9IsoformX2LutraLutra        12.58%    passed    100.00%
+  86  XP0458808921Polynucleotide5HydroxylKinaseNOL9IsoformX1MelesMeles         9.15%    passed    100.00%
+  87  XP0454022291Polynucleotide5HydroxylKinaseNOL9LemurCatta                 11.82%    passed     99.94%
+  88  XP0440929741Polynucleotide5HydroxylKinaseNOL9NeogaleVison               12.45%    passed    100.00%
+  89  MBZ38738701Polynucleotide5HydroxylKinaseNOL9SciurusCarolinensis         13.60%    passed     99.88%
+  90  XP0474191261Polynucleotide5HydroxylKinaseNOL9SciurusCarolinensis        11.69%    passed     99.81%
+  91  XP0321579441Polynucleotide5HydroxylKinaseNOL9IsoformX3MustelaErminea    12.20%    passed    100.00%
+  92  XP0321579421Polynucleotide5HydroxylKinaseNOL9IsoformX1MustelaErminea     8.89%    passed     99.98%
+  93  XP0589942431Polynucleotide5HydroxylKinaseNOL9IsoformX3MustelaLutreola   12.45%    passed    100.00%
+  94  XP0321579431Polynucleotide5HydroxylKinaseNOL9IsoformX2MustelaErminea     9.02%    passed     99.98%
+  95  XP0257123671Polynucleotide5HydroxylKinaseNOL9CallorhinusUrsinus         12.45%    passed    100.00%
+  96  XP0592303381Polynucleotide5HydroxylKinaseNOL9IsoformX3MustelaNigripes   12.45%    passed    100.00%
+  97  XP0047687141Polynucleotide5HydroxylKinase___X3MustelaPutoriusFuro       12.45%    passed    100.00%
+  98  XP0589942421Polynucleotide5HydroxylKinaseNOL9IsoformX2MustelaLutreola    9.40%    passed     99.99%
+  99  XP0592303361Polynucleotide5HydroxylKinaseNOL9IsoformX1MustelaNigripes    9.28%    passed     99.98%
+ 100  XP0047687121Polynucleotide5HydroxylKinase___X1MustelaPutoriusFuro        9.28%    passed     99.99%
+WARNING: 8 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                   17.51%  3 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.000749111 secs using 83.17% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.034 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)

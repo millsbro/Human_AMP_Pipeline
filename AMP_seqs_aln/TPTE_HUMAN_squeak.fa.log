@@ -1,0 +1,143 @@
+IQ-TREE multicore version 2.2.0.3 COVID-edition for Linux 64-bit built May 11 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    submit1 (AVX2, FMA3, 31 GB RAM)
+Command: iqtree -s /scratch/millsbro/FINAL/Human_AMP_Pipeline/AMP_seqs_aln/TPTE_HUMAN_squeak.fa -m TEST -nt 2
+Seed:    206652 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jun 10 01:02:18 2024
+Kernel:  AVX+FMA - 2 threads (16 CPU cores detected)
+
+Reading alignment file /scratch/millsbro/FINAL/Human_AMP_Pipeline/AMP_seqs_aln/TPTE_HUMAN_squeak.fa ... Fasta format detected
+Reading fasta file: done in 0.00311303 secs using 87.25% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00370979 secs using 199.3% CPU
+Alignment has 100 sequences with 1207 columns, 942 distinct patterns
+440 parsimony-informative, 225 singleton sites, 542 constant sites
+                                                                       Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000287056 secs using 102.1% CPU
+   1  XP0552069131Phosphatidylinositol345___GorillaGorillaGorilla             69.59%    passed     81.32%
+   2  XP0473021701PutativeTyrosineProtein___EIsoformX4HomoSapiens             54.35%    passed     99.90%
+   3  XP0473021621PutativeTyrosineProtein___EIsoformX1HomoSapiens             52.86%    passed     99.96%
+   4  NP9548703PutativeTyrosineProtein___EIsoformAlphaHomoSapiens             54.35%    passed     99.97%
+   5  BAG369441UnnamedProteinProductHomoSapiens                               54.35%    passed     99.98%
+   6  NP0014119451PutativeTyrosineProteinPhosphataseTPTEIsoform1HomoSapiens   54.35%    passed     99.99%
+   7  AAC345741PutativeTyrosinePhosphataseHomoSapiens                         54.35%    passed     99.99%
+   8  XP0473021711PutativeTyrosineProtein___EIsoformX5HomoSapiens             54.52%    passed     99.98%
+   9  NP0014119471PutativeTyrosineProteinPhosphataseTPTEIsoform3HomoSapiens   56.01%    passed    100.00%
+  10  XP0552248361LOWQUALI___ProteinPhosphataseTPTEGorillaGorillaGorilla      66.78%    passed     97.07%
+  11  XP0635554131LOWQUALI___ProteinPhosphataseTPTEGorillaGorillaGorilla      66.53%    passed     98.94%
+  12  AAQ066741BJHCC5HomoSapiens                                              55.84%    passed     99.94%
+  13  NP9548682PutativeTyrosineProteinPhosphataseTPTEIsoformBetaHomoSapiens   55.84%    passed     99.91%
+  14  XP0552313581PutativeTyrosineProtein___TEGorillaGorillaGorilla           66.20%    passed     97.94%
+  15  NP0014119461PutativeTyrosineProteinPhosphataseTPTEIsoform2HomoSapiens   55.84%    passed     99.98%
+  16  AAH287191TransmembranePhosphataseWithTensinHomologyHomoSapiens          55.84%    passed     99.97%
+  17  XP0473021691PutativeTyrosineProtein___EIsoformX3HomoSapiens             54.35%    passed     99.91%
+  18  XP0552239812LOWQUALI___ProteinPhosphataseTPTEGorillaGorillaGorilla      66.53%    passed     99.62%
+  19  XP0552239861PutativeTyrosineProtein___TEGorillaGorillaGorilla           66.45%    passed     99.72%
+  20  XP0552248171PutativeTyrosineProtein___TEGorillaGorillaGorilla           63.88%    passed     96.32%
+  21  NP9548692PutativeTyrosineProtein___EIsoformGammaHomoSapiens             57.50%    passed     99.93%
+  22  XP0473021741PutativeTyrosineProtein___EIsoformX8HomoSapiens             56.01%    passed     99.88%
+  23  AAP451441PhosphataseTPTEGammaIsoformHomoSapiens                         57.50%    passed     99.98%
+  24  KAI25957591TransmembranePhosphataseWithTensinLikeyHomoSapiens           57.50%    passed     99.99%
+  25  XP0552331411PutativeTyrosineProtein___TEGorillaGorillaGorilla           66.45%    passed     99.42%
+  26  XP0635588661PutativeTyrosineProtein___TEGorillaGorillaGorilla           70.17%    passed     99.73%
+  27  XP0635588701PutativeTyrosineProtein___TEGorillaGorillaGorilla           64.95%    passed     97.17%
+  28  NP0012771532PutativeTyrosineProtein___EIsoformDeltaHomoSapiens          65.78%    passed     87.71%
+  29  AAP451451PhosphataseTPTEDeltaIsoformHomoSapiens                         65.78%    passed     92.11%
+  30  KAI25957621TransmembranePhosphataseWithTensinLikeyHomoSapiens           65.78%    passed     94.89%
+  31  XP0252538911LOWQUAL___PhosphataseTPTE2LikeTheropithecusGelada           56.84%    passed     32.03%
+  32  XP0118319221PREDICTE___PhosphataseTPTE2IsoformX1MandrillusLeucophaeus   52.61%    passed    100.00%
+  33  XP0378428461Phosphatidylinositol345___E2ChlorocebusSabaeus              65.45%    passed     94.21%
+  34  XP0321502391LOWQUAL___Trisphosphate3PhosphataseTPTE2LikeSapajusApella   43.25%    passed     76.45%
+  35  XP0375993761Phosphatidylinositol345Trisphosphate3___X1CebusImitator     60.07%    passed     98.75%
+  36  XP0117382511LOWQUAL___PhosphataseTPTE2LikeMacacaNemestrina              67.19%    passed     86.40%
+  37  XP0636484731LOWQUAL___Trisphosphate3PhosphataseTPTE2PanTroglodytes      43.74%    passed     91.39%
+  38  XP0635711501LOWQUALI___Trisphosphate3PhosphataseTPTE2LikePongoAbelii    49.46%    passed     98.36%
+  39  XP0543853412LOWQUAL___Trisphosphate3PhosphataseTPTE2PongoAbelii         49.46%    passed     97.34%
+  40  XP0635066121LOWQUAL___Trisphosphate3PhosphataseTPTE2PongoPygmaeus       49.46%    passed     96.49%
+  41  XP0118312541PREDICT___PhosphataseTPTE2LikeMandrillusLeucophaeus         66.03%    passed     75.23%
+  42  EAX082241TransmembranePhosphoinositide3Phosphatase___CRAFHomoSapiens    46.23%    passed     94.97%
+  43  XP0541127921Phosphatidylinositol345___X6CallithrixJacchus               66.94%    passed     97.85%
+  44  XP0541127891Phosphatidylinositol345___X3CallithrixJacchus               61.47%    passed     98.89%
+  45  XP0541127911Phosphatidylinositol345___X5CallithrixJacchus               64.13%    passed     99.61%
+  46  XP0634750931LOWQUA___PhosphataseTPTE2SymphalangusSyndactylus            51.70%    passed     99.96%
+  47  XP0541127871Phosphatidylinositol345___X2CallithrixJacchus               59.73%    passed     98.26%
+  48  XP0351584262Phosphatidylinositol345___X1CallithrixJacchus               58.66%    passed     99.29%
+  49  PNI946731LOWQUALITYPROTEINTPTEIsoform2PanTroglodytes                    54.43%    passed    100.00%
+  50  XP0552298181PutativeTyrosineProtein___TEGorillaGorillaGorilla           67.69%    passed     99.97%
+  51  XP0306691531Phosphatidylinositol345___X3NomascusLeucogenys              57.50%    passed     99.93%
+  52  XP0119287691PREDICTE___PhosphataseTPTE2IsoformX3CercocebusAtys          48.14%    passed     99.44%
+  53  XP0456527081Phosphatidylinositol345___LikeUrsusAmericanus               44.66%    passed     58.41%
+  54  XP0233638401Phosphatidylinositol345___LikeOtolemurGarnettii             59.24%    passed     94.91%
+  55  XP0534190911Phosphatidylinositol345___X2NycticebusCoucang               61.72%    passed     92.39%
+  56  XP0279606111Phosphatidylinositol345___LikeEumetopiasJubatus             45.32%    passed     18.79%
+  57  XP0286933031LOWQUAL___Trisphosphate3PhosphataseTPTE2MacacaMulatta       43.99%    passed     79.61%
+  58  XP0653890211LOWQUA___Trisphosphate3PhosphataseTPTE2MacacaFascicularis   45.48%    passed     95.50%
+  59  XP0534190901Phosphatidylinositol345___X1NycticebusCoucang               59.82%    passed     78.78%
+  60  XP0552155431LOWQUAL___PhosphataseTPTE2GorillaGorillaGorilla             45.24%    passed     96.02%
+  61  EAX082221TransmembranePhosphoinositide3Phosphatase___CRADHomoSapiens    52.61%    passed    100.00%
+  62  PNI946721LOWQUALITYPROTEINTPTEIsoform1PanTroglodytes                    55.92%    passed    100.00%
+  63  PNI946751LOWQUALITYPROTEINTPTEIsoform4PanTroglodytes                    57.58%    passed    100.00%
+  64  BAG632041UnnamedProteinProductHomoSapiens                               59.57%    passed     99.99%
+  65  XP0552201302LOWQUALI___PhosphataseTPTE2LikeGorillaGorillaGorilla        55.92%    passed    100.00%
+  66  EAX082201TransmembranePhosphoinositide3Phosphatase___CRABHomoSapiens    55.26%    passed    100.00%
+  67  XP0307777891LOWQUA___PhosphataseTPTE2RhinopithecusRoxellana             50.46%    passed     99.99%
+  68  XP0087051222Phosphatidylinositol345___LikeUrsusMaritimus                53.94%    passed     93.69%
+  69  XP0117540342LOWQUAL___Trisphosphate3PhosphataseTPTE2MacacaNemestrina    48.47%    passed     99.76%
+  70  XP0320066172Phosphatidylinositol345Trisphosphate3___E2HylobatesMoloch   79.29%    passed     72.92%
+  71  NP0013829071Phosphatidylinositol345Trisphosphate3___GammaHomoSapiens    56.75%    passed    100.00%
+  72  KAI25688611TransmembranePhosphoinositide3___AndTensinLike2HomoSapiens   56.75%    passed    100.00%
+  73  AAP451461PhosphataseTPIPGammaIsoformHomoSapiens                         56.75%    passed    100.00%
+  74  XP0355827621Phosphatidylinositol345___LikeZalophusCalifornianus         50.37%    passed     40.65%
+  75  XP0330530371LOWQUA___PhosphataseTPTE2TrachypithecusFrancoisi            52.28%    passed    100.00%
+  76  APX564281TransmembranePhosphoinositide3___ProteinIsoform2HomoSapiens    60.65%    passed    100.00%
+  77  APX564271TransmembranePhosphoinositide3___ProteinIsoform1HomoSapiens    62.14%    passed     99.77%
+  78  PNI946741TPTEIsoform3PanTroglodytes                                     66.69%    passed     96.56%
+  79  XP0118319241PREDICTE___PhosphataseTPTE2IsoformX3MandrillusLeucophaeus   70.01%    passed     95.98%
+  80  XP0118319231PREDICTE___PhosphataseTPTE2IsoformX2MandrillusLeucophaeus   69.26%    passed     97.57%
+  81  XP0306690921LOWQUAL___PhosphataseTPTE2LikeNomascusLeucogenys            65.87%    passed     99.43%
+  82  XP0327067611Phosphatidylinositol345___PartialLontraCanadensis           84.59%    passed     21.66%
+  83  XP0635708321Phosphatidylinositol345Trisphosphate3___X2PongoAbelii       51.28%    passed     94.29%
+  84  XP0635708361Phosphatidylinositol345Trisphosphate3___X5PongoAbelii       52.78%    passed     96.88%
+  85  XP0635708381Phosphatidylinositol345Trisphosphate3___X7PongoAbelii       53.36%    passed     91.99%
+  86  XP0118143921PREDICTE___TPTE2IsoformX2ColobusAngolensisPalliatus         60.23%    passed     99.60%
+  87  XP0118143831PREDICTE___TPTE2IsoformX1ColobusAngolensisPalliatus         60.07%    passed     99.85%
+  88  XP0635708341Phosphatidylinositol345Trisphosphate3___X3PongoAbelii       52.03%    passed     90.72%
+  89  XP0635708311Phosphatidylinositol345Trisphosphate3___X1PongoAbelii       51.12%    passed     93.00%
+  90  XP0196535572Phosphatidylinositol345___E2AiluropodaMelanoleuca           59.40%    passed     76.54%
+  91  XP0635708371Phosphatidylinositol345Trisphosphate3___X6PongoAbelii       53.36%    passed     97.92%
+  92  XP0635708211Phosphatidylinositol345Trisphosphate3___E2LikePongoAbelii   56.01%    passed     98.12%
+  93  XP0635708351Phosphatidylinositol345Trisphosphate3___X4PongoAbelii       52.61%    passed     95.33%
+  94  XP0635708391Phosphatidylinositol345Trisphosphate3___X8PongoAbelii       54.02%    passed     98.39%
+  95  XP0408470171Phosphatidylinositol345___LikeOchotonaCurzoniae             62.30%    passed     68.72%
+  96  XP0634749051Phosphatidylinositol345___X2SymphalangusSyndactylus         60.07%    passed     99.87%
+  97  XP0119287741PREDICTE___PhosphataseTPTE2IsoformX8CercocebusAtys          51.28%    passed    100.00%
+  98  XP0230464071LOWQUA___PhosphataseTPTE2PiliocolobusTephrosceles           53.60%    passed     99.91%
+  99  XP0276298971Phosphatidylinositol345Trisphosphate3___E2TupaiaChinensis   58.66%    passed     76.45%
+ 100  XP0119287751PREDICTE___PhosphataseTPTE2IsoformX9CercocebusAtys          52.11%    passed     97.38%
+WARNING: 87 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                   57.67%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.000834942 secs using 197.7% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.045 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 6.8848 secs using 199% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -15212.753
+2. Current log-likelihood: -15211.010
+Optimal log-likelihood: -15210.117
+Proportion of invariable sites: 0.078
+Gamma shape alpha: 1.452
+Parameters optimization took 2 rounds (3.526 sec)
+Time for fast ML tree search: 16.189 seconds
+
+NOTE: ModelFinder requires 59 MB RAM!
+ModelFinder will test up to 224 protein models (sample size: 1207) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            15505.350    197 31404.700    31482.016    32408.591
+  2  LG+I          15369.532    198 31135.064    31213.242    32144.051
+  3  LG+G4         15210.637    198 30817.274    30895.452    31826.260

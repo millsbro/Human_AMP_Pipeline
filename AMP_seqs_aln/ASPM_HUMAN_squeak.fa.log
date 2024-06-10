@@ -1,0 +1,126 @@
+IQ-TREE multicore version 2.2.0.3 COVID-edition for Linux 64-bit built May 11 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    submit1 (AVX2, FMA3, 31 GB RAM)
+Command: iqtree -s /scratch/millsbro/FINAL/Human_AMP_Pipeline/AMP_seqs_aln/ASPM_HUMAN_squeak.fa -m TEST -nt 2
+Seed:    772026 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jun 10 01:02:46 2024
+Kernel:  AVX+FMA - 2 threads (16 CPU cores detected)
+
+Reading alignment file /scratch/millsbro/FINAL/Human_AMP_Pipeline/AMP_seqs_aln/ASPM_HUMAN_squeak.fa ... Fasta format detected
+Reading fasta file: done in 0.00935388 secs using 90.42% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.0101578 secs using 163.7% CPU
+Alignment has 100 sequences with 3526 columns, 1905 distinct patterns
+804 parsimony-informative, 673 singleton sites, 2049 constant sites
+                                                                       Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000640154 secs using 163.4% CPU
+   1  EAW912711AspAbnormalSpindleLikeMicrocephaly___IsoformCRABHomoSapiens     1.50%    passed     98.62%
+   2  NP0606063AbnormalSpindleLike___AssociatedProteinIsoform1HomoSapiens      1.39%    passed     97.97%
+   3  KAI40843161AssemblyFactorForSpindleMicrotubulesHomoSapiens               1.39%    passed     97.76%
+   4  KAI25207951AssemblyFactorForSpindleMicrotubulesHomoSapiens               1.39%    passed     97.91%
+   5  P622931RecNameFullAbnormal___AssociatedProteinHomologPanTroglodytes      1.39%    passed     98.53%
+   6  AAN400111AbnormalSpindlesHomoSapiens                                     1.39%    passed     97.82%
+   7  AAS485341AbnormalSpindleLikePanTroglodytes                               1.39%    passed     98.80%
+   8  AAR843521ASPMGorillaGorilla                                              1.47%    passed     98.10%
+   9  XP0188780543AbnormalSpindleLike___IsoformX1GorillaGorillaGorilla         1.42%    passed     97.42%
+  10  XP0552419721AbnormalSpindleLike___IsoformX2GorillaGorillaGorilla         1.64%    passed     97.45%
+  11  NP0012665351AbnormalSpindleLike___ProteinHomologGorillaGorillaGorilla    1.99%    passed     97.25%
+  12  XP0552424791AbnormalSpindleLike___IsoformX3GorillaGorillaGorilla         2.41%    passed     98.36%
+  13  PNI346681ASPMIsoform2PanTroglodytes                                      1.39%    passed     98.75%
+  14  AAR843511ASPMPanTroglodytes                                              1.39%    passed     98.79%
+  15  XP0038231263AbnormalSpindleLike___ProteinIsoformX1PanPaniscus            1.39%    passed     98.81%
+  16  NP0010089941AbnormalSpindleLike___ProteinHomologPanTroglodytes           1.39%    passed     98.71%
+  17  XP0168038532AbnormalSpindleLike___HomologIsoformX1PanTroglodytes         2.38%    passed     99.20%
+  18  AAY468151AbnormalSpindleLike___AssociatedSpliceVariant2HomoSapiens      60.61%    passed     24.89%
+  19  AAM441191AbnormalSpindleProteinASPPartialHomoSapiens                    74.99%    failed      0.00%
+  20  P622941RecNameFullAbnormal___AssociatedProteinHomologPongoPygmaeus       1.56%    passed     98.59%
+  21  PNJ501221ASPMIsoform2PongoAbelii                                         1.56%    passed     98.98%
+  22  XP0241098892AbnormalSpindleLike___ProteinIsoformX1PongoAbelii            1.56%    passed     98.46%
+  23  AAR843531ASPMPongoPygmaeus                                               1.73%    passed     98.84%
+  24  AAS485321AbnormalSpindleLikePongoPygmaeus                                1.59%    passed     98.42%
+  25  XP0635821391AbnormalSpindleLike___ProteinIsoformX3PongoAbelii            2.55%    passed     99.34%
+  26  AAR126431AbnormalSpindle___MicrocephalyAssociatedProteinPongoPygmaeus    1.56%    passed     98.58%
+  27  XP0241098932AbnormalSpindleLike___ProteinIsoformX2PongoAbelii            1.79%    passed     98.54%
+  28  XP0543081311AbnormalSpindleLike___HomologIsoformX3PongoPygmaeus          4.00%    passed     99.84%
+  29  XP0543081251AbnormalSpindleLike___HomologIsoformX2PongoPygmaeus          1.82%    passed     99.17%
+  30  XP0543081151AbnormalSpindleLike___HomologIsoformX1PongoPygmaeus          1.59%    passed     99.14%
+  31  AAR126421AbnormalSpindle___AssociatedProteinPanTroglodytes               1.39%    passed     98.26%
+  32  NP0010980051AbnormalSpindleLike___ProteinHomologMacacaMulatta            1.33%    passed     95.34%
+  33  P622911RecNameFullAbnormal___ProteinHomologMacacaFascicularis            1.64%    passed     92.28%
+  34  XP0103567532AbnormalSpindleLike___IsoformX1RhinopithecusRoxellana        1.36%    passed     98.07%
+  35  XP0118511091PREDI___AssociatedProteinIsoformX1MandrillusLeucophaeus      1.42%    passed     96.38%
+  36  XP0252140871AbnormalSpindleLike___ProteinIsoformX1TheropithecusGelada    1.64%    passed     97.09%
+  37  ACI289871AbnormalSpindleLike___AssociatedProteinPartialPapioHamadryas   90.87%    failed      0.00%
+  38  XP0330528201AbnormalSpindleLike___IsoformX1TrachypithecusFrancoisi       1.36%    passed     97.98%
+  39  XP0506384461AbnormalSpindleLike___IsoformX2MacacaThibetanaThibetana      1.67%    passed     96.99%
+  40  XP0230591602AbnormalSpindleLike___IsoformX1PiliocolobusTephrosceles      1.39%    passed     99.27%
+  41  XP0118070001PREDI___ProteinIsoformX1ColobusAngolensisPalliatus           1.39%    passed     99.43%
+  42  XP0506384371AbnormalSpindleLike___IsoformX1MacacaThibetanaThibetana      1.45%    passed     96.66%
+  43  XP0055403681PREDI___AssociatedProteinIsoformX2MacacaFascicularis         1.64%    passed     94.79%
+  44  XP0246494961AbnormalSpindleLike___ProteinIsoformX2MacacaNemestrina       1.64%    passed     96.63%
+  45  XP0149743752AbnormalSpindleLike___HomologIsoformX1MacacaMulatta          1.64%    passed     95.78%
+  46  P622871RecNameFullAbnormal___AssociatedProteinHomologColobusGuereza      1.39%    passed     99.28%
+  47  XP0079872662AbnormalSpindleLike___ProteinIsoformX2ChlorocebusSabaeus     1.67%    passed     97.04%
+  48  XP0217847542AbnormalSpindleLike___ProteinIsoformX1PapioAnubis            1.19%    passed     93.84%
+  49  XP0117447901AbnormalSpindleLike___ProteinIsoformX1MacacaNemestrina       1.42%    passed     96.31%
+  50  XP0079872652AbnormalSpindleLike___ProteinIsoformX1ChlorocebusSabaeus     1.45%    passed     96.68%
+  51  AAS554001ASPMProteinChlorocebusAethiops                                  1.45%    passed     97.95%
+  52  XP0091892193AbnormalSpindleLike___ProteinIsoformX3PapioAnubis            1.64%    passed     98.08%
+  53  ACI289551AbnormalSpindle___AssociatedProteinPartialCercopithecusDiana   91.04%    failed      0.00%
+  54  XP0217847562AbnormalSpindleLike___ProteinIsoformX2PapioAnubis            1.42%    passed     94.17%
+  55  EHH506961HypotheticalProteinEGM01564MacacaFascicularis                   1.36%    passed     94.94%
+  56  ACI289691AbnormalSpindleLike___AssociatedProteinPartialMacacaFuscata    90.78%    failed      0.01%
+  57  XP0319926101AbnormalSpindleLike___AssociatedProteinHylobatesMoloch       1.39%    passed     99.18%
+  58  P622901RecNameFullAbnormal___AssociatedProteinHomologHylobatesLar        1.70%    passed     98.75%
+  59  XP0550901601AbnormalSpindleLike___IsoformX1SymphalangusSyndactylus       1.39%    passed     98.01%
+  60  XP0306745631AbnormalSpindleLike___ProteinIsoformX1NomascusLeucogenys     1.42%    passed     99.45%
+  61  AEI848441AbnormalSpindleLike___AssociatedProteinPartialPapioAnubis      58.03%    failed      0.00%
+  62  XP0177201231PRED___MicrocephalyAssociatedProteinRhinopithecusBieti      42.20%    passed     57.67%
+  63  AEI848431AbnormalSpindle___AssociatedProteinPartialErythrocebusPatas    57.49%    failed      0.00%
+  64  ACI289931AbnormalSpindle___ProteinPartialTrachypithecusCristatus        73.88%    failed      0.00%
+  65  ACI289961AbnormalSpindle___ProteinPartialTrachypithecusVetulus          85.42%    failed      0.00%
+  66  ACI289911AbnormalSpindle___AssociatedProteinPartialPygathrixNemaeus     79.81%    failed      0.00%
+  67  ACI289521AbnormalSpindle___ProteinPartialCercopithecusAscanius          86.56%    failed      0.00%
+  68  ACI289391AbnormalSpindle___ProteinPartialAllenopithecusNigroviridis     86.16%    failed      0.00%
+  69  XP0055403683AbnormalSpindleLike___HomologIsoformX2MacacaFascicularis     1.64%    passed     95.74%
+  70  XP0452503482AbnormalSpindleLike___HomologIsoformX1MacacaFascicularis     1.42%    passed     95.30%
+  71  XP0118915711PREDI___AssociatedProteinIsoformX2CercocebusAtys             1.64%    passed     98.31%
+  72  XP0118915641PREDI___AssociatedProteinIsoformX1CercocebusAtys             1.42%    passed     97.89%
+  73  ACI289751AbnormalSpindle___ProteinPartialMiopithecusTalapoin            84.12%    failed      0.00%
+  74  AEI848421AbnormalSpindle___ProteinPartialSemnopithecusEntellus          57.37%    failed      0.00%
+  75  AEI848491AbnormalSpindle___ProteinPartialPlecturocebusMoloch            57.18%    failed      0.00%
+  76  ACI289471AbnormalSpindle___ProteinPartialPlecturocebusMoloch            79.61%    failed      0.00%
+  77  ACI289621AbnormalSpindle___AssociatedProteinPartialHylobatesMuelleri    57.15%    failed      0.00%
+  78  XP0321445051AbnormalSpindleLike___ProteinIsoformX1SapajusApella          1.47%    passed     92.60%
+  79  XP0173615411AbnormalSpindleLike___AssociatedProteinCebusImitator         1.56%    passed     91.73%
+  80  AEY850041ASPMPartialLeontocebusFuscicollis                              56.04%    failed      0.00%
+  81  P622831RecNameFullAbnormal___AssociatedProteinHomologAotusVociferans     1.50%    passed     91.01%
+  82  AEI848501AbnormalSpindle___AssociatedProteinPartialPitheciaPithecia     57.35%    failed      0.00%
+  83  ACU650651AbnormalSpindleLike___AssociatedProteinPartialCebusCapucinus   62.31%    failed      0.00%
+  84  AEI848461AbnormalSpindleLike___AssociatedProteinPartialCebusAlbifrons   55.90%    failed      0.00%
+  85  AEY850111ASPMPartialSaguinusOedipus                                     57.32%    failed      0.00%
+  86  NP0012669131AbnormalSpindleLike___AssociatedProteinSaimiriBoliviensis    1.67%    passed     89.90%
+  87  XP0027606523AbnormalSpindleLike___ProteinIsoformX1CallithrixJacchus      1.53%    passed     89.75%
+  88  AEY850081ASPMPartialCallimicoGoeldii                                    56.78%    failed      0.00%
+  89  XP0123150132AbnormalSpindleLike___AssociatedProteinAotusNancymaae        1.53%    passed     92.04%
+  90  AEI848481AbnormalSpindle___ProteinPartialLeontopithecusChrysomelas      56.04%    failed      0.00%
+  91  AEY850071ASPMPartialLeontopithecusRosalia                               56.15%    failed      0.00%
+  92  ACU650681AbnormalSpindle___AssociatedProteinPartialAlouattaPalliata     62.31%    failed      0.00%
+  93  AEY850051ASPMPartialSaguinusMidas                                       56.44%    failed      0.00%
+  94  AEY850101ASPMPartialCallithrixGeoffroyi                                 56.18%    failed      0.00%
+  95  AEI848451AbnormalSpindle___AssociatedProteinPartialCallithrixJacchus    56.07%    failed      0.00%
+  96  AEY850091ASPMPartialMicoArgentatus                                      56.01%    failed      0.00%
+  97  AEQ588091AbnormalSpindle___AssociatedProteinPartialCebuellaPygmaea      56.95%    failed      0.00%
+  98  XP0235861361AbnormalSpindleLike___ProteinTrichechusManatusLatirostris    2.81%    passed     51.62%
+  99  P622951RecNameFullAbnormal___AssociatedProteinHomologSaguinusLabiatus   56.69%    failed      0.00%
+ 100  XP0125998321AbnormalSpindleLike___ProteinIsoformX3MicrocebusMurinus     24.28%    passed      5.58%
+WARNING: 32 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                   23.02%  31 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.00147581 secs using 189.2% CPU
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.122 seconds
+Perform fast likelihood tree search using LG+I+G model...
+Estimate model parameters (epsilon = 5.000)

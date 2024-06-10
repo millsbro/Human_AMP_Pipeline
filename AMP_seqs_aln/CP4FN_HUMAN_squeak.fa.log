@@ -1,0 +1,217 @@
+IQ-TREE multicore version 2.2.0.3 COVID-edition for Linux 64-bit built May 11 2022
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    forsythe01 (AVX2, FMA3, 1007 GB RAM)
+Command: iqtree -s /scratch/millsbro/FINAL/Human_AMP_Pipeline/AMP_seqs_aln/CP4FN_HUMAN_squeak.fa -m TEST -nt 2
+Seed:    360034 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jun 10 01:14:43 2024
+Kernel:  AVX+FMA - 2 threads (2 CPU cores detected)
+
+Reading alignment file /scratch/millsbro/FINAL/Human_AMP_Pipeline/AMP_seqs_aln/CP4FN_HUMAN_squeak.fa ... Fasta format detected
+Reading fasta file: done in 0.00181794 secs using 96.32% CPU
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00184608 secs using 182.1% CPU
+Alignment has 100 sequences with 1330 columns, 626 distinct patterns
+264 parsimony-informative, 140 singleton sites, 926 constant sites
+                                                                       Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 9.29832e-05 secs using 59.15% CPU
+   1  ANV220541CytochromeP4504F22HomoSapiens                                  60.08%    passed    100.00%
+   2  NP7757542UltraLongChainFattyAcidOmegaHydroxylaseHomoSapiens             60.08%    passed    100.00%
+   3  XP0094331941UltraLongChainFattyAcidOmegaHydroxylasePanTroglodytes       60.08%    passed    100.00%
+   4  BAC048681UnnamedProteinProductHomoSapiens                               60.08%    passed    100.00%
+   5  XP0038136271UltraLongChainFatty___HydroxylaseIsoformX2PanPaniscus       60.08%    passed    100.00%
+   6  XP0040602502UltraLongChain___OmegaHydroxylaseGorillaGorillaGorilla      60.08%    passed    100.00%
+   7  XP0543218002UltraLongChainFattyAcidOmegaHydroxylasePongoPygmaeus        60.08%    passed    100.00%
+   8  XP0348008201UltraLongChainFatty___HydroxylaseIsoformX1PanPaniscus       53.68%    passed    100.00%
+   9  XP0306777161CytochromeP4504F22NomascusLeucogenys                        60.08%    passed    100.00%
+  10  XP0550952251UltraLongChain___OmegaHydroxylaseSymphalangusSyndactylus    60.08%    passed    100.00%
+  11  XP0320274341UltraLongChainFattyAcidOmegaHydroxylaseHylobatesMoloch      60.08%    passed    100.00%
+  12  XP0103598231LOWQUALITYPROTEINCytochromeP4504F22RhinopithecusRoxellana   60.08%    passed    100.00%
+  13  XP0230855151CytochromeP4504F22PiliocolobusTephrosceles                  60.08%    passed    100.00%
+  14  XP0118086221PREDICT___EINCytochromeP4504F22ColobusAngolensisPalliatus   60.30%    passed    100.00%
+  15  NP0011814682CytochromeP4504F22MacacaMulatta                             60.08%    passed    100.00%
+  16  XP0079937912CytochromeP4504F22ChlorocebusSabaeus                        60.08%    passed    100.00%
+  17  EHH297501CytochromeP4504F22MacacaMulatta                                60.08%    passed    100.00%
+  18  XP0240929781UltraLongChainFattyAcidOmegaHydroxylasePongoAbelii          60.08%    passed    100.00%
+  19  XP0085746201PREDICTEDCytochromeP4504F22GaleopterusVariegatus            60.08%    passed    100.00%
+  20  XP0368743311CytochromeP4504F22LikeManisJavanica                         90.68%    passed     16.13%
+  21  XP0449951881CytochromeP4504F22JaculusJaculus                            60.00%    passed     99.65%
+  22  XP0080473921CytochromeP4504F22CarlitoSyrichta                           60.08%    passed    100.00%
+  23  XP0044084351PREDICTEDCytochromeP4504F22OdobenusRosmarusDivergens        60.08%    passed    100.00%
+  24  XP0375910241CytochromeP4504F22IsoformX1CebusImitator                    59.55%    passed     82.14%
+  25  XP0252233981CytochromeP4504F22TheropithecusGelada                       60.08%    passed    100.00%
+  26  XP0123131832UltraLongChainFatty___HydroxylaseIsoformX2AotusNancymaae    64.44%    passed    100.00%
+  27  XP0351418701UltraLongChainFattyAcidOmegaHydroxylaseCallithrixJacchus    57.82%    passed    100.00%
+  28  XP0123131782UltraLongChainFatty___HydroxylaseIsoformX1AotusNancymaae    60.08%    passed    100.00%
+  29  XP0173745871CytochromeP4504F22IsoformX2CebusImitator                    60.08%    passed    100.00%
+  30  XP0039448781CytochromeP4504F22SaimiriBoliviensisBoliviensis             60.08%    passed    100.00%
+  31  XP0321274221CytochromeP4504F22SapajusApella                             60.08%    passed    100.00%
+  32  XP0473869411UltraLongChain___HydroxylaseIsoformX2SciurusCarolinensis    60.08%    passed    100.00%
+  33  XP0552868911UltraLongChain___HydroxylaseIsoformX1MoschusBerezovskii     60.08%    passed    100.00%
+  34  XP0473869401UltraLongChain___HydroxylaseIsoformX1SciurusCarolinensis    57.89%    passed    100.00%
+  35  MBZ38801991CytochromeP4504F22SciurusCarolinensis                        57.82%    passed    100.00%
+  36  XP0039151253CytochromeP4504F22PapioAnubis                               56.77%    passed    100.00%
+  37  XP0452357972UltraLongChainFattyAcidOmegaHydroxylaseMacacaFascicularis   60.08%    passed    100.00%
+  38  CAK64453831UnnamedProteinProductPipistrellusNathusii                    59.92%    passed    100.00%
+  39  KAK20875701HypotheticalProteinP7K49033477SaguinusOedipus                65.94%    passed     99.89%
+  40  XP0118359701PREDICTEDCytochromeP4504F22MandrillusLeucophaeus            60.08%    passed    100.00%
+  41  XP0359449841CytochromeP4504F22IsoformX3HalichoerusGrypus                64.96%    passed     97.76%
+  42  XP0348524681CytochromeP4504F22MiroungaLeonina                           60.08%    passed    100.00%
+  43  XP0359449811CytochromeP4504F22IsoformX1HalichoerusGrypus                59.25%    passed    100.00%
+  44  VCX408981UnnamedProteinProductGuloGulo                                  83.16%    passed     65.85%
+  45  XP0215388481CytochromeP4504F22IsoformX2NeomonachusSchauinslandi         60.08%    passed    100.00%
+  46  XP0322680661CytochromeP4504F22PhocaVitulina                             60.08%    passed    100.00%
+  47  XP0457198102UltraLongChain___OmegaHydroxylaseMiroungaAngustirostris     60.08%    passed    100.00%
+  48  XP0359449831CytochromeP4504F22IsoformX2HalichoerusGrypus                60.08%    passed    100.00%
+  49  XP0067361251CytochromeP4504F22LeptonychotesWeddellii                    60.08%    passed    100.00%
+  50  KAF38293281HypotheticalProteinGH733003592MiroungaLeonina                61.43%    passed    100.00%
+  51  XP0215388461CytochromeP4504F22IsoformX1NeomonachusSchauinslandi         59.25%    passed    100.00%
+  52  XP0345138391CytochromeP4504F22IsoformX1AiluropodaMelanoleuca            60.08%    passed    100.00%
+  53  EFB187611HypotheticalProteinPANDA018125PartialAiluropodaMelanoleuca     60.08%    passed    100.00%
+  54  XP0253136413UltraLongChainFattyAcidOmegaHydroxylaseCanisLupusDingo      60.08%    passed    100.00%
+  55  XP0222626491CytochromeP4504F22CanisLupusFamiliaris                      60.08%    passed    100.00%
+  56  XP0382842691CytochromeP4504F22CanisLupusFamiliaris                      60.08%    passed    100.00%
+  57  KAI57588911CYP4F22GuloGuloLuscus                                        60.08%    passed    100.00%
+  58  XP0551995851UltraLongChain___OmegaHydroxylaseNyctereutesProcyonoides    60.08%    passed    100.00%
+  59  XP0143206171CytochromeP4504F22IsoformX1MyotisLucifugus                  57.82%    passed     80.45%
+  60  KAI45837571HypotheticalProteinMJG53007036OvisAmmonPoliiXOvisAries       17.29%    passed     98.46%
+  61  KAI45692931HypotheticalProteinMJT46006587OvisAmmonPoliiXOvisAries       15.79%    passed     96.78%
+  62  XP0108323021PREDICTEDCytochromeP4504F22BisonBisonBison                  58.80%    passed     99.98%
+  63  KAG52085851HypotheticalProteinJEQ12016150OvisAries                      19.85%    passed     99.46%
+  64  XP0421056821UltraLongChainFattyAcidOmegaHydroxylaseIsoformX1OvisAries   59.32%    passed    100.00%
+  65  XP0524988581UltraLongChainFattyAcidOmegaHydroxylaseBudorcasTaxicolor    59.32%    passed    100.00%
+  66  XP0026886031UltraLongChainFattyAcidOmegaHydroxylaseIsoformX1BosTaurus   60.08%    passed    100.00%
+  67  XP0404850701CytochromeP4504F22IsoformX2UrsusMaritimus                   58.72%    passed     92.63%
+  68  XP0060477472CytochromeP4504F22BubalusBubalis                            60.08%    passed    100.00%
+  69  MXQ934971HypotheticalProteinBosMutus                                    53.01%    passed     99.99%
+  70  XP0554224961UltraLongChainFattyAcidOmegaHydroxylaseBubalusKerabau       60.08%    passed    100.00%
+  71  XP0060477481CytochromeP4504F22IsoformX2BubalusBubalis                   61.43%    passed    100.00%
+  72  XP0144032721PREDICTEDCytochromeP4504F22IsoformX1MyotisBrandtii          57.74%    passed     82.19%
+  73  KAB03586331HypotheticalProteinFD754002789MuntiacusMuntjak               60.08%    passed    100.00%
+  74  XP0274038681CytochromeP4504F22BosIndicusXBosTaurus                      57.22%    passed    100.00%
+  75  KAB03859041HypotheticalProteinFD755000860MuntiacusReevesi               60.08%    passed    100.00%
+  76  XP0263460942UltraLongChainFatty___HydroxylaseIsoformX1UrsusArctos       60.08%    passed    100.00%
+  77  XP0179068061PREDICTEDCytochromeP4504F22CapraHircus                      60.08%    passed    100.00%
+  78  XP0278348861UltraLongChainFattyAcidOmegaHydroxylaseIsoformX2OvisAries   60.08%    passed    100.00%
+  79  XP0610051761UltraLongChainFattyAcidOmegaHydroxylaseDamaDama             60.08%    passed    100.00%
+  80  XP0207364801CytochromeP4504F22OdocoileusVirginianusTexanus              60.08%    passed    100.00%
+  81  KAI45417821HypotheticalProteinMG293008924OvisAmmonPolii                 58.87%    passed    100.00%
+  82  XP0400969381CytochromeP4504F22OryxDammah                                60.08%    passed    100.00%
+  83  XP0248505921UltraLongChainFattyAcidOmegaHydroxylaseIsoformX2BosTaurus   58.57%    passed    100.00%
+  84  XP0087046572CytochromeP4504F22IsoformX1UrsusMaritimus                   58.57%    passed    100.00%
+  85  XP0037965591CytochromeP4504F22OtolemurGarnettii                         60.08%    passed    100.00%
+  86  XP0068983621PREDICTEDCytochromeP4504F22LikeElephantulusEdwardii         60.08%    passed    100.00%
+  87  XP0125182001PREDICTEDCytochromeP4504F22IsoformX2PropithecusCoquereli    60.08%    passed    100.00%
+  88  XP0143206201CytochromeP4504F22IsoformX2MyotisLucifugus                  60.08%    passed    100.00%
+  89  XP0362718621UltraLongChainFattyAcidOmegaHydroxylasePipistrellusKuhlii   59.92%    passed    100.00%
+  90  XP0081560561UltraLongChainFatty___HydroxylaseIsoformX1EptesicusFuscus   59.92%    passed    100.00%
+  91  XP0257205971CytochromeP4504F22IsoformX1CallorhinusUrsinus               55.11%    passed     55.12%
+  92  XP0043845791CytochromeP4504F22TrichechusManatusLatirostris              60.08%    passed    100.00%
+  93  XP0058763781PREDICTEDCytochromeP4504F22IsoformX2MyotisBrandtii          60.00%    passed    100.00%
+  94  XP0279511081CytochromeP4504F22IsoformX2EumetopiasJubatus                55.11%    passed     54.67%
+  95  XP0274413451CytochromeP4504F22ZalophusCalifornianus                     60.08%    passed    100.00%
+  96  XP0062183781CytochromeP4504F22VicugnaPacos                              60.08%    passed     99.98%
+  97  XP0279511071CytochromeP4504F22IsoformX1EumetopiasJubatus                54.89%    passed     60.26%
+  98  XP0257206001CytochromeP4504F22IsoformX2CallorhinusUrsinus               60.08%    passed    100.00%
+  99  XP0125181991PREDICTEDCytochromeP4504F22IsoformX1PropithecusCoquereli    58.35%    passed     99.93%
+ 100  XP0279511101CytochromeP4504F22IsoformX3EumetopiasJubatus                60.08%    passed    100.00%
+WARNING: 97 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                   58.93%  0 sequences failed composition chi2 test (p-value<5%; df=19)
+Checking for duplicate sequences: done in 0.00030303 secs using 115.2% CPU
+
+NOTE: Restoring information from model checkpoint file /scratch/millsbro/FINAL/Human_AMP_Pipeline/AMP_seqs_aln/CP4FN_HUMAN_squeak.fa.model.gz
+
+CHECKPOINT: Initial tree restored
+Perform fast likelihood tree search using LG+I+G model...
+CHECKPOINT: Tree restored, LogL: -10606.837
+NOTE: ModelFinder requires 40 MB RAM!
+ModelFinder will test up to 224 protein models (sample size: 1330) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            10928.630    197 22251.259    22320.174    23274.267
+  2  LG+I          10708.936    198 21813.872    21883.548    22842.073
+  3  LG+G4         10606.029    198 21608.058    21677.734    22636.259
+  4  LG+I+G4       10602.724    199 21603.447    21673.890    22636.841
+  7  LG+F+G4       10514.642    217 21463.284    21548.367    22590.151
+  8  LG+F+I+G4     10511.396    218 21458.791    21544.735    22590.851
+ 11  WAG+G4        10545.336    198 21486.672    21556.348    22514.873
+ 12  WAG+I+G4      10543.174    199 21484.349    21554.791    22517.743
+ 15  WAG+F+G4      10473.855    217 21381.710    21466.792    22508.576
+ 16  WAG+F+I+G4    10470.862    218 21377.724    21463.668    22509.783
+ 19  JTT+G4        10455.650    198 21307.300    21376.976    22335.501
+ 20  JTT+I+G4      10452.798    199 21303.596    21374.038    22336.990
+ 23  JTT+F+G4      10402.685    217 21239.370    21324.453    22366.237
+ 24  JTT+F+I+G4    10399.265    218 21234.530    21320.474    22366.589
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 27  Q.pfam+G4     10572.174    198 21540.347    21610.024    22568.548
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 28  Q.pfam+I+G4   10568.299    199 21534.598    21605.041    22567.992
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 31  Q.pfam+F+G4   10494.260    217 21422.519    21507.602    22549.386
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 32  Q.pfam+F+I+G4 10490.548    218 21417.095    21503.039    22549.155
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 35  Q.bird+G4     10457.265    198 21310.529    21380.206    22338.730
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 36  Q.bird+I+G4   10454.136    199 21306.272    21376.714    22339.665
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 39  Q.bird+F+G4   10424.854    217 21283.707    21368.790    22410.574
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 40  Q.bird+F+I+G4 10421.755    218 21279.509    21365.453    22411.569
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 43  Q.mammal+G4   10432.161    198 21260.321    21329.998    22288.522
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 44  Q.mammal+I+G4 10429.095    199 21256.191    21326.633    22289.585
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 47  Q.mammal+F+G4 10400.859    217 21235.718    21320.801    22362.585
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 48  Q.mammal+F+I+G4 10397.507    218 21231.013    21316.958    22363.073
+ 51  Q.insect+G4   10652.008    198 21700.016    21769.693    22728.217
+ 52  Q.insect+I+G4 10648.581    199 21695.162    21765.605    22728.556
+ 55  Q.insect+F+G4 10473.063    217 21380.125    21465.208    22506.992
+ 56  Q.insect+F+I+G4 10469.508    218 21375.016    21460.960    22507.076
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 59  Q.plant+G4    10579.823    198 21555.645    21625.322    22583.846
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 60  Q.plant+I+G4  10575.612    199 21549.225    21619.667    22582.619
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 63  Q.plant+F+G4  10487.227    217 21408.453    21493.536    22535.320
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 64  Q.plant+F+I+G4 10482.986    218 21401.972    21487.916    22534.032
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 67  Q.yeast+G4    10737.799    198 21871.599    21941.275    22899.800
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 68  Q.yeast+I+G4  10734.577    199 21867.155    21937.597    22900.549
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 71  Q.yeast+F+G4  10501.422    217 21436.843    21521.926    22563.710
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 72  Q.yeast+F+I+G4 10497.975    218 21431.950    21517.894    22564.009
+ 75  JTTDCMut+G4   10461.788    198 21319.577    21389.253    22347.778
+ 76  JTTDCMut+I+G4 10459.020    199 21316.040    21386.483    22349.434
+ 79  JTTDCMut+F+G4 10407.702    217 21249.404    21334.487    22376.271
+ 80  JTTDCMut+F+I+G4 10404.324    218 21244.647    21330.591    22376.707
+ 83  DCMut+G4      10655.394    198 21706.788    21776.464    22734.989
+ 84  DCMut+I+G4    10651.913    199 21701.827    21772.269    22735.221
+ 87  DCMut+F+G4    10560.069    217 21554.139    21639.221    22681.005
+ 88  DCMut+F+I+G4  10555.430    218 21546.860    21632.804    22678.920
+ 91  VT+G4         10530.377    198 21456.754    21526.430    22484.955
+ 92  VT+I+G4       10527.715    199 21453.429    21523.872    22486.823
+ 95  VT+F+G4       10459.928    217 21353.856    21438.938    22480.722
+ 96  VT+F+I+G4     10456.818    218 21349.636    21435.581    22481.696
+ 99  PMB+G4        10584.100    198 21564.201    21633.877    22592.402
+100  PMB+I+G4      10580.870    199 21559.741    21630.183    22593.135
+103  PMB+F+G4      10560.552    217 21555.104    21640.187    22681.971
+104  PMB+F+I+G4    10557.157    218 21550.314    21636.258    22682.373
+107  Blosum62+G4   10633.874    198 21663.748    21733.424    22691.949
+108  Blosum62+I+G4 10630.646    199 21659.292    21729.734    22692.686
+111  Blosum62+F+G4 10572.509    217 21579.018    21664.101    22705.885
+112  Blosum62+F+I+G4 10569.201    218 21574.403    21660.347    22706.462
+115  Dayhoff+G4    10655.410    198 21706.820    21776.496    22735.021
+116  Dayhoff+I+G4  10651.892    199 21701.783    21772.226    22735.177
+119  Dayhoff+F+G4  10560.009    217 21554.018    21639.100    22680.884
+120  Dayhoff+F+I+G4 10555.337    218 21546.674    21632.618    22678.734
+123  mtREV+G4      10933.757    198 22263.514    22333.190    23291.715
+124  mtREV+I+G4    10933.121    199 22264.242    22334.685    23297.636
+127  mtREV+F+G4    10543.944    217 21521.889    21606.972    22648.756
+128  mtREV+F+I+G4  10537.292    218 21510.585    21596.529    22642.645
+131  mtART+G4      11301.988    198 22999.976    23069.653    24028.177

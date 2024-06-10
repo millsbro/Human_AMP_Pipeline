@@ -14,37 +14,38 @@ from Bio import Phylo
 
 # Create string objects of input and output directory paths #
 
-input_dir='/scratch/millsbro/FINAL/Human_AMP_Pipeline/AMP_seqs_clean'
-output_dir='/scratch/millsbro/FINAL/Human_AMP_Pipeline/AMP_seqs_aln'
+input_dir='/scratch/millsbro/FINAL/Human_AMP_Pipeline/AMP_seqs_clean/'
+output_dir='/scratch/millsbro/FINAL/Human_AMP_Pipeline/AMP_seqs_aln/'
 
 
 # Make a list of files in Input directory #
 
 catalogue=glob.glob(input_dir+"*fa")
 
+#print(catalogue)
 
 
-print(catalogue)
 
-'''
 ## 1. PERFORM MSA WITH MAFFT ##
 
 for item in catalogue:
     aligned_item_path=item.replace(input_dir,output_dir)
     alignment_command='mafft --auto --quiet '+item+' > '+aligned_item_path
-    #print(alignment_command)
+    print(aligned_item_path)
     os.system(alignment_command)
 
 
-## 2. PHYLOGENOMIC INFERENCE WITH IQTREE ##
 
-alignment=glob.glob(output_dir+"*fasta")
+## 2. PHYLOGENEIC INFERENCE WITH IQTREE ##
+
+alignment=glob.glob(output_dir+"*fa")
 
 for aln_temp in alignment:
     tree_command = f"iqtree -s {aln_temp} -m TEST -nt 2"
     os.system(tree_command)
-#print(tree_command)
+print(tree_command)
 
+'''
 
 ## 3. TREE TOPOLOGY ANALYSIS ##
 
