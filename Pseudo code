@@ -21,9 +21,9 @@ iii. Push changes to repo on regular basis
 
 7: Download (via scp) AMP_seqs_aln and AMP_seqs_treefiles to local machine                   complete? X
 
-8: Upload (in matched pairs) MSA and newick files to http://etetoolkit.org/treeview/         complete? 
+8: Upload (in matched pairs) MSA and newick files to http://etetoolkit.org/treeview/         complete? X
 
-9: save link and tree to .doc 5x                                                             complete?
+9: save link and tree to .doc 5x                                                             complete? X
 
 8: Create table:                                                                             complete?
   rows=recID
