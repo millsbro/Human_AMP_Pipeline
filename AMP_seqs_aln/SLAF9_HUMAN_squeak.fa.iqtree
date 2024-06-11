@@ -1,0 +1,409 @@
+IQ-TREE 2.2.0.3 COVID-edition built May 11 2022
+
+Input file name: /scratch/millsbro/FINAL/Human_AMP_Pipeline/AMP_seqs_aln/SLAF9_HUMAN_squeak.fa
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 579708
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 100 sequences with 693 amino-acid sites
+Number of constant sites: 273 (= 39.3939% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 273 (= 39.3939% of all sites)
+Number of parsimony informative sites: 246
+Number of distinct site patterns: 561
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: Q.bird+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+Q.bird+G4        -11453.241   23302.482 +    0.785   23462.004 +    0.897   24201.606 +    0.958
+Q.bird+I+G4      -11453.624   23305.249 +    0.197   23466.709 +   0.0853   24208.914 -   0.0248
+Q.mammal+G4      -11457.268   23310.537 -    0.014   23470.059 -    0.016   24209.661 -   0.0171
+Q.mammal+I+G4    -11457.594   23313.188 -  0.00372   23474.649 -  0.00161   24216.853 - 0.000468
+Q.bird+F+G4      -11460.350   23354.701 -  3.6e-12   23553.884 -    1e-20   24340.104 - 8.06e-31
+Q.mammal+F+G4    -11463.196   23360.392 - 2.09e-13   23559.575 - 5.83e-22   24345.795 - 4.69e-32
+Q.bird+F+I+G4    -11460.613   23357.227 - 1.02e-12   23558.670 - 9.17e-22   24347.171 - 2.36e-32
+Q.mammal+F+I+G4  -11463.270   23362.541 - 7.14e-14   23563.984 - 6.43e-23   24352.485 - 1.65e-33
+JTT+G4           -11557.801   23511.601 - 3.06e-46   23671.123 - 3.49e-46   24410.725 - 3.73e-46
+JTT+I+G4         -11558.269   23514.538 - 7.04e-47   23675.998 - 3.05e-47   24418.203 - 8.87e-48
+JTTDCMut+G4      -11564.816   23525.631 - 2.75e-49   23685.154 - 3.14e-49   24424.755 - 3.35e-49
+JTTDCMut+I+G4    -11565.290   23528.580 - 6.29e-50   23690.040 - 2.72e-50   24432.245 - 7.92e-51
+JTT+F+G4         -11540.652   23515.304 -  4.8e-47   23714.487 - 1.34e-55   24500.708 - 1.08e-65
+JTT+F+I+G4       -11541.101   23518.201 - 1.13e-47   23719.645 - 1.02e-56   24508.146 - 2.61e-67
+JTTDCMut+F+G4    -11547.015   23528.029 - 8.28e-50   23727.213 - 2.31e-58   24513.433 - 1.86e-68
+JTTDCMut+F+I+G4  -11547.483   23530.967 - 1.91e-50   23732.410 - 1.72e-59   24520.911 - 4.41e-70
+HIVb+G4          -11639.568   23675.137 - 9.42e-82   23834.659 - 1.08e-81   24574.261 - 1.15e-81
+HIVb+I+G4        -11640.068   23678.137 -  2.1e-82   23839.597 - 9.11e-83   24581.802 - 2.65e-83
+HIVb+F+G4        -11598.271   23630.542 - 4.55e-72   23829.725 - 1.27e-80   24615.946 - 1.02e-90
+HIVb+F+I+G4      -11598.772   23633.543 - 1.01e-72   23834.986 - 9.14e-82   24623.488 - 2.35e-92
+Q.plant+F+G4     -11602.655   23639.310 - 5.67e-74   23838.493 - 1.58e-82   24624.713 - 1.27e-92
+Q.plant+G4       -11665.899   23727.799 - 3.46e-93   23887.321 - 3.95e-93   24626.923 - 4.21e-93
+Q.plant+F+I+G4   -11603.188   23642.375 - 1.23e-74   23843.818 -  1.1e-83   24632.320 - 2.84e-94
+Q.plant+I+G4     -11666.427   23730.854 -  7.5e-94   23892.314 - 3.25e-94   24634.519 - 9.45e-95
+FLU+F+G4         -11661.855   23757.710 - 1.11e-99   23956.893 - 3.08e-108   24743.113 - 2.48e-118
+FLU+F+I+G4       -11662.038   23760.075 - 3.39e-100   23961.518 - 3.05e-109   24750.020 - 7.85e-120
+mtVer+F+G4       -11667.705   23769.410 - 3.18e-102   23968.593 - 8.88e-111   24754.813 - 7.14e-121
+mtVer+F+I+G4     -11667.815   23771.631 - 1.05e-102   23973.074 - 9.45e-112   24761.575 - 2.43e-122
+FLU+G4           -11754.807   23905.613 - 8.45e-132   24065.135 - 9.65e-132   24804.737 - 1.03e-131
+FLAVI+G4         -11756.202   23908.404 - 2.09e-132   24067.927 - 2.39e-132   24807.528 - 2.55e-132
+FLAVI+F+G4       -11695.483   23824.966 - 2.75e-114   24024.149 - 7.66e-123   24810.370 - 6.16e-133
+FLU+I+G4         -11755.217   23908.434 - 2.06e-132   24069.894 - 8.94e-133   24812.099 - 2.6e-133
+FLAVI+I+G4       -11755.342   23908.684 - 1.82e-132   24070.145 - 7.88e-133   24812.349 - 2.29e-133
+mtMet+F+G4       -11697.905   23829.810 - 2.44e-115   24028.993 - 6.8e-124   24815.213 - 5.47e-134
+FLAVI+F+I+G4     -11696.329   23828.659 - 4.34e-115   24030.102 - 3.91e-124   24818.603 -   1e-134
+VT+G4            -11762.241   23920.481 - 4.99e-135   24080.003 - 5.7e-135   24819.605 - 6.09e-135
+mtMet+F+I+G4     -11698.098   23832.196 - 7.4e-116   24033.639 - 6.67e-125   24822.140 - 1.71e-135
+VT+I+G4          -11762.613   23923.226 - 1.26e-135   24084.687 - 5.48e-136   24826.891 - 1.59e-136
+HIVw+F+G4        -11707.048   23848.095 - 2.61e-119   24047.278 - 7.28e-128   24833.499 - 5.85e-138
+HIVw+F+I+G4      -11707.595   23851.190 - 5.55e-120   24052.633 -   5e-129   24841.134 - 1.29e-139
+VT+F+G4          -11714.191   23862.382 - 2.06e-122   24061.566 - 5.75e-131   24847.786 - 4.62e-141
+cpREV+G4         -11778.452   23952.904 - 4.55e-142   24112.427 - 5.19e-142   24852.028 - 5.54e-142
+VT+F+I+G4        -11714.510   23865.020 - 5.51e-123   24066.463 - 4.97e-132   24854.965 - 1.28e-142
+cpREV+I+G4       -11778.827   23955.654 - 1.15e-142   24117.115 - 4.98e-143   24859.319 - 1.45e-143
+WAG+G4           -11784.700   23965.400 - 8.79e-145   24124.922 -   1e-144   24864.524 - 1.07e-144
+WAG+I+G4         -11785.170   23968.340 - 2.02e-145   24129.801 - 8.76e-146   24872.005 - 2.55e-146
+WAG+F+G4         -11740.264   23914.528 - 9.79e-134   24113.711 - 2.73e-142   24899.932 - 2.2e-152
+WAG+F+I+G4       -11740.726   23917.452 - 2.27e-134   24118.895 - 2.05e-143   24907.396 - 5.26e-154
+cpREV+F+G4       -11748.392   23930.784 - 2.89e-137   24129.967 - 8.06e-146   24916.188 - 6.48e-156
+cpREV+F+I+G4     -11748.616   23933.233 - 8.5e-138   24134.676 - 7.66e-147   24923.177 - 1.97e-157
+Q.insect+F+G4    -11787.756   24009.512 - 2.32e-154   24208.695 - 6.47e-163   24994.915 - 5.2e-173
+HIVw+G4          -11852.926   24101.851 - 2.06e-174   24261.373 - 2.35e-174   25000.975 - 2.51e-174
+mtInv+F+G4       -11791.210   24016.421 - 7.33e-156   24215.604 - 2.04e-164   25001.824 - 1.64e-174
+Q.insect+F+I+G4  -11788.164   24012.329 - 5.67e-155   24213.772 - 5.11e-164   25002.273 - 1.31e-174
+HIVw+I+G4        -11853.570   24105.141 - 3.98e-175   24266.601 - 1.72e-175   25008.806 - 5.01e-176
+mtInv+F+I+G4     -11791.489   24018.978 - 2.04e-156   24220.421 - 1.84e-165   25008.922 - 4.73e-176
+Q.pfam+G4        -11869.785   24135.569 - 9.83e-182   24295.092 - 1.12e-181   25034.693 - 1.2e-181
+Q.pfam+I+G4      -11870.204   24138.408 - 2.38e-182   24299.869 - 1.03e-182   25042.073 - 2.99e-183
+Q.pfam+F+G4      -11812.274   24058.547 - 5.22e-165   24257.730 - 1.46e-173   25043.951 - 1.17e-183
+Q.pfam+F+I+G4    -11812.572   24061.143 - 1.43e-165   24262.586 - 1.28e-174   25051.088 - 3.3e-185
+Q.insect+G4      -11903.121   24202.243 - 3.27e-196   24361.765 - 3.73e-196   25101.367 - 3.99e-196
+LG+F+G4          -11843.052   24120.104 - 2.24e-178   24319.287 - 6.25e-187   25105.508 - 5.03e-197
+Q.insect+I+G4    -11903.378   24204.756 - 9.3e-197   24366.217 - 4.03e-197   25108.421 - 1.17e-197
+LG+F+I+G4        -11843.530   24123.059 - 5.12e-179   24324.502 - 4.61e-188   25113.004 - 1.18e-198
+Q.yeast+F+G4     -11848.805   24131.610 - 7.11e-181   24330.793 - 1.98e-189   25117.014 - 1.6e-199
+PMB+G4           -11912.273   24220.546 - 3.47e-200   24380.068 - 3.96e-200   25119.670 - 4.23e-200
+LG+G4            -11913.796   24223.592 - 7.56e-201   24383.114 - 8.64e-201   25122.716 - 9.22e-201
+Q.yeast+F+I+G4   -11849.083   24134.165 - 1.98e-181   24335.608 - 1.79e-190   25124.110 - 4.59e-201
+PMB+I+G4         -11912.501   24223.003 - 1.01e-200   24384.463 - 4.4e-201   25126.668 - 1.28e-201
+LG+I+G4          -11914.293   24226.585 - 1.69e-201   24388.046 - 7.34e-202   25130.250 - 2.13e-202
+mtREV+F+G4       -11866.914   24167.827 - 9.72e-189   24367.010 - 2.71e-197   25153.231 - 2.18e-207
+mtREV+F+I+G4     -11867.398   24170.796 - 2.2e-189   24372.239 - 1.99e-198   25160.740 - 5.1e-209
+PMB+F+G4         -11911.025   24256.051 - 6.76e-208   24455.234 - 1.89e-216   25241.454 - 1.52e-226
+PMB+F+I+G4       -11911.218   24258.435 - 2.05e-208   24459.879 - 1.85e-217   25248.380 - 4.75e-228
+Blosum62+G4      -11995.070   24386.140 - 3.82e-236   24545.662 - 4.36e-236   25285.263 - 4.65e-236
+Blosum62+I+G4    -11995.392   24388.783 - 1.02e-236   24550.244 - 4.41e-237   25292.448 - 1.28e-237
+Q.yeast+G4       -12015.020   24426.040 - 8.27e-245   24585.562 - 9.45e-245   25325.164 - 1.01e-244
+Q.yeast+I+G4     -12015.228   24428.456 - 2.47e-245   24589.916 - 1.07e-245   25332.121 - 3.11e-246
+Blosum62+F+G4    -11958.854   24351.708 - 1.14e-228   24550.891 - 3.19e-237   25337.112 - 2.57e-247
+Blosum62+F+I+G4  -11959.183   24354.365 - 3.03e-229   24555.808 - 2.73e-238   25344.310 - 7.02e-249
+Dayhoff+G4       -12047.587   24491.175 - 5.94e-259   24650.697 - 6.78e-259   25390.299 - 7.24e-259
+rtREV+F+G4       -11986.122   24406.243 - 1.65e-240   24605.426 - 4.59e-249   25391.647 - 3.69e-259
+Dayhoff+F+G4     -11986.349   24406.698 - 1.31e-240   24605.881 - 3.66e-249   25392.102 - 2.94e-259
+DCMut+G4         -12048.844   24493.689 - 1.69e-259   24653.211 - 1.93e-259   25392.813 - 2.06e-259
+DCMut+F+G4       -11987.481   24408.963 - 4.22e-241   24608.146 - 1.18e-249   25394.366 - 9.47e-260
+Dayhoff+I+G4     -12048.097   24494.195 - 1.31e-259   24655.655 - 5.69e-260   25397.860 - 1.65e-260
+rtREV+F+I+G4     -11986.541   24409.081 - 3.98e-241   24610.524 - 3.59e-250   25399.026 - 9.22e-261
+Dayhoff+F+I+G4   -11986.870   24409.740 - 2.86e-241   24611.183 - 2.58e-250   25399.685 - 6.63e-261
+DCMut+I+G4       -12049.353   24496.707 - 3.74e-260   24658.167 - 1.62e-260   25400.372 - 4.7e-261
+DCMut+F+I+G4     -11988.002   24412.003 - 9.24e-242   24613.446 - 8.32e-251   25401.948 - 2.14e-261
+rtREV+G4         -12057.370   24510.740 - 3.35e-263   24670.263 - 3.83e-263   25409.864 - 4.08e-263
+rtREV+I+G4       -12057.783   24513.566 - 8.16e-264   24675.026 - 3.54e-264   25417.231 - 1.03e-264
+mtMAM+F+G4       -12020.793   24475.587 - 1.44e-255   24674.770 - 4.02e-264   25460.990 - 3.23e-274
+mtMAM+F+I+G4     -12019.610   24475.219 - 1.73e-255   24676.663 - 1.56e-264   25465.164 - 4.01e-275
+mtVer+G4         -12090.785   24577.570 - 1.03e-277   24737.092 - 1.18e-277   25476.694 - 1.26e-277
+mtVer+I+G4       -12088.520   24575.040 - 3.65e-277   24736.500 - 1.58e-277   25478.705 - 4.6e-278
+LG+I             -12139.615   24675.231 - 6.4e-299   24834.753 - 7.31e-299   25574.355 - 7.81e-299
+mtMet+G4         -12159.514   24715.027 - 1.46e-307   24874.549 - 1.67e-307   25614.151 - 1.78e-307
+mtMet+I+G4       -12158.353   24714.706 - 1.72e-307   24876.166 - 7.44e-308   25618.371 - 2.16e-308
+LG               -12185.777   24765.553 - 1.56e-318   24923.153 - 4.66e-318   25660.136 - 1.84e-317
+mtZOA+F+G4       -12125.673   24685.347 - 4.07e-301   24884.530 - 1.14e-309   25670.750 - 9.13e-320
+mtZOA+F+I+G4     -12125.724   24687.448 - 1.42e-301   24888.892 - 1.28e-310   25677.393 - 3.3e-321
+mtREV+G4         -12275.177   24946.355 -        0   25105.877 -        0   25845.479 -        0
+mtREV+I+G4       -12275.808   24949.616 -        0   25111.076 -        0   25853.281 -        0
+mtInv+G4         -12378.751   25153.503 -        0   25313.025 -        0   26052.627 -        0
+mtInv+I+G4       -12378.298   25154.595 -        0   25316.056 -        0   26058.260 -        0
+mtZOA+G4         -12401.026   25198.053 -        0   25357.575 -        0   26097.177 -        0
+mtZOA+I+G4       -12398.721   25195.442 -        0   25356.902 -        0   26099.107 -        0
+mtMAM+G4         -12441.019   25278.037 -        0   25437.560 -        0   26177.161 -        0
+mtMAM+I+G4       -12438.149   25274.299 -        0   25435.759 -        0   26177.964 -        0
+mtART+F+G4       -12494.927   25423.854 -        0   25623.037 -        0   26409.258 -        0
+mtART+F+I+G4     -12493.417   25422.835 -        0   25624.278 -        0   26412.779 -        0
+mtART+I+G4       -12878.754   26155.508 -        0   26316.968 -        0   27059.173 -        0
+mtART+G4         -12882.680   26161.360 -        0   26320.882 -        0   27060.484 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: Q.bird+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 1.0192
+
+ Category  Relative_rate  Proportion
+  1         0.1408         0.2500
+  2         0.4824         0.2500
+  3         1.0031         0.2500
+  4         2.3737         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -11450.5613 (s.e. 488.0032)
+Unconstrained log-likelihood (without tree): -4273.6472
+Number of free parameters (#branches + #model parameters): 198
+Akaike information criterion (AIC) score: 23297.1225
+Corrected Akaike information criterion (AICc) score: 23456.6448
+Bayesian information criterion (BIC) score: 24196.2465
+
+Total tree length (sum of branch lengths): 10.5168
+Sum of internal branch lengths: 4.4830 (42.6270% of tree length)
+
+WARNING: 15 near-zero internal branches (<0.0014) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'XP0168582451SLAMFamilyMember9IsoformX1HomoSapiens' is drawn at root
+
++--XP0168582451SLAMFamilyMember9IsoformX1HomoSapiens
+|
+|  +--EAW527541SLAMFamilyMember9IsoformCRAAHomoSapiens
++--|
+|  |  +**AAH747541SLAMFamilyMember9HomoSapiens
+|  +**|
+|     |            +**NP0012895862SLAMFamilyMember9PrecursorPanTroglodytes
+|     |         +--|
+|     |         |  |  +--NP0012895841SLAMFamilyMember9PrecursorPanPaniscus
+|     |         |  +**|
+|     |         |     +**AAH702131SLAMF9ProteinHomoSapiens
+|     |     +---|
+|     |     |   |                                                    +--CAI96908831UnnamedProteinProductRangiferTarandusPlatyrhynchus
+|     |     |   |                                                 +--|
+|     |     |   |                                                 |  |           +--OWK049291SLAMF9PartialCervusElaphusHippelaphus
+|     |     |   |                                                 |  |        +--|
+|     |     |   |                                                 |  |        |  +**XP0433021021LOWQUALITYPROTEINSLAMFamilyMember9CervusCanadensis
+|     |     |   |                                                 |  |     +--|
+|     |     |   |                                                 |  |     |  +--XP0609757921LOWQUALITYPROTEINSLAMFamilyMember9DamaDama
+|     |     |   |                                                 |  |  +--|
+|     |     |   |                                                 |  |  |  |  +--CAI91512131UnnamedProteinProductRangiferTarandusPlatyrhynchus
+|     |     |   |                                                 |  |  |  +--|
+|     |     |   |                                                 |  |  |     +-------XP0207601451LOWQUALI___NSLAMFamilyMember9OdocoileusVirginianusTexanus
+|     |     |   |                                                 |  +**|
+|     |     |   |                                                 |     |  +--KAB03876671HypotheticalProteinFD755002623MuntiacusReevesi
+|     |     |   |                                                 |     +--|
+|     |     |   |                                                 |        +--KAB03593411HypotheticalProteinFD754003497MuntiacusMuntjak
+|     |     |   |                                     +-----------|
+|     |     |   |                                     |           |              +--XP0179018551PREDICTEDSLAMFamilyMember9CapraHircus
+|     |     |   |                                     |           |           +--|
+|     |     |   |                                     |           |           |  |  +**KAI45487831HypotheticalProteinMG293001113OvisAmmonPolii
+|     |     |   |                                     |           |           |  +--|
+|     |     |   |                                     |           |           |     +--NP0012895902SLAMFamilyMember9PrecursorOvisAries
+|     |     |   |                                     |           |        +--|
+|     |     |   |                                     |           |        |  +--XP0524939581SLAMFamilyMember9BudorcasTaxicolor
+|     |     |   |                                     |           |     +--|
+|     |     |   |                                     |           |     |  +--XP0400858301SLAMFamilyMember9OryxDammah
+|     |     |   |                                     |           |  +--|
+|     |     |   |                                     |           |  |  |              +--XP0554398551SLAMFamilyMember9BubalusKerabau
+|     |     |   |                                     |           |  |  |           +--|
+|     |     |   |                                     |           |  |  |           |  +**XP0448000791SLAMFamilyMember9IsoformX2BubalusBubalis
+|     |     |   |                                     |           |  |  |        +**|
+|     |     |   |                                     |           |  |  |        |  +**XP0448000891SLAMFamilyMember9IsoformX5BubalusBubalis
+|     |     |   |                                     |           |  |  |     +**|
+|     |     |   |                                     |           |  |  |     |  +**XP0448000781SLAMFamilyMember9IsoformX1BubalusBubalis
+|     |     |   |                                     |           |  |  |  +--|
+|     |     |   |                                     |           |  |  |  |  +**XP0448000871SLAMFamilyMember9IsoformX3BubalusBubalis
+|     |     |   |                                     |           |  |  +--|
+|     |     |   |                                     |           |  |     |              +**XP0597389551SLAMFamilyMember9IsoformX1BosTaurus
+|     |     |   |                                     |           |  |     |           +**|
+|     |     |   |                                     |           |  |     |           |  +--XP0198138841PREDICTEDLOWQUALITYPROTEINSLAMFamilyMember9BosIndicus
+|     |     |   |                                     |           |  |     |        +--|
+|     |     |   |                                     |           |  |     |        |  +**XP0273940861LOWQUALITYPROTEINSLAMFamilyMember9BosIndicusXBosTaurus
+|     |     |   |                                     |           |  |     |     +--|
+|     |     |   |                                     |           |  |     |     |  +**XP0058921451PREDICTEDLOWQUALITYPROTEINSLAMFamilyMember9BosMutus
+|     |     |   |                                     |           |  |     |  +**|
+|     |     |   |                                     |           |  |     |  |  +--ELR589961SLAMFamilyMember9BosMutus
+|     |     |   |                                     |           |  |     +--|
+|     |     |   |                                     |           |  |        +--NP0012895911SLAMFamilyMember9PrecursorBosTaurus
+|     |     |   |                                     |           +--|
+|     |     |   |                                     |              |  +**XP0552584731SLAMFamilyMember9IsoformX2MoschusBerezovskii
+|     |     |   |                                     |              +--|
+|     |     |   |                                     |                 +**XP0552584691SLAMFamilyMember9IsoformX1MoschusBerezovskii
+|     |     |   |                                  +--|
+|     |     |   |                                  |  +-----XP0575834241SLAMFamilyMember9HippopotamusAmphibiusKiboko
+|     |     |   |                               +--|
+|     |     |   |                               |  |                           +**XP0337039091LOWQUALITYPROTEINSLAMFamilyMember9TursiopsTruncatus
+|     |     |   |                               |  |                        +--|
+|     |     |   |                               |  |                        |  |  +**TEA380321HypotheticalProteinDBR06SOUSAS27910024PartialSousaChinensis
+|     |     |   |                               |  |                        |  +**|
+|     |     |   |                               |  |                        |     +--XP0598647051LOWQUALITYPROTEINSLAMFamilyMember9DelphinusDelphis
+|     |     |   |                               |  |                     +--|
+|     |     |   |                               |  |                     |  +--XP0306981911LOWQUALITYPROTEINSLAMFamilyMember9GlobicephalaMelas
+|     |     |   |                               |  |                  +--|
+|     |     |   |                               |  |                  |  |        +--XP0290826191LOWQUALITYPROTEINSLAMFamilyMember9MonodonMonoceros
+|     |     |   |                               |  |                  |  |     +--|
+|     |     |   |                               |  |                  |  |     |  +---TKC484291HypotheticalProteinEI555001982PartialMonodonMonoceros
+|     |     |   |                               |  |                  |  |  +--|
+|     |     |   |                               |  |                  |  |  |  +--XP0224153951LOWQUALITYPROTEINSLAMFamilyMember9DelphinapterusLeucas
+|     |     |   |                               |  |                  |  +--|
+|     |     |   |                               |  |                  |     +--XP0246067931LOW___Member9NeophocaenaAsiaeorientalisAsiaeorientalis
+|     |     |   |                               |  |               +--|
+|     |     |   |                               |  |               |  |  +--XP0599978381LOWQUALIT___EINSLAMFamilyMember9LagenorhynchusAlbirostris
+|     |     |   |                               |  |               |  +--|
+|     |     |   |                               |  |               |     |  +--XP0123939332LOWQUALITYPROTEINSLAMFamilyMember9OrcinusOrca
+|     |     |   |                               |  |               |     +**|
+|     |     |   |                               |  |               |        +--XP0269509591LOWQUALIT___EINSLAMFamilyMember9LagenorhynchusObliquidens
+|     |     |   |                               |  |            +--|
+|     |     |   |                               |  |            |  +---XP0074721141PREDICTEDLOWQ___PROTEINSLAMFamilyMember9LipotesVexillifer
+|     |     |   |                               |  |         +--|
+|     |     |   |                               |  |         |  |  +--XP0071297022LOWQUALITYPROTEINSLAMFamilyMember9PhyseterCatodon
+|     |     |   |                               |  |         |  +--|
+|     |     |   |                               |  |         |     +----XP0589331651LOWQUALITYPROTEINSLAMFamilyMember9KogiaBreviceps
+|     |     |   |                               |  |     +---|
+|     |     |   |                               |  |     |   +--XP0610418251LOWQUALITYPROTEINSLAMFamilyMember9EubalaenaGlacialis
+|     |     |   |                               |  +-----|
+|     |     |   |                               |        |   +--XP0367267771LOWQUALITYPROTEINSLAMFamilyMember9BalaenopteraMusculus
+|     |     |   |                               |        +---|
+|     |     |   |                               |            +--------XP0597804201LOWQUALITYPROTEINSLAMFamilyMember9BalaenopteraRicei
+|     |     |   |                            +--|
+|     |     |   |                            |  |                      +--XP0476389431SLAMFamilyMember9PhacochoerusAfricanus
+|     |     |   |                            |  +----------------------|
+|     |     |   |                            |                         +--XP0138523312SLAMFamilyMember9SusScrofa
+|     |     |   |                         +--|
+|     |     |   |                         |  |         +--XP0109539301SLAMFamilyMember9IsoformX1CamelusBactrianus
+|     |     |   |                         |  |      +--|
+|     |     |   |                         |  |      |  |            +--XP0109753611SLAMFamilyMember9IsoformX1CamelusDromedarius
+|     |     |   |                         |  |      |  |  +---------|
+|     |     |   |                         |  |      |  |  |         +------XP0151044951SLAMFamilyMember9IsoformX1VicugnaPacos
+|     |     |   |                         |  |      |  +--|
+|     |     |   |                         |  |      |     +---EPY857291SLAMFamilyMember9CamelusFerus
+|     |     |   |                         |  +------|
+|     |     |   |                         |         +--XP0315450261SLAMFamilyMember9IsoformX3VicugnaPacos
+|     |     |   |                      +--|
+|     |     |   |                      |  |                    +-----XP0244282962LOWQUALITYPROTEINSLAMFamilyMember9DesmodusRotundus
+|     |     |   |                      |  +--------------------|
+|     |     |   |                      |                       +------------XP0358716331LOWQUALITYPROTEINSLAMFamilyMember9PhyllostomusDiscolor
+|     |     |   |                   +--|
+|     |     |   |                   |  |   +-----------------------------XP0068955941PREDICTEDLOW___OTEINSLAMFamilyMember9ElephantulusEdwardii
+|     |     |   |                   |  +---|
+|     |     |   |                   |      |  +-------XP0376693811SLAMFamilyMember9CholoepusDidactylus
+|     |     |   |                   |      +--|
+|     |     |   |                   |         +----------XP0044484971SLAMFamilyMember9IsoformX1DasypusNovemcinctus
+|     |     |   |                +--|
+|     |     |   |                |  |    +--------------------XP0200411041SLAMFamilyMember9CastorCanadensis
+|     |     |   |                |  +----|
+|     |     |   |                |       +------------XP0473768571SLAMFamilyMember9SciurusCarolinensis
+|     |     |   |             +--|
+|     |     |   |             |  +----------------------XP0215683581LOWQUALITYPROTEINSLAMFamilyMember9CarlitoSyrichta
+|     |     |   |        +----|
+|     |     |   |        |    |             +--------XP0233722301LOWQUALITYPROTEINSLAMFamilyMember9OtolemurGarnettii
+|     |     |   |        |    |    +--------|
+|     |     |   |        |    |    |        +---XP0534640681SLAMFamilyMember9NycticebusCoucang
+|     |     |   |        |    +----|
+|     |     |   |        |         |       +-------XP0126046361SLAMFamilyMember9MicrocebusMurinus
+|     |     |   |        |         |    +--|
+|     |     |   |        |         |    |  +-------XP0454024861SLAMFamilyMember9LemurCatta
+|     |     |   |        |         +----|
+|     |     |   |        |              +---XP0125173011PREDICTEDSLAMFamilyMember9PropithecusCoquereli
+|     |     |   |     +--|
+|     |     |   |     |  |                 +---XP0321167361SLAMFamilyMember9IsoformX3SapajusApella
+|     |     |   |     |  |              +--|
+|     |     |   |     |  |              |  +**XP0321167381SLAMFamilyMember9IsoformX4SapajusApella
+|     |     |   |     |  |           +--|
+|     |     |   |     |  |           |  +--XP0173591391SLAMFamilyMember9CebusImitator
+|     |     |   |     |  |        +--|
+|     |     |   |     |  |        |  +----NP0012895921SLAMFamilyMember9PrecursorSaimiriBoliviensis
+|     |     |   |     |  |     +--|
+|     |     |   |     |  |     |  +-----NP0012895961SLAMFamilyMember9PrecursorCallithrixJacchus
+|     |     |   |     |  +-----|
+|     |     |   |     |        +---XP0123051212SLAMFamilyMember9AotusNancymaae
+|     |     |   |  +--|
+|     |     |   |  |  |      +--XP0118125971PREDICTEDSLAMFamilyMember9ColobusAngolensisPalliatus
+|     |     |   |  |  |   +--|
+|     |     |   |  |  |   |  |        +--XP0177203031PREDICTEDSLAMFamilyMember9RhinopithecusBieti
+|     |     |   |  |  |   |  |     +--|
+|     |     |   |  |  |   |  |     |  +**XP0103590791SLAMFamilyMember9RhinopithecusRoxellana
+|     |     |   |  |  |   |  |  +--|
+|     |     |   |  |  |   |  |  |  +--XP0330511831SLAMFamilyMember9TrachypithecusFrancoisi
+|     |     |   |  |  |   |  +**|
+|     |     |   |  |  |   |     |  +--NP0012895891SLAMFamilyMember9PrecursorChlorocebusSabaeus
+|     |     |   |  |  |   |     +--|
+|     |     |   |  |  |   |        |     +--XP0252553301LOWQUALITYPROTEINSLAMFamilyMember9TheropithecusGelada
+|     |     |   |  |  |   |        |  +**|
+|     |     |   |  |  |   |        |  |  |        +--NP0012895951SLAMFamilyMember9PrecursorMacacaMulatta
+|     |     |   |  |  |   |        |  |  |     +**|
+|     |     |   |  |  |   |        |  |  |     |  +**NP0012895871SLAMFamilyMember9PrecursorMacacaFascicularis
+|     |     |   |  |  |   |        |  |  |  +--|
+|     |     |   |  |  |   |        |  |  |  |  |  +**XP0117683411SLAMFamilyMember9IsoformX2MacacaNemestrina
+|     |     |   |  |  |   |        |  |  |  |  +--|
+|     |     |   |  |  |   |        |  |  |  |     |  +**XP0117683401SLAMFamilyMember9IsoformX1MacacaNemestrina
+|     |     |   |  |  |   |        |  |  |  |     +--|
+|     |     |   |  |  |   |        |  |  |  |        +--XP0153074321SLAMFamilyMember9IsoformX1MacacaFascicularis
+|     |     |   |  |  |   |        |  |  +**|
+|     |     |   |  |  |   |        |  |     |  +--NP0012895881SLAMFamilyMember9PrecursorPapioAnubis
+|     |     |   |  |  |   |        |  |     +--|
+|     |     |   |  |  |   |        |  |        |  +---XP0178108492SLAMFamilyMember9IsoformX2PapioAnubis
+|     |     |   |  |  |   |        |  |        +--|
+|     |     |   |  |  |   |        |  |           +--XP0091828823SLAMFamilyMember9IsoformX1PapioAnubis
+|     |     |   |  |  |   |        +--|
+|     |     |   |  |  |   |           +**XP0118257961PREDICTEDSLAMFamilyMember9MandrillusLeucophaeus
+|     |     |   |  |  +---|
+|     |     |   |  |      +**XP0230699832SLAMFamilyMember9PiliocolobusTephrosceles
+|     |     |   +--|
+|     |     |      |        +**XP0306791091LOWQUALITYPROTEINSLAMFamilyMember9NomascusLeucogenys
+|     |     |      |     +--|
+|     |     |      |     |  +**XP0306649291LOWQUALITYPROTEINSLAMFamilyMember9NomascusLeucogenys
+|     |     |      |  +--|
+|     |     |      |  |  +--XP0320099141LOWQUALITYPROTEINSLAMFamilyMember9HylobatesMoloch
+|     |     |      +--|
+|     |     |         +----XP0634810421SLAMFamilyMember9SymphalangusSyndactylus
+|     |  +--|
+|     |  |  +--XP0635497991LOWQUALITYPROTEINSLAMFamilyMember9GorillaGorillaGorilla
+|     +**|
+|        +--AAQ891611CD84H1HomoSapiens
+|
+|  +**NP2542732SLAMFamilyMember9Isoform1PrecursorHomoSapiens
++**|
+   +--NP0011396441SLAMFamilyMember9Isoform2PrecursorHomoSapiens
+
+Tree in newick format:
+
+(XP0168582451SLAMFamilyMember9IsoformX1HomoSapiens:0.0255333333,(EAW527541SLAMFamilyMember9IsoformCRAAHomoSapiens:0.0534548857,(AAH747541SLAMFamilyMember9HomoSapiens:0.0000010000,((((NP0012895862SLAMFamilyMember9PrecursorPanTroglodytes:0.0000010000,(NP0012895841SLAMFamilyMember9PrecursorPanPaniscus:0.0124424965,AAH702131SLAMF9ProteinHomoSapiens:0.0000010000):0.0000251153):0.0247501668,((((((((((((((CAI96908831UnnamedProteinProductRangiferTarandusPlatyrhynchus:0.0275601119,((((OWK049291SLAMF9PartialCervusElaphusHippelaphus:0.0534879891,XP0433021021LOWQUALITYPROTEINSLAMFamilyMember9CervusCanadensis:0.0000010000):0.0443406618,XP0609757921LOWQUALITYPROTEINSLAMFamilyMember9DamaDama:0.0195763361):0.0348495902,(CAI91512131UnnamedProteinProductRangiferTarandusPlatyrhynchus:0.0181262161,XP0207601451LOWQUALI___NSLAMFamilyMember9OdocoileusVirginianusTexanus:0.1547618757):0.0232535737):0.0108301018,(KAB03876671HypotheticalProteinFD755002623MuntiacusReevesi:0.0380487573,KAB03593411HypotheticalProteinFD754003497MuntiacusMuntjak:0.0259574848):0.0061971772):0.0000023754):0.0457109450,(((((XP0179018551PREDICTEDSLAMFamilyMember9CapraHircus:0.0188900551,(KAI45487831HypotheticalProteinMG293001113OvisAmmonPolii:0.0000010000,NP0012895902SLAMFamilyMember9PrecursorOvisAries:0.0063338600):0.0190222094):0.0067960642,XP0524939581SLAMFamilyMember9BudorcasTaxicolor:0.0322054195):0.0233361146,XP0400858301SLAMFamilyMember9OryxDammah:0.0292083397):0.0511662447,(((((XP0554398551SLAMFamilyMember9BubalusKerabau:0.0133220579,XP0448000791SLAMFamilyMember9IsoformX2BubalusBubalis:0.0000010000):0.0310687174,XP0448000891SLAMFamilyMember9IsoformX5BubalusBubalis:0.0000010000):0.0000010000,XP0448000781SLAMFamilyMember9IsoformX1BubalusBubalis:0.0000010000):0.0000010000,XP0448000871SLAMFamilyMember9IsoformX3BubalusBubalis:0.0000010000):0.0259128255,(((((XP0597389551SLAMFamilyMember9IsoformX1BosTaurus:0.0000010000,XP0198138841PREDICTEDLOWQUALITYPROTEINSLAMFamilyMember9BosIndicus:0.0193753957):0.0000010000,XP0273940861LOWQUALITYPROTEINSLAMFamilyMember9BosIndicusXBosTaurus:0.0000010000):0.0064382875,XP0058921451PREDICTEDLOWQUALITYPROTEINSLAMFamilyMember9BosMutus:0.0000010000):0.0346149262,ELR589961SLAMFamilyMember9BosMutus:0.0059654539):0.0000022004,NP0012895911SLAMFamilyMember9PrecursorBosTaurus:0.0129346776):0.0443598341):0.0565509525):0.0262144868,(XP0552584731SLAMFamilyMember9IsoformX2MoschusBerezovskii:0.0000010000,XP0552584691SLAMFamilyMember9IsoformX1MoschusBerezovskii:0.0000010000):0.0657325219):0.0056720186):0.2357674737,XP0575834241SLAMFamilyMember9HippopotamusAmphibiusKiboko:0.1204232774):0.0279206585,((((((((XP0337039091LOWQUALITYPROTEINSLAMFamilyMember9TursiopsTruncatus:0.0000010000,(TEA380321HypotheticalProteinDBR06SOUSAS27910024PartialSousaChinensis:0.0000010000,XP0598647051LOWQUALITYPROTEINSLAMFamilyMember9DelphinusDelphis:0.0086400930):0.0000010000):0.0127258431,XP0306981911LOWQUALITYPROTEINSLAMFamilyMember9GlobicephalaMelas:0.0129764533):0.0583907087,(((XP0290826191LOWQUALITYPROTEINSLAMFamilyMember9MonodonMonoceros:0.0475587557,TKC484291HypotheticalProteinEI555001982PartialMonodonMonoceros:0.0758044572):0.0308603026,XP0224153951LOWQUALITYPROTEINSLAMFamilyMember9DelphinapterusLeucas:0.0289565025):0.0393123200,XP0246067931LOW___Member9NeophocaenaAsiaeorientalisAsiaeorientalis:0.0559077999):0.0284376856):0.0516214160,(XP0599978381LOWQUALIT___EINSLAMFamilyMember9LagenorhynchusAlbirostris:0.0477710981,(XP0123939332LOWQUALITYPROTEINSLAMFamilyMember9OrcinusOrca:0.0468158624,XP0269509591LOWQUALIT___EINSLAMFamilyMember9LagenorhynchusObliquidens:0.0647661463):0.0000024130):0.0663725571):0.0188780172,XP0074721141PREDICTEDLOWQ___PROTEINSLAMFamilyMember9LipotesVexillifer:0.0846029402):0.0329992967,(XP0071297022LOWQUALITYPROTEINSLAMFamilyMember9PhyseterCatodon:0.0388127664,XP0589331651LOWQUALITYPROTEINSLAMFamilyMember9KogiaBreviceps:0.1026327690):0.0271525863):0.0324528286,XP0610418251LOWQUALITYPROTEINSLAMFamilyMember9EubalaenaGlacialis:0.0726080162):0.0760682792,(XP0367267771LOWQUALITYPROTEINSLAMFamilyMember9BalaenopteraMusculus:0.0656044260,XP0597804201LOWQUALITYPROTEINSLAMFamilyMember9BalaenopteraRicei:0.1747258230):0.0752289475):0.1140398895):0.0193272986,(XP0476389431SLAMFamilyMember9PhacochoerusAfricanus:0.0120604545,XP0138523312SLAMFamilyMember9SusScrofa:0.0333819962):0.4467963481):0.0103752798,((XP0109539301SLAMFamilyMember9IsoformX1CamelusBactrianus:0.0063690801,((XP0109753611SLAMFamilyMember9IsoformX1CamelusDromedarius:0.0149338646,XP0151044951SLAMFamilyMember9IsoformX1VicugnaPacos:0.1488916737):0.2044575882,EPY857291SLAMFamilyMember9CamelusFerus:0.0891127342):0.0112558562):0.0454348291,XP0315450261SLAMFamilyMember9IsoformX3VicugnaPacos:0.0248966319):0.1432750991):0.0686786241,(XP0244282962LOWQUALITYPROTEINSLAMFamilyMember9DesmodusRotundus:0.1198883952,XP0358716331LOWQUALITYPROTEINSLAMFamilyMember9PhyllostomusDiscolor:0.2530308728):0.4032738666):0.0669438014,(XP0068955941PREDICTEDLOW___OTEINSLAMFamilyMember9ElephantulusEdwardii:0.5807034033,(XP0376693811SLAMFamilyMember9CholoepusDidactylus:0.1649214884,XP0044484971SLAMFamilyMember9IsoformX1DasypusNovemcinctus:0.2168017628):0.0744066093):0.0914739025):0.0299112860,(XP0200411041SLAMFamilyMember9CastorCanadensis:0.4118180825,XP0473768571SLAMFamilyMember9SciurusCarolinensis:0.2598420001):0.1107794384):0.0096846622,XP0215683581LOWQUALITYPROTEINSLAMFamilyMember9CarlitoSyrichta:0.4505526470):0.0163519596,((XP0233722301LOWQUALITYPROTEINSLAMFamilyMember9OtolemurGarnettii:0.1804860337,XP0534640681SLAMFamilyMember9NycticebusCoucang:0.0868744534):0.1759406175,((XP0126046361SLAMFamilyMember9MicrocebusMurinus:0.1527008096,XP0454024861SLAMFamilyMember9LemurCatta:0.1556385975):0.0151805627,XP0125173011PREDICTEDSLAMFamilyMember9PropithecusCoquereli:0.0903494522):0.1107002318):0.0980337813):0.1061631382,(((((XP0321167361SLAMFamilyMember9IsoformX3SapajusApella:0.0840044658,XP0321167381SLAMFamilyMember9IsoformX4SapajusApella:0.0000010000):0.0223412663,XP0173591391SLAMFamilyMember9CebusImitator:0.0307848338):0.0370662247,NP0012895921SLAMFamilyMember9PrecursorSaimiriBoliviensis:0.1017569413):0.0180991253,NP0012895961SLAMFamilyMember9PrecursorCallithrixJacchus:0.1162193734):0.0152289790,XP0123051212SLAMFamilyMember9AotusNancymaae:0.0914429536):0.1151005411):0.0332404035,((XP0118125971PREDICTEDSLAMFamilyMember9ColobusAngolensisPalliatus:0.0308606338,(((XP0177203031PREDICTEDSLAMFamilyMember9RhinopithecusBieti:0.0061213954,XP0103590791SLAMFamilyMember9RhinopithecusRoxellana:0.0000010000):0.0184412826,XP0330511831SLAMFamilyMember9TrachypithecusFrancoisi:0.0247056096):0.0061652598,(NP0012895891SLAMFamilyMember9PrecursorChlorocebusSabaeus:0.0122334670,((XP0252553301LOWQUALITYPROTEINSLAMFamilyMember9TheropithecusGelada:0.0572330960,(((NP0012895951SLAMFamilyMember9PrecursorMacacaMulatta:0.0062181449,NP0012895871SLAMFamilyMember9PrecursorMacacaFascicularis:0.0000010000):0.0000027770,(XP0117683411SLAMFamilyMember9IsoformX2MacacaNemestrina:0.0000020582,(XP0117683401SLAMFamilyMember9IsoformX1MacacaNemestrina:0.0000027152,XP0153074321SLAMFamilyMember9IsoformX1MacacaFascicularis:0.0225146797):0.0194466106):0.0229517977):0.0114548118,(NP0012895881SLAMFamilyMember9PrecursorPapioAnubis:0.0060991234,(XP0178108492SLAMFamilyMember9IsoformX2PapioAnubis:0.0805074421,XP0091828823SLAMFamilyMember9IsoformX1PapioAnubis:0.0126578036):0.0151804330):0.0062425374):0.0000010000):0.0000010000,XP0118257961PREDICTEDSLAMFamilyMember9MandrillusLeucophaeus:0.0000010000):0.0134397074):0.0403562128):0.0000010000):0.0199523611,XP0230699832SLAMFamilyMember9PiliocolobusTephrosceles:0.0000010000):0.0793536096):0.0336231482,(((XP0306791091LOWQUALITYPROTEINSLAMFamilyMember9NomascusLeucogenys:0.0000010000,XP0306649291LOWQUALITYPROTEINSLAMFamilyMember9NomascusLeucogenys:0.0000010000):0.0380760943,XP0320099141LOWQUALITYPROTEINSLAMFamilyMember9HylobatesMoloch:0.0139080402):0.0441049209,XP0634810421SLAMFamilyMember9SymphalangusSyndactylus:0.1084585830):0.0274671467):0.0405139430):0.0893726569,XP0635497991LOWQUALITYPROTEINSLAMFamilyMember9GorillaGorillaGorilla:0.0380553734):0.0412942457,AAQ891611CD84H1HomoSapiens:0.0085737349):0.0000027193):0.0000010000):0.0047357731,(NP2542732SLAMFamilyMember9Isoform1PrecursorHomoSapiens:0.0000010000,NP0011396441SLAMFamilyMember9Isoform2PrecursorHomoSapiens:0.0085486088):0.0000010000);
+
+TIME STAMP
+----------
+
+Date and time: Mon Jun 10 02:07:56 2024
+Total CPU time used: 879.358 seconds (0h:14m:39s)
+Total wall-clock time used: 442.196 seconds (0h:7m:22s)
+

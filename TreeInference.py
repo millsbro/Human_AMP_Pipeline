@@ -26,14 +26,13 @@ catalogue=glob.glob(input_dir+"*fa")
 
 
 
-## 1. PERFORM MSA WITH MAFFT ##
+## 1. MSA WITH MAFFT ##
 
 for item in catalogue:
     aligned_item_path=item.replace(input_dir,output_dir)
     alignment_command='mafft --auto --quiet '+item+' > '+aligned_item_path
     print(aligned_item_path)
     os.system(alignment_command)
-
 
 
 ## 2. PHYLOGENEIC INFERENCE WITH IQTREE ##

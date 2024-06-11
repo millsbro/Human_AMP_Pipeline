@@ -5,26 +5,29 @@ ii. Pull squeakuences repo to millsbro@submit1:/scratch/millsbro/FINAL/
 iii. Push changes to repo on regular basis
 
 
-1: Identify top 5 putative AMP protein sequences of len>50 from Torres et al.
+1: Identify top 5 putative AMP protein sequences of len>50 from Torres et al.                complete? X
 
-2: BLAST_P search for each of 5 sequences
+2: BLAST_P search for each of 5 sequences                                                    complete? X          
 
-3: Download complete protein sequences for top 100 hits to local machine
+3: Download complete protein sequences for top 100 hits to local machine                     complete? X
 
-4: SCP 5x 100 sequences to millsbro@submit1:/scratch/millsbro/FINAL/AMP_seqs/<recID>
+4: SCP 5x 100 sequences to millsbro@submit1:/scratch/millsbro/FINAL/AMP_seqs/<recID>         complete? X
 
-5: Save full pathway to each set in millsbro@submit1:/scratch/millsbro/FINAL/AMP_seqs/AMP_seqs_full_path.txt
+5: Squeakify eaxh of 5 sets, save output to AMP_seqs_clean                                   complete? X
 
-6: Squeakify eaxh of 5 sets
+6: Create python script to loop through each fasta:                                          complete? X
+  a. MAFFT > output to AMP_seqs_aln                                                          complete? X
+  b. IQtree >cp output treefiles to AMP_seqs_treefiles                                       complete? X
 
-7: Create python script to loop through each fasta:
-  a. MAFFT
-  b. IQtree
-  c. Visualize
+7: Download (via scp) AMP_seqs_aln and AMP_seqs_treefiles to local machine                   complete? X
 
-8: Create table: 
+8: Upload (in matched pairs) MSA and newick files to http://etetoolkit.org/treeview/         complete? 
+
+9: save link and tree to .doc 5x                                                             complete?
+
+8: Create table:                                                                             complete?
   rows=recID
   column= len, dup/del?
 
-9: discusssion: trends and patterns in trees.
+9: discusssion: trends and patterns in trees.                                                complete?
 

@@ -1,0 +1,375 @@
+IQ-TREE 2.2.0.3 COVID-edition built May 11 2022
+
+Input file name: /scratch/millsbro/FINAL/Human_AMP_Pipeline/AMP_seqs_aln/ASPM_HUMAN_squeak.fa
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 301514
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 100 sequences with 3526 amino-acid sites
+Number of constant sites: 2049 (= 58.1112% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 2049 (= 58.1112% of all sites)
+Number of parsimony informative sites: 804
+Number of distinct site patterns: 1905
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: Q.bird+F+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+Q.bird+F+G4      -26294.765   53023.529 +        1   53052.130 +        1   54361.968 +        1
+Q.mammal+F+G4    -26372.615   53179.230 - 1.55e-34   53207.831 - 1.55e-34   54517.668 - 1.55e-34
+Q.bird+G4        -26594.678   53585.355 -   1e-122   53609.041 - 1.17e-121   54806.603 - 2.81e-97
+Q.plant+F+G4     -26558.865   53551.731 - 2.01e-115   53580.332 - 2.01e-115   54890.169 - 2.01e-115
+Q.mammal+G4      -26697.345   53790.689 - 2.59e-167   53814.375 - 3.02e-166   55011.937 - 7.26e-142
+JTT+F+G4         -26663.907   53761.814 - 4.83e-161   53790.415 - 4.83e-161   55100.252 - 4.83e-161
+JTTDCMut+F+G4    -26679.629   53793.257 - 7.17e-168   53821.858 - 7.17e-168   55131.696 - 7.17e-168
+HIVb+F+G4        -26698.749   53831.497 - 3.56e-176   53860.098 - 3.56e-176   55169.936 - 3.56e-176
+mtVer+F+G4       -26705.540   53845.080 -   4e-179   53873.681 -   4e-179   55183.518 -   4e-179
+Q.plant+G4       -26847.956   54091.911 - 1.01e-232   54115.597 - 1.18e-231   55313.159 - 2.83e-207
+FLAVI+F+G4       -26788.661   54011.322 - 3.19e-215   54039.923 - 3.19e-215   55349.760 - 3.19e-215
+HIVw+F+G4        -26797.156   54028.313 - 6.52e-219   54056.914 - 6.52e-219   55366.751 - 6.52e-219
+mtMet+F+G4       -26798.093   54030.186 - 2.55e-219   54058.787 - 2.55e-219   55368.625 - 2.55e-219
+HIVb+G4          -26928.482   54252.963 - 1.08e-267   54276.649 - 1.26e-266   55474.211 - 3.02e-242
+JTT+G4           -26993.945   54383.889 -   4e-296   54407.575 - 4.67e-295   55605.137 - 1.12e-270
+JTTDCMut+G4      -27012.039   54420.078 - 5.54e-304   54443.764 - 6.47e-303   55641.326 - 1.55e-278
+mtInv+F+G4       -26960.664   54355.328 - 6.36e-290   54383.929 - 6.36e-290   55693.767 - 6.36e-290
+Q.insect+F+G4    -27014.525   54463.050 - 2.58e-313   54491.651 - 2.58e-313   55801.489 - 2.58e-313
+FLU+F+G4         -27023.206   54480.411 - 4.39e-317   54509.012 - 4.39e-317   55818.850 - 4.39e-317
+FLAVI+G4         -27115.531   54627.063 -        0   54650.749 -        0   55848.311 - 1.98e-323
+mtREV+F+G4       -27124.896   54683.793 -        0   54712.394 -        0   56022.231 -        0
+cpREV+F+G4       -27131.174   54696.349 -        0   54724.950 -        0   56034.787 -        0
+Q.yeast+F+G4     -27144.474   54722.948 -        0   54751.549 -        0   56061.386 -        0
+Q.pfam+F+G4      -27148.198   54730.396 -        0   54758.997 -        0   56068.834 -        0
+VT+F+G4          -27158.032   54750.064 -        0   54778.665 -        0   56088.503 -        0
+WAG+F+G4         -27165.508   54765.016 -        0   54793.617 -        0   56103.454 -        0
+Q.insect+G4      -27251.024   54898.047 -        0   54921.733 -        0   56119.295 -        0
+Dayhoff+F+G4     -27206.101   54846.202 -        0   54874.803 -        0   56184.641 -        0
+DCMut+F+G4       -27208.129   54850.259 -        0   54878.860 -        0   56188.697 -        0
+mtMAM+F+G4       -27227.818   54889.635 -        0   54918.236 -        0   56228.074 -        0
+LG+F+G4          -27231.070   54896.141 -        0   54924.742 -        0   56234.579 -        0
+FLU+G4           -27325.601   55047.203 -        0   55070.889 -        0   56268.451 -        0
+HIVw+G4          -27344.348   55084.696 -        0   55108.382 -        0   56305.944 -        0
+cpREV+G4         -27345.267   55086.533 -        0   55110.220 -        0   56307.781 -        0
+Q.pfam+G4        -27450.564   55297.129 -        0   55320.815 -        0   56518.377 -        0
+LG+G4            -27462.451   55320.902 -        0   55344.588 -        0   56542.150 -        0
+LG+I+G4          -27466.248   55330.496 -        0   55354.428 -        0   56557.912 -        0
+VT+G4            -27489.632   55375.264 -        0   55398.950 -        0   56596.512 -        0
+mtZOA+F+G4       -27424.320   55282.639 -        0   55311.240 -        0   56621.078 -        0
+LG+I             -27512.420   55420.840 -        0   55444.527 -        0   56642.088 -        0
+Q.yeast+G4       -27529.582   55455.165 -        0   55478.851 -        0   56676.413 -        0
+WAG+G4           -27540.023   55476.047 -        0   55499.733 -        0   56697.295 -        0
+rtREV+F+G4       -27546.869   55527.738 -        0   55556.339 -        0   56866.177 -        0
+LG               -27643.150   55680.301 -        0   55703.742 -        0   56895.381 -        0
+PMB+F+G4         -27571.624   55577.247 -        0   55605.848 -        0   56915.686 -        0
+Dayhoff+G4       -27720.594   55837.188 -        0   55860.874 -        0   57058.436 -        0
+DCMut+G4         -27723.301   55842.602 -        0   55866.288 -        0   57063.850 -        0
+Blosum62+F+G4    -27653.751   55741.502 -        0   55770.103 -        0   57079.940 -        0
+PMB+G4           -27852.225   56100.450 -        0   56124.136 -        0   57321.698 -        0
+rtREV+G4         -27859.916   56115.832 -        0   56139.518 -        0   57337.080 -        0
+Blosum62+G4      -27928.623   56253.245 -        0   56276.931 -        0   57474.493 -        0
+mtART+F+G4       -28005.468   56444.935 -        0   56473.536 -        0   57783.374 -        0
+mtVer+G4         -28351.364   57098.727 -        0   57122.414 -        0   58319.975 -        0
+mtMet+G4         -28455.967   57307.935 -        0   57331.621 -        0   58529.183 -        0
+mtREV+G4         -28677.691   57751.382 -        0   57775.068 -        0   58972.630 -        0
+mtMAM+G4         -28833.991   58063.983 -        0   58087.669 -        0   59285.231 -        0
+mtZOA+G4         -28915.044   58226.089 -        0   58249.775 -        0   59447.337 -        0
+mtInv+G4         -28940.869   58277.738 -        0   58301.424 -        0   59498.986 -        0
+mtART+G4         -29732.178   59860.356 -        0   59884.042 -        0   61081.604 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: Q.bird+F+G4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0836
+  pi(R) = 0.0983
+  pi(N) = 0.0355
+  pi(D) = 0.0202
+  pi(C) = 0.0171
+  pi(Q) = 0.0757
+  pi(E) = 0.0411
+  pi(G) = 0.0208
+  pi(H) = 0.0321
+  pi(I) = 0.0772
+  pi(L) = 0.0877
+  pi(K) = 0.1046
+  pi(M) = 0.0244
+  pi(F) = 0.0345
+  pi(P) = 0.0177
+  pi(S) = 0.0642
+  pi(T) = 0.0483
+  pi(W) = 0.0130
+  pi(Y) = 0.0467
+  pi(V) = 0.0572
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 1.0163
+
+ Category  Relative_rate  Proportion
+  1         0.1402         0.2500
+  2         0.4816         0.2500
+  3         1.0026         0.2500
+  4         2.3756         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -26282.4495 (s.e. 378.4399)
+Unconstrained log-likelihood (without tree): -24169.6793
+Number of free parameters (#branches + #model parameters): 217
+Akaike information criterion (AIC) score: 52998.8990
+Corrected Akaike information criterion (AICc) score: 53027.4999
+Bayesian information criterion (BIC) score: 54337.3375
+
+Total tree length (sum of branch lengths): 0.9781
+Sum of internal branch lengths: 0.3858 (39.4448% of tree length)
+
+WARNING: 18 near-zero internal branches (<0.0003) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'EAW912711AspAbnormalSpindleLikeMicrocephaly___IsoformCRABHomoSapiens' is drawn at root
+
++--EAW912711AspAbnormalSpindleLikeMicrocephaly___IsoformCRABHomoSapiens
+|
++**NP0606063AbnormalSpindleLike___AssociatedProteinIsoform1HomoSapiens
+|
+|           +**KAI40843161AssemblyFactorForSpindleMicrotubulesHomoSapiens
+|        +**|
+|        |  +**AAM441191AbnormalSpindleProteinASPPartialHomoSapiens
+|     +**|
+|     |  |                 +**P622931RecNameFullAbnormal___AssociatedProteinHomologPanTroglodytes
+|     |  |              +**|
+|     |  |              |  |  +--PNI346681ASPMIsoform2PanTroglodytes
+|     |  |              |  +**|
+|     |  |              |     +--AAR126421AbnormalSpindle___AssociatedProteinPanTroglodytes
+|     |  |           +--|
+|     |  |           |  +--AAR843511ASPMPanTroglodytes
+|     |  |        +**|
+|     |  |        |  |  +**AAS485341AbnormalSpindleLikePanTroglodytes
+|     |  |        |  +--|
+|     |  |        |     +**XP0168038532AbnormalSpindleLike___HomologIsoformX1PanTroglodytes
+|     |  |     +--|
+|     |  |     |  +--NP0010089941AbnormalSpindleLike___ProteinHomologPanTroglodytes
+|     |  |  +--|
+|     |  |  |  +--XP0038231263AbnormalSpindleLike___ProteinIsoformX1PanPaniscus
+|     |  +--|
+|     |     |     +--AAR843521ASPMGorillaGorilla
+|     |     |  +--|
+|     |     |  |  |        +**XP0188780543AbnormalSpindleLike___IsoformX1GorillaGorillaGorilla
+|     |     |  |  |     +**|
+|     |     |  |  |     |  +**XP0552419721AbnormalSpindleLike___IsoformX2GorillaGorillaGorilla
+|     |     |  |  |  +--|
+|     |     |  |  |  |  +**XP0552424791AbnormalSpindleLike___IsoformX3GorillaGorillaGorilla
+|     |     |  |  +--|
+|     |     |  |     +--NP0012665351AbnormalSpindleLike___ProteinHomologGorillaGorillaGorilla
+|     |     +--|
+|     |        |           +**P622941RecNameFullAbnormal___AssociatedProteinHomologPongoPygmaeus
+|     |        |        +--|
+|     |        |        |  |           +**XP0241098892AbnormalSpindleLike___ProteinIsoformX1PongoAbelii
+|     |        |        |  |        +**|
+|     |        |        |  |        |  +**XP0241098932AbnormalSpindleLike___ProteinIsoformX2PongoAbelii
+|     |        |        |  |     +--|
+|     |        |        |  |     |  +**XP0635821391AbnormalSpindleLike___ProteinIsoformX3PongoAbelii
+|     |        |        |  |  +--|
+|     |        |        |  |  |  +--AAS485321AbnormalSpindleLikePongoPygmaeus
+|     |        |        |  +**|
+|     |        |        |     +--AAR126431AbnormalSpindle___MicrocephalyAssociatedProteinPongoPygmaeus
+|     |        |     +--|
+|     |        |     |  +**AAR843531ASPMPongoPygmaeus
+|     |        |  +--|
+|     |        |  |  |  +--PNJ501221ASPMIsoform2PongoAbelii
+|     |        |  |  +--|
+|     |        |  |     |  +--XP0543081311AbnormalSpindleLike___HomologIsoformX3PongoPygmaeus
+|     |        |  |     +--|
+|     |        |  |        |  +**XP0543081251AbnormalSpindleLike___HomologIsoformX2PongoPygmaeus
+|     |        |  |        +**|
+|     |        |  |           +**XP0543081151AbnormalSpindleLike___HomologIsoformX1PongoPygmaeus
+|     |        +--|
+|     |           |                                   +--NP0010980051AbnormalSpindleLike___ProteinHomologMacacaMulatta
+|     |           |                                +**|
+|     |           |                                |  +--XP0149743752AbnormalSpindleLike___HomologIsoformX1MacacaMulatta
+|     |           |                             +--|
+|     |           |                             |  +**ACI289691AbnormalSpindleLike___AssociatedProteinPartialMacacaFuscata
+|     |           |                          +**|
+|     |           |                          |  +--XP0055403681PREDI___AssociatedProteinIsoformX2MacacaFascicularis
+|     |           |                       +--|
+|     |           |                       |  |  +--P622911RecNameFullAbnormal___ProteinHomologMacacaFascicularis
+|     |           |                       |  +--|
+|     |           |                       |     |  +**XP0506384461AbnormalSpindleLike___IsoformX2MacacaThibetanaThibetana
+|     |           |                       |     +--|
+|     |           |                       |        +**XP0506384371AbnormalSpindleLike___IsoformX1MacacaThibetanaThibetana
+|     |           |                    +--|
+|     |           |                    |  |  +--EHH506961HypotheticalProteinEGM01564MacacaFascicularis
+|     |           |                    |  +--|
+|     |           |                    |     |  +**XP0055403683AbnormalSpindleLike___HomologIsoformX2MacacaFascicularis
+|     |           |                    |     +--|
+|     |           |                    |        +**XP0452503482AbnormalSpindleLike___HomologIsoformX1MacacaFascicularis
+|     |           |                 +--|
+|     |           |                 |  |  +**XP0246494961AbnormalSpindleLike___ProteinIsoformX2MacacaNemestrina
+|     |           |                 |  +--|
+|     |           |                 |     +**XP0117447901AbnormalSpindleLike___ProteinIsoformX1MacacaNemestrina
+|     |           |              +--|
+|     |           |              |  |  +--XP0252140871AbnormalSpindleLike___ProteinIsoformX1TheropithecusGelada
+|     |           |              |  +--|
+|     |           |              |     |        +**ACI289871AbnormalSpindleLike___AssociatedProteinPartialPapioHamadryas
+|     |           |              |     |     +--|
+|     |           |              |     |     |  |  +**XP0217847542AbnormalSpindleLike___ProteinIsoformX1PapioAnubis
+|     |           |              |     |     |  +--|
+|     |           |              |     |     |     +**XP0217847562AbnormalSpindleLike___ProteinIsoformX2PapioAnubis
+|     |           |              |     |  +**|
+|     |           |              |     |  |  +**AEI848441AbnormalSpindleLike___AssociatedProteinPartialPapioAnubis
+|     |           |              |     +--|
+|     |           |              |        +**XP0091892193AbnormalSpindleLike___ProteinIsoformX3PapioAnubis
+|     |           |           +--|
+|     |           |           |  |     +--XP0118511091PREDI___AssociatedProteinIsoformX1MandrillusLeucophaeus
+|     |           |           |  |  +--|
+|     |           |           |  |  |  +--ACI289751AbnormalSpindle___ProteinPartialMiopithecusTalapoin
+|     |           |           |  +--|
+|     |           |           |     |  +**XP0118915711PREDI___AssociatedProteinIsoformX2CercocebusAtys
+|     |           |           |     +--|
+|     |           |           |        +**XP0118915641PREDI___AssociatedProteinIsoformX1CercocebusAtys
+|     |           |        +--|
+|     |           |        |  |              +**XP0079872662AbnormalSpindleLike___ProteinIsoformX2ChlorocebusSabaeus
+|     |           |        |  |           +--|
+|     |           |        |  |           |  +**XP0079872652AbnormalSpindleLike___ProteinIsoformX1ChlorocebusSabaeus
+|     |           |        |  |        +--|
+|     |           |        |  |        |  +--AAS554001ASPMProteinChlorocebusAethiops
+|     |           |        |  |     +--|
+|     |           |        |  |     |  +--AEI848431AbnormalSpindle___AssociatedProteinPartialErythrocebusPatas
+|     |           |        |  |  +**|
+|     |           |        |  |  |  +--ACI289391AbnormalSpindle___ProteinPartialAllenopithecusNigroviridis
+|     |           |        |  +**|
+|     |           |        |     |  +--ACI289551AbnormalSpindle___AssociatedProteinPartialCercopithecusDiana
+|     |           |        |     +--|
+|     |           |        |        +**ACI289521AbnormalSpindle___ProteinPartialCercopithecusAscanius
+|     |           |     +--|
+|     |           |     |  |           +--XP0103567532AbnormalSpindleLike___IsoformX1RhinopithecusRoxellana
+|     |           |     |  |        +--|
+|     |           |     |  |        |  +--XP0177201231PRED___MicrocephalyAssociatedProteinRhinopithecusBieti
+|     |           |     |  |     +--|
+|     |           |     |  |     |  +--ACI289961AbnormalSpindle___ProteinPartialTrachypithecusVetulus
+|     |           |     |  |  +--|
+|     |           |     |  |  |  |        +--XP0330528201AbnormalSpindleLike___IsoformX1TrachypithecusFrancoisi
+|     |           |     |  |  |  |     +**|
+|     |           |     |  |  |  |     |  +--AEI848421AbnormalSpindle___ProteinPartialSemnopithecusEntellus
+|     |           |     |  |  |  |  +**|
+|     |           |     |  |  |  |  |  +**ACI289931AbnormalSpindle___ProteinPartialTrachypithecusCristatus
+|     |           |     |  |  |  +--|
+|     |           |     |  |  |     +--ACI289911AbnormalSpindle___AssociatedProteinPartialPygathrixNemaeus
+|     |           |     |  +--|
+|     |           |     |     |  +--XP0230591602AbnormalSpindleLike___IsoformX1PiliocolobusTephrosceles
+|     |           |     |     +--|
+|     |           |     |        |  +--XP0118070001PREDI___ProteinIsoformX1ColobusAngolensisPalliatus
+|     |           |     |        +--|
+|     |           |     |           +--P622871RecNameFullAbnormal___AssociatedProteinHomologColobusGuereza
+|     |           |  +--|
+|     |           |  |  |                     +**AEI848491AbnormalSpindle___ProteinPartialPlecturocebusMoloch
+|     |           |  |  |                  +--|
+|     |           |  |  |                  |  +--ACI289471AbnormalSpindle___ProteinPartialPlecturocebusMoloch
+|     |           |  |  |             +----|
+|     |           |  |  |             |    +--AEI848501AbnormalSpindle___AssociatedProteinPartialPitheciaPithecia
+|     |           |  |  |          +--|
+|     |           |  |  |          |  |              +--XP0321445051AbnormalSpindleLike___ProteinIsoformX1SapajusApella
+|     |           |  |  |          |  |           +--|
+|     |           |  |  |          |  |           |  +**AEI848461AbnormalSpindleLike___AssociatedProteinPartialCebusAlbifrons
+|     |           |  |  |          |  |        +--|
+|     |           |  |  |          |  |        |  |  +--XP0173615411AbnormalSpindleLike___AssociatedProteinCebusImitator
+|     |           |  |  |          |  |        |  +--|
+|     |           |  |  |          |  |        |     +--ACU650651AbnormalSpindleLike___AssociatedProteinPartialCebusCapucinus
+|     |           |  |  |          |  |     +--|
+|     |           |  |  |          |  |     |  +-----NP0012669131AbnormalSpindleLike___AssociatedProteinSaimiriBoliviensis
+|     |           |  |  |          |  |  +--|
+|     |           |  |  |          |  |  |  +-------ACU650681AbnormalSpindle___AssociatedProteinPartialAlouattaPalliata
+|     |           |  |  |          |  +--|
+|     |           |  |  |          |     |        +--AEY850041ASPMPartialLeontocebusFuscicollis
+|     |           |  |  |          |     |     +--|
+|     |           |  |  |          |     |     |  |     +--AEY850111ASPMPartialSaguinusOedipus
+|     |           |  |  |          |     |     |  |  +--|
+|     |           |  |  |          |     |     |  |  |  +--AEY850051ASPMPartialSaguinusMidas
+|     |           |  |  |          |     |     |  +--|
+|     |           |  |  |          |     |     |     +------P622951RecNameFullAbnormal___AssociatedProteinHomologSaguinusLabiatus
+|     |           |  |  |          |     |  +--|
+|     |           |  |  |          |     |  |  |    +--AEI848481AbnormalSpindle___ProteinPartialLeontopithecusChrysomelas
+|     |           |  |  |          |     |  |  +----|
+|     |           |  |  |          |     |  |       +--AEY850071ASPMPartialLeontopithecusRosalia
+|     |           |  |  |          |     +--|
+|     |           |  |  |          |        |           +--XP0027606523AbnormalSpindleLike___ProteinIsoformX1CallithrixJacchus
+|     |           |  |  |          |        |        +--|
+|     |           |  |  |          |        |        |  +**AEI848451AbnormalSpindle___AssociatedProteinPartialCallithrixJacchus
+|     |           |  |  |          |        |     +--|
+|     |           |  |  |          |        |     |  +--AEY850101ASPMPartialCallithrixGeoffroyi
+|     |           |  |  |          |        |  +--|
+|     |           |  |  |          |        |  |  |  +--AEY850091ASPMPartialMicoArgentatus
+|     |           |  |  |          |        |  |  +--|
+|     |           |  |  |          |        |  |     +--AEQ588091AbnormalSpindle___AssociatedProteinPartialCebuellaPygmaea
+|     |           |  |  |          |        +--|
+|     |           |  |  |          |           +----AEY850081ASPMPartialCallimicoGoeldii
+|     |           |  |  |  +-------|
+|     |           |  |  |  |       |  +--P622831RecNameFullAbnormal___AssociatedProteinHomologAotusVociferans
+|     |           |  |  |  |       +--|
+|     |           |  |  |  |          +--XP0123150132AbnormalSpindleLike___AssociatedProteinAotusNancymaae
+|     |           |  |  +--|
+|     |           |  |     |           +-------------------------------------XP0235861361AbnormalSpindleLike___ProteinTrichechusManatusLatirostris
+|     |           |  |     +-----------|
+|     |           |  |                 +--------------------------XP0125998321AbnormalSpindleLike___ProteinIsoformX3MicrocebusMurinus
+|     |           +--|
+|     |              |        +--XP0319926101AbnormalSpindleLike___AssociatedProteinHylobatesMoloch
+|     |              |     +--|
+|     |              |     |  |  +--P622901RecNameFullAbnormal___AssociatedProteinHomologHylobatesLar
+|     |              |     |  +**|
+|     |              |     |     +--ACI289621AbnormalSpindle___AssociatedProteinPartialHylobatesMuelleri
+|     |              |  +--|
+|     |              |  |  +--XP0550901601AbnormalSpindleLike___IsoformX1SymphalangusSyndactylus
+|     |              +--|
+|     |                 +--XP0306745631AbnormalSpindleLike___ProteinIsoformX1NomascusLeucogenys
+|  +**|
+|  |  +**KAI25207951AssemblyFactorForSpindleMicrotubulesHomoSapiens
++--|
+   |  +**AAN400111AbnormalSpindlesHomoSapiens
+   +--|
+      +--AAY468151AbnormalSpindleLike___AssociatedSpliceVariant2HomoSapiens
+
+Tree in newick format:
+
+(EAW912711AspAbnormalSpindleLikeMicrocephaly___IsoformCRABHomoSapiens:0.0002951865,NP0606063AbnormalSpindleLike___AssociatedProteinIsoform1HomoSapiens:0.0000010000,((((KAI40843161AssemblyFactorForSpindleMicrotubulesHomoSapiens:0.0002765208,AAM441191AbnormalSpindleProteinASPPartialHomoSapiens:0.0000010000):0.0000183569,((((((P622931RecNameFullAbnormal___AssociatedProteinHomologPanTroglodytes:0.0000010000,(PNI346681ASPMIsoform2PanTroglodytes:0.0002948378,AAR126421AbnormalSpindle___AssociatedProteinPanTroglodytes:0.0026581922):0.0000010000):0.0000010000,AAR843511ASPMPanTroglodytes:0.0002950091):0.0002949023,(AAS485341AbnormalSpindleLikePanTroglodytes:0.0000010000,XP0168038532AbnormalSpindleLike___HomologIsoformX1PanTroglodytes:0.0000010000):0.0008855921):0.0000010000,NP0010089941AbnormalSpindleLike___ProteinHomologPanTroglodytes:0.0014760477):0.0008826751,XP0038231263AbnormalSpindleLike___ProteinIsoformX1PanPaniscus:0.0020715201):0.0026733746,((AAR843521ASPMGorillaGorilla:0.0006739820,(((XP0188780543AbnormalSpindleLike___IsoformX1GorillaGorillaGorilla:0.0000010000,XP0552419721AbnormalSpindleLike___IsoformX2GorillaGorillaGorilla:0.0000010000):0.0000010000,XP0552424791AbnormalSpindleLike___IsoformX3GorillaGorillaGorilla:0.0000010000):0.0017475931,NP0012665351AbnormalSpindleLike___ProteinHomologGorillaGorillaGorilla:0.0033093184):0.0011799421):0.0064888158,((((P622941RecNameFullAbnormal___AssociatedProteinHomologPongoPygmaeus:0.0000010000,((((XP0241098892AbnormalSpindleLike___ProteinIsoformX1PongoAbelii:0.0000010000,XP0241098932AbnormalSpindleLike___ProteinIsoformX2PongoAbelii:0.0000010000):0.0000010000,XP0635821391AbnormalSpindleLike___ProteinIsoformX3PongoAbelii:0.0000010000):0.0002957793,AAS485321AbnormalSpindleLikePongoPygmaeus:0.0008904942):0.0002965711,AAR126431AbnormalSpindle___MicrocephalyAssociatedProteinPongoPygmaeus:0.0026688052):0.0000010000):0.0002962417,AAR843531ASPMPongoPygmaeus:0.0000010000):0.0002944144,(PNJ501221ASPMIsoform2PongoAbelii:0.0008887756,(XP0543081311AbnormalSpindleLike___HomologIsoformX3PongoPygmaeus:0.0009152080,(XP0543081251AbnormalSpindleLike___HomologIsoformX2PongoPygmaeus:0.0000010000,XP0543081151AbnormalSpindleLike___HomologIsoformX1PongoPygmaeus:0.0000010000):0.0000010000):0.0014817837):0.0005947984):0.0088840111,((((((((((((NP0010980051AbnormalSpindleLike___ProteinHomologMacacaMulatta:0.0008869878,XP0149743752AbnormalSpindleLike___HomologIsoformX1MacacaMulatta:0.0008898350):0.0000021491,ACI289691AbnormalSpindleLike___AssociatedProteinPartialMacacaFuscata:0.0000010000):0.0002933296,XP0055403681PREDI___AssociatedProteinIsoformX2MacacaFascicularis:0.0017812127):0.0000010000,(P622911RecNameFullAbnormal___ProteinHomologMacacaFascicularis:0.0011879340,(XP0506384461AbnormalSpindleLike___IsoformX2MacacaThibetanaThibetana:0.0000010000,XP0506384371AbnormalSpindleLike___IsoformX1MacacaThibetanaThibetana:0.0000010000):0.0002967437):0.0002953383):0.0002955989,(EHH506961HypotheticalProteinEGM01564MacacaFascicularis:0.0026723751,(XP0055403683AbnormalSpindleLike___HomologIsoformX2MacacaFascicularis:0.0000010000,XP0452503482AbnormalSpindleLike___HomologIsoformX1MacacaFascicularis:0.0000010000):0.0023728942):0.0005889429):0.0002956656,(XP0246494961AbnormalSpindleLike___ProteinIsoformX2MacacaNemestrina:0.0000010000,XP0117447901AbnormalSpindleLike___ProteinIsoformX1MacacaNemestrina:0.0000010000):0.0014805421):0.0026711840,(XP0252140871AbnormalSpindleLike___ProteinIsoformX1TheropithecusGelada:0.0023804968,(((ACI289871AbnormalSpindleLike___AssociatedProteinPartialPapioHamadryas:0.0000010000,(XP0217847542AbnormalSpindleLike___ProteinIsoformX1PapioAnubis:0.0000010000,XP0217847562AbnormalSpindleLike___ProteinIsoformX2PapioAnubis:0.0000010000):0.0035678917):0.0005091143,AEI848441AbnormalSpindleLike___AssociatedProteinPartialPapioAnubis:0.0000010000):0.0001853784,XP0091892193AbnormalSpindleLike___ProteinIsoformX3PapioAnubis:0.0000010000):0.0044772209):0.0005918840):0.0003318497,((XP0118511091PREDI___AssociatedProteinIsoformX1MandrillusLeucophaeus:0.0035661840,ACI289751AbnormalSpindle___ProteinPartialMiopithecusTalapoin:0.0069289909):0.0011912768,(XP0118915711PREDI___AssociatedProteinIsoformX2CercocebusAtys:0.0000010000,XP0118915641PREDI___AssociatedProteinIsoformX1CercocebusAtys:0.0000010000):0.0038645588):0.0011430067):0.0014847847,(((((XP0079872662AbnormalSpindleLike___ProteinIsoformX2ChlorocebusSabaeus:0.0000010000,XP0079872652AbnormalSpindleLike___ProteinIsoformX1ChlorocebusSabaeus:0.0000010000):0.0018284304,AAS554001ASPMProteinChlorocebusAethiops:0.0020367882):0.0026448048,AEI848431AbnormalSpindle___AssociatedProteinPartialErythrocebusPatas:0.0051794324):0.0047606867,ACI289391AbnormalSpindle___ProteinPartialAllenopithecusNigroviridis:0.0116696452):0.0000027091,(ACI289551AbnormalSpindle___AssociatedProteinPartialCercopithecusDiana:0.0030309954,ACI289521AbnormalSpindle___ProteinPartialCercopithecusAscanius:0.0000010000):0.0038015928):0.0000075519):0.0042607723,((((XP0103567532AbnormalSpindleLike___IsoformX1RhinopithecusRoxellana:0.0019145784,XP0177201231PRED___MicrocephalyAssociatedProteinRhinopithecusBieti:0.0051285308):0.0029675295,ACI289961AbnormalSpindle___ProteinPartialTrachypithecusVetulus:0.0009399588):0.0006986059,(((XP0330528201AbnormalSpindleLike___IsoformX1TrachypithecusFrancoisi:0.0020062712,AEI848421AbnormalSpindle___ProteinPartialSemnopithecusEntellus:0.0038835973):0.0000029916,ACI289931AbnormalSpindle___ProteinPartialTrachypithecusCristatus:0.0000010000):0.0000028844,ACI289911AbnormalSpindle___AssociatedProteinPartialPygathrixNemaeus:0.0078624129):0.0023332372):0.0025288580,(XP0230591602AbnormalSpindleLike___IsoformX1PiliocolobusTephrosceles:0.0085110258,(XP0118070001PREDI___ProteinIsoformX1ColobusAngolensisPalliatus:0.0012306415,P622871RecNameFullAbnormal___AssociatedProteinHomologColobusGuereza:0.0017184561):0.0039096597):0.0018377049):0.0056302926):0.0125542636,(((((AEI848491AbnormalSpindle___ProteinPartialPlecturocebusMoloch:0.0000022104,ACI289471AbnormalSpindle___ProteinPartialPlecturocebusMoloch:0.0136323686):0.0099490974,AEI848501AbnormalSpindle___AssociatedProteinPartialPitheciaPithecia:0.0120497046):0.0206367904,(((((XP0321445051AbnormalSpindleLike___ProteinIsoformX1SapajusApella:0.0012846194,AEI848461AbnormalSpindleLike___AssociatedProteinPartialCebusAlbifrons:0.0000212914):0.0043580044,(XP0173615411AbnormalSpindleLike___AssociatedProteinCebusImitator:0.0005967588,ACU650651AbnormalSpindleLike___AssociatedProteinPartialCebusCapucinus:0.0014551486):0.0051153546):0.0131001839,NP0012669131AbnormalSpindleLike___AssociatedProteinSaimiriBoliviensis:0.0270947473):0.0027270225,ACU650681AbnormalSpindle___AssociatedProteinPartialAlouattaPalliata:0.0356725331):0.0018382318,(((AEY850041ASPMPartialLeontocebusFuscicollis:0.0078357334,((AEY850111ASPMPartialSaguinusOedipus:0.0080262124,AEY850051ASPMPartialSaguinusMidas:0.0040791188):0.0050931306,P622951RecNameFullAbnormal___AssociatedProteinHomologSaguinusLabiatus:0.0297544323):0.0017817896):0.0159208049,(AEI848481AbnormalSpindle___ProteinPartialLeontopithecusChrysomelas:0.0012752096,AEY850071ASPMPartialLeontopithecusRosalia:0.0032412401):0.0232657398):0.0017902057,((((XP0027606523AbnormalSpindleLike___ProteinIsoformX1CallithrixJacchus:0.0007881140,AEI848451AbnormalSpindle___AssociatedProteinPartialCallithrixJacchus:0.0000022306):0.0034477301,AEY850101ASPMPartialCallithrixGeoffroyi:0.0009445490):0.0090477148,(AEY850091ASPMPartialMicoArgentatus:0.0075019035,AEQ588091AbnormalSpindle___AssociatedProteinPartialCebuellaPygmaea:0.0096576112):0.0047492437):0.0138576994,AEY850081ASPMPartialCallimicoGoeldii:0.0215837954):0.0037577406):0.0102496094):0.0007190813):0.0011220716,(P622831RecNameFullAbnormal___AssociatedProteinHomologAotusVociferans:0.0021112605,XP0123150132AbnormalSpindleLike___AssociatedProteinAotusNancymaae:0.0035337168):0.0149606293):0.0350168673,(XP0235861361AbnormalSpindleLike___ProteinTrichechusManatusLatirostris:0.1569030460,XP0125998321AbnormalSpindleLike___ProteinIsoformX3MicrocebusMurinus:0.1120802410):0.0503420751):0.0142932134):0.0065536234,(((XP0319926101AbnormalSpindleLike___AssociatedProteinHylobatesMoloch:0.0020725992,(P622901RecNameFullAbnormal___AssociatedProteinHomologHylobatesLar:0.0005886511,ACI289621AbnormalSpindle___AssociatedProteinPartialHylobatesMuelleri:0.0019242126):0.0000041852):0.0006144719,XP0550901601AbnormalSpindleLike___IsoformX1SymphalangusSyndactylus:0.0056056063):0.0009083128,XP0306745631AbnormalSpindleLike___ProteinIsoformX1NomascusLeucogenys:0.0065384584):0.0100504156):0.0019790272):0.0039926419):0.0029464016):0.0053435515):0.0000010000,KAI25207951AssemblyFactorForSpindleMicrotubulesHomoSapiens:0.0000010000):0.0000010000,(AAN400111AbnormalSpindlesHomoSapiens:0.0000010000,AAY468151AbnormalSpindleLike___AssociatedSpliceVariant2HomoSapiens:0.0058986001):0.0002949201):0.0002949576);
+
+TIME STAMP
+----------
+
+Date and time: Mon Jun 10 02:54:35 2024
+Total CPU time used: 3579.83 seconds (0h:59m:39s)
+Total wall-clock time used: 1797.36 seconds (0h:29m:57s)
+

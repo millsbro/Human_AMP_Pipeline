@@ -1,0 +1,409 @@
+IQ-TREE 2.2.0.3 COVID-edition built May 11 2022
+
+Input file name: /scratch/millsbro/FINAL/Human_AMP_Pipeline/AMP_seqs_aln/TPTE_HUMAN_squeak.fa
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 467163
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 100 sequences with 1207 amino-acid sites
+Number of constant sites: 542 (= 44.9047% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 542 (= 44.9047% of all sites)
+Number of parsimony informative sites: 440
+Number of distinct site patterns: 942
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: JTT+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+JTT+G4           -14987.536   30371.073 +   0.0899   30449.251 +    0.132   31380.059 +    0.552
+JTT+I+G4         -14984.231   30366.463 +    0.901   30445.509 +    0.858   31380.545 +    0.433
+Q.mammal+G4      -14991.486   30378.972 -  0.00173   30457.151 -  0.00255   31387.959 -   0.0106
+Q.mammal+I+G4    -14989.153   30376.305 -  0.00657   30455.352 -  0.00626   31390.388 -  0.00316
+JTTDCMut+G4      -14994.767   30385.534 - 6.51e-05   30463.712 - 9.57e-05   31394.521 -   0.0004
+JTTDCMut+I+G4    -14991.430   30380.860 - 0.000674   30459.907 - 0.000642   31394.943 - 0.000324
+VT+G4            -15009.403   30414.806 - 2.87e-11   30492.985 - 4.21e-11   31423.793 - 1.76e-10
+VT+I+G4          -15005.997   30409.994 - 3.18e-10   30489.040 - 3.03e-10   31424.076 - 1.53e-10
+Q.bird+G4        -15066.068   30528.136 - 7.04e-36   30606.314 - 1.04e-35   31537.123 - 4.33e-35
+Q.bird+I+G4      -15063.897   30525.795 - 2.27e-35   30604.841 - 2.16e-35   31539.877 - 1.09e-35
+WAG+G4           -15082.679   30561.359 -  4.3e-43   30639.537 - 6.32e-43   31570.345 - 2.64e-42
+JTT+F+G4         -15016.008   30466.015 - 2.17e-22   30561.680 -  5.1e-26   31571.824 - 1.26e-42
+WAG+I+G4         -15079.883   30557.766 - 2.59e-42   30636.813 - 2.47e-42   31571.849 - 1.25e-42
+JTT+F+I+G4       -15013.317   30462.634 - 1.18e-21   30559.278 -  1.7e-25   31573.539 - 5.35e-43
+JTTDCMut+F+G4    -15024.667   30483.334 - 3.77e-26   30578.999 - 8.85e-30   31589.143 - 2.19e-46
+JTTDCMut+F+I+G4  -15021.984   30479.968 - 2.03e-25   30576.611 - 2.92e-29   31590.872 - 9.22e-47
+VT+F+G4          -15025.771   30485.541 - 1.25e-26   30581.206 - 2.93e-30   31591.350 - 7.26e-47
+VT+F+I+G4        -15022.798   30481.597 - 8.99e-26   30578.241 - 1.29e-29   31592.502 - 4.08e-47
+cpREV+G4         -15097.784   30591.567 - 1.19e-49   30669.746 - 1.74e-49   31600.554 - 7.28e-49
+cpREV+I+G4       -15096.141   30590.282 - 2.25e-49   30669.329 - 2.15e-49   31604.365 - 1.08e-49
+PMB+G4           -15103.036   30602.071 - 6.21e-52   30680.250 - 9.13e-52   31611.058 - 3.81e-51
+PMB+I+G4         -15100.518   30599.035 - 2.83e-51   30678.082 -  2.7e-51   31613.118 - 1.36e-51
+Q.mammal+F+G4    -15049.425   30532.851 - 6.67e-37   30628.515 - 1.56e-40   31638.660 - 3.87e-57
+Q.mammal+F+I+G4  -15047.182   30530.364 - 2.31e-36   30627.008 - 3.32e-40   31641.269 - 1.05e-57
+Q.plant+G4       -15153.560   30703.119 - 7.09e-74   30781.298 - 1.04e-73   31712.106 - 4.36e-73
+Q.plant+I+G4     -15152.211   30702.423 -    1e-73   30781.469 - 9.57e-74   31716.505 - 4.83e-74
+Blosum62+G4      -15157.826   30711.653 - 9.95e-76   30789.831 - 1.46e-75   31720.639 - 6.11e-75
+Blosum62+I+G4    -15155.183   30708.367 - 5.14e-75   30787.414 -  4.9e-75   31722.450 - 2.47e-75
+Q.pfam+G4        -15163.949   30723.899 - 2.18e-78   30802.077 - 3.21e-78   31732.885 - 1.34e-77
+WAG+F+G4         -15097.514   30629.027 -  8.7e-58   30724.691 - 2.04e-61   31734.836 - 5.05e-78
+Q.pfam+I+G4      -15161.580   30721.161 - 8.57e-78   30800.207 - 8.16e-78   31735.243 - 4.12e-78
+WAG+F+I+G4       -15095.388   30626.776 - 2.68e-57   30723.419 - 3.86e-61   31737.680 - 1.22e-78
+Q.insect+G4      -15176.226   30748.452 - 1.02e-83   30826.630 - 1.49e-83   31757.439 - 6.24e-83
+Q.insect+I+G4    -15174.101   30746.202 - 3.13e-83   30825.248 - 2.98e-83   31760.284 -  1.5e-83
+cpREV+F+G4       -15117.040   30668.079 - 2.88e-66   30763.743 - 6.76e-70   31773.888 - 1.67e-86
+cpREV+F+I+G4     -15115.794   30667.588 - 3.68e-66   30764.232 -  5.3e-70   31778.493 - 1.67e-87
+Q.bird+F+G4      -15121.393   30676.786 - 3.71e-68   30772.450 -  8.7e-72   31782.595 - 2.15e-88
+Q.bird+F+I+G4    -15119.221   30674.442 -  1.2e-67   30771.085 - 1.72e-71   31785.346 - 5.44e-89
+LG+G4            -15210.637   30817.274 - 1.15e-98   30895.452 -  1.7e-98   31826.260 - 7.09e-98
+LG+I+G4          -15208.928   30815.857 - 2.34e-98   30894.904 - 2.23e-98   31829.940 - 1.13e-98
+PMB+F+G4         -15165.847   30765.693 - 1.83e-87   30861.358 -  4.3e-91   31871.502 - 1.06e-107
+PMB+F+I+G4       -15163.661   30763.322 - 5.99e-87   30859.966 - 8.62e-91   31874.227 - 2.72e-108
+Q.pfam+F+G4      -15168.985   30771.970 - 7.94e-89   30867.634 - 1.86e-92   31877.779 - 4.61e-109
+Q.pfam+F+I+G4    -15167.166   30770.332 -  1.8e-88   30866.975 - 2.59e-92   31881.236 - 8.18e-110
+Q.insect+F+G4    -15172.212   30778.424 - 3.15e-90   30874.088 - 7.39e-94   31884.233 - 1.83e-110
+Q.insect+F+I+G4  -15170.378   30776.757 - 7.25e-90   30873.400 - 1.04e-93   31887.661 - 3.29e-111
+Blosum62+F+G4    -15182.971   30799.943 -  6.7e-95   30895.607 - 1.57e-98   31905.752 - 3.89e-115
+Q.plant+F+G4     -15183.728   30801.455 - 3.14e-95   30897.120 - 7.37e-99   31907.264 - 1.82e-115
+Blosum62+F+I+G4  -15180.797   30797.594 - 2.17e-94   30894.238 - 3.11e-98   31908.499 - 9.84e-116
+Q.yeast+G4       -15252.032   30900.064 - 1.22e-116   30978.243 - 1.79e-116   31909.051 - 7.47e-116
+Q.yeast+I+G4     -15249.920   30897.841 - 3.69e-116   30976.887 - 3.52e-116   31911.923 - 1.78e-116
+Q.plant+F+I+G4   -15183.009   30802.018 - 2.37e-95   30898.662 - 3.41e-99   31912.923 - 1.08e-116
+Q.yeast+F+G4     -15204.233   30842.466 - 3.91e-104   30938.131 - 9.17e-108   31948.275 - 2.27e-124
+Q.yeast+F+I+G4   -15202.480   30840.959 - 8.3e-104   30937.603 - 1.19e-107   31951.864 - 3.77e-125
+mtInv+F+G4       -15212.318   30858.636 - 1.2e-107   30954.300 - 2.83e-111   31964.444 - 6.99e-128
+mtInv+F+I+G4     -15210.408   30856.816 - 2.99e-107   30953.459 - 4.3e-111   31967.720 - 1.36e-128
+LG+F+G4          -15216.258   30866.517 - 2.34e-109   30962.181 - 5.49e-113   31972.326 - 1.36e-129
+LG+F+I+G4        -15215.109   30866.219 - 2.72e-109   30962.862 - 3.91e-113   31977.123 - 1.23e-130
+mtMet+F+G4       -15230.938   30895.876 - 9.87e-116   30991.540 - 2.32e-119   32001.684 - 5.73e-136
+mtMet+F+I+G4     -15228.650   30893.301 - 3.58e-115   30989.944 - 5.14e-119   32004.205 - 1.62e-136
+Dayhoff+G4       -15321.702   31039.404 - 6.72e-147   31117.582 - 9.88e-147   32048.391 - 4.13e-146
+Dayhoff+I+G4     -15318.749   31035.499 - 4.74e-146   31114.545 - 4.51e-146   32049.581 - 2.28e-146
+DCMut+G4         -15322.332   31040.664 - 3.58e-147   31118.843 - 5.26e-147   32049.651 - 2.2e-146
+DCMut+I+G4       -15319.313   31036.627 - 2.69e-146   31115.673 - 2.57e-146   32050.709 - 1.3e-146
+HIVb+G4          -15325.078   31046.157 - 2.3e-148   31124.335 - 3.38e-148   32055.144 - 1.41e-147
+HIVb+I+G4        -15323.907   31045.814 - 2.73e-148   31124.861 - 2.6e-148   32059.897 - 1.31e-148
+FLU+G4           -15329.086   31054.171 - 4.18e-150   31132.350 - 6.14e-150   32063.158 - 2.57e-149
+FLU+I+G4         -15328.360   31054.719 - 3.18e-150   31133.766 - 3.02e-150   32068.802 - 1.53e-150
+LG+I             -15369.532   31135.064 - 1.14e-167   31213.242 - 1.67e-167   32144.051 - 6.98e-167
+mtREV+F+G4       -15307.558   31049.115 - 5.23e-149   31144.779 - 1.23e-152   32154.924 - 3.04e-169
+mtREV+F+I+G4     -15306.100   31048.201 - 8.26e-149   31144.845 - 1.19e-152   32159.106 - 3.75e-170
+Dayhoff+F+G4     -15312.630   31059.259 - 3.28e-151   31154.923 - 7.7e-155   32165.068 - 1.9e-171
+DCMut+F+G4       -15313.462   31060.923 - 1.43e-151   31156.588 - 3.35e-155   32166.732 - 8.29e-172
+Dayhoff+F+I+G4   -15310.635   31057.269 - 8.87e-151   31153.913 - 1.28e-154   32168.174 - 4.03e-172
+DCMut+F+I+G4     -15311.426   31058.852 - 4.02e-151   31155.496 - 5.78e-155   32169.757 - 1.83e-172
+HIVb+F+G4        -15340.457   31114.914 - 2.7e-163   31210.578 - 6.32e-167   32220.723 - 1.56e-183
+HIVb+F+I+G4      -15340.055   31116.110 - 1.48e-163   31212.754 - 2.13e-167   32227.015 - 6.73e-185
+mtVer+F+G4       -15355.961   31145.922 - 4.98e-170   31241.586 - 1.17e-173   32251.731 - 2.89e-190
+mtVer+F+I+G4     -15354.088   31144.176 - 1.19e-169   31240.820 - 1.71e-173   32255.081 - 5.42e-191
+rtREV+G4         -15428.440   31252.881 - 2.96e-193   31331.059 - 4.35e-193   32261.868 - 1.82e-192
+rtREV+I+G4       -15426.340   31250.680 - 8.9e-193   31329.726 - 8.48e-193   32264.763 - 4.28e-193
+rtREV+F+G4       -15367.385   31168.769 - 5.45e-175   31264.434 - 1.28e-178   32274.578 - 3.16e-195
+rtREV+F+I+G4     -15366.085   31168.170 - 7.35e-175   31264.814 - 1.06e-178   32279.075 - 3.34e-196
+FLU+F+G4         -15371.089   31176.179 - 1.34e-176   31271.843 - 3.14e-180   32281.988 - 7.78e-197
+FLU+F+I+G4       -15370.806   31177.613 - 6.54e-177   31274.257 - 9.41e-181   32288.518 - 2.97e-198
+LG               -15505.350   31404.700 - 3.19e-226   31482.016 - 7.23e-226   32408.591 - 2.51e-224
+HIVw+F+G4        -15459.212   31352.424 - 7.18e-215   31448.088 - 1.68e-218   32458.233 - 4.17e-235
+HIVw+F+I+G4      -15457.639   31351.278 - 1.27e-214   31447.922 - 1.83e-218   32462.183 - 5.78e-236
+FLAVI+G4         -15562.750   31521.501 - 1.39e-251   31599.679 - 2.04e-251   32530.487 - 8.51e-251
+FLAVI+I+G4       -15560.960   31519.919 - 3.05e-251   31598.966 - 2.91e-251   32534.002 - 1.47e-251
+mtZOA+F+G4       -15525.407   31484.815 - 1.28e-243   31580.479 - 3.01e-247   32590.624 - 7.44e-264
+mtZOA+F+I+G4     -15524.789   31485.577 - 8.75e-244   31582.221 - 1.26e-247   32596.482 - 3.98e-265
+HIVw+G4          -15611.579   31619.158 - 8.62e-273   31697.337 - 1.27e-272   32628.145 - 5.29e-272
+HIVw+I+G4        -15609.155   31616.310 - 3.58e-272   31695.357 - 3.41e-272   32630.393 - 1.72e-272
+FLAVI+F+G4       -15571.597   31577.194 - 1.12e-263   31672.858 - 2.62e-267   32683.003 - 6.48e-284
+FLAVI+F+I+G4     -15571.054   31578.107 - 7.07e-264   31674.751 - 1.02e-267   32689.012 - 3.21e-285
+mtMet+G4         -15642.297   31680.595 - 3.93e-286   31758.773 - 5.78e-286   32689.582 - 2.42e-285
+mtMet+I+G4       -15639.974   31677.948 - 1.48e-285   31756.995 - 1.41e-285   32692.031 - 7.1e-286
+mtREV+G4         -15721.619   31839.238 - 1.4e-320   31917.417 - 2.06e-320   32848.225 - 8.59e-320
+mtREV+I+G4       -15720.351   31838.703 - 1.83e-320   31917.750 - 1.74e-320   32852.786 - 8.78e-321
+mtVer+G4         -15752.760   31901.521 -        0   31979.699 -        0   32910.508 -        0
+mtVer+I+G4       -15749.439   31896.877 -        0   31975.924 -        0   32910.960 -        0
+mtInv+G4         -15771.940   31939.881 -        0   32018.059 -        0   32948.868 -        0
+mtInv+I+G4       -15770.321   31938.643 -        0   32017.689 -        0   32952.725 -        0
+mtZOA+G4         -15806.911   32009.822 -        0   32088.001 -        0   33018.809 -        0
+mtZOA+I+G4       -15805.546   32009.091 -        0   32088.138 -        0   33023.174 -        0
+mtMAM+F+G4       -15761.766   31957.533 -        0   32053.197 -        0   33063.342 -        0
+mtMAM+F+I+G4     -15760.324   31956.648 -        0   32053.292 -        0   33067.553 -        0
+mtART+F+G4       -15872.948   32179.897 -        0   32275.561 -        0   33285.706 -        0
+mtART+F+I+G4     -15874.052   32184.104 -        0   32280.748 -        0   33295.009 -        0
+mtMAM+I+G4       -16145.264   32688.528 -        0   32767.575 -        0   33702.611 -        0
+mtMAM+G4         -16149.625   32695.250 -        0   32773.429 -        0   33704.237 -        0
+mtART+G4         -16244.630   32885.260 -        0   32963.438 -        0   33894.247 -        0
+mtART+I+G4       -16245.431   32888.861 -        0   32967.908 -        0   33902.944 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JTT+G4
+
+State frequencies: (model)
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 1.0624
+
+ Category  Relative_rate  Proportion
+  1         0.1492         0.2500
+  2         0.4947         0.2500
+  3         1.0096         0.2500
+  4         2.3464         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -14984.7232 (s.e. 396.2116)
+Unconstrained log-likelihood (without tree): -8072.6998
+Number of free parameters (#branches + #model parameters): 198
+Akaike information criterion (AIC) score: 30365.4463
+Corrected Akaike information criterion (AICc) score: 30443.6249
+Bayesian information criterion (BIC) score: 31374.4332
+
+Total tree length (sum of branch lengths): 6.6026
+Sum of internal branch lengths: 3.3100 (50.1322% of tree length)
+
+WARNING: 33 near-zero internal branches (<0.0008) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'XP0552069131Phosphatidylinositol345___GorillaGorillaGorilla' is drawn at root
+
++--XP0552069131Phosphatidylinositol345___GorillaGorillaGorilla
+|
+|                                 +**XP0473021701PutativeTyrosineProtein___EIsoformX4HomoSapiens
+|                              +**|
+|                              |  |  +**NP0014119461PutativeTyrosineProteinPhosphataseTPTEIsoform2HomoSapiens
+|                              |  +**|
+|                              |     +**KAI25957591TransmembranePhosphataseWithTensinLikeyHomoSapiens
+|                           +**|
+|                           |  +**XP0473021691PutativeTyrosineProtein___EIsoformX3HomoSapiens
+|                        +**|
+|                        |  |  +**XP0473021621PutativeTyrosineProtein___EIsoformX1HomoSapiens
+|                        |  +**|
+|                        |     |  +**XP0473021711PutativeTyrosineProtein___EIsoformX5HomoSapiens
+|                        |     +**|
+|                        |        +**XP0473021741PutativeTyrosineProtein___EIsoformX8HomoSapiens
+|                     +**|
+|                     |  +**NP0014119451PutativeTyrosineProteinPhosphataseTPTEIsoform1HomoSapiens
+|                  +**|
+|                  |  |        +**NP9548703PutativeTyrosineProtein___EIsoformAlphaHomoSapiens
+|                  |  |     +--|
+|                  |  |     |  |  +**NP9548682PutativeTyrosineProteinPhosphataseTPTEIsoformBetaHomoSapiens
+|                  |  |     |  +**|
+|                  |  |     |     |  +**NP9548692PutativeTyrosineProtein___EIsoformGammaHomoSapiens
+|                  |  |     |     +**|
+|                  |  |     |        +**NP0012771532PutativeTyrosineProtein___EIsoformDeltaHomoSapiens
+|                  |  |  +--|
+|                  |  |  |  |  +**BAG369441UnnamedProteinProductHomoSapiens
+|                  |  |  |  +**|
+|                  |  |  |     +**AAQ066741BJHCC5HomoSapiens
+|                  |  +--|
+|                  |     |  +**AAC345741PutativeTyrosinePhosphataseHomoSapiens
+|                  |     +**|
+|                  |        |  +**AAH287191TransmembranePhosphataseWithTensinHomologyHomoSapiens
+|                  |        +**|
+|                  |           |  +**AAP451441PhosphataseTPTEGammaIsoformHomoSapiens
+|                  |           +**|
+|                  |              +**AAP451451PhosphataseTPTEDeltaIsoformHomoSapiens
+|               +**|
+|               |  +**NP0014119471PutativeTyrosineProteinPhosphataseTPTEIsoform3HomoSapiens
+|            +--|
+|            |  +**KAI25957621TransmembranePhosphataseWithTensinLikeyHomoSapiens
+|        +---|
+|        |   |                           +-----XP0252538911LOWQUAL___PhosphataseTPTE2LikeTheropithecusGelada
+|        |   |                        +--|
+|        |   |                        |  +----XP0118312541PREDICT___PhosphataseTPTE2LikeMandrillusLeucophaeus
+|        |   |               +--------|
+|        |   |               |        +--XP0117382511LOWQUAL___PhosphataseTPTE2LikeMacacaNemestrina
+|        |   |            +--|
+|        |   |            |  |              +**XP0118319221PREDICTE___PhosphataseTPTE2IsoformX1MandrillusLeucophaeus
+|        |   |            |  |           +--|
+|        |   |            |  |           |  |  +**XP0118319241PREDICTE___PhosphataseTPTE2IsoformX3MandrillusLeucophaeus
+|        |   |            |  |           |  +**|
+|        |   |            |  |           |     +--XP0118319231PREDICTE___PhosphataseTPTE2IsoformX2MandrillusLeucophaeus
+|        |   |            |  |        +--|
+|        |   |            |  |        |  |     +**XP0119287691PREDICTE___PhosphataseTPTE2IsoformX3CercocebusAtys
+|        |   |            |  |        |  |  +**|
+|        |   |            |  |        |  |  |  +--XP0119287751PREDICTE___PhosphataseTPTE2IsoformX9CercocebusAtys
+|        |   |            |  |        |  +--|
+|        |   |            |  |        |     +--XP0119287741PREDICTE___PhosphataseTPTE2IsoformX8CercocebusAtys
+|        |   |            |  |     +--|
+|        |   |            |  |     |  |  +--XP0378428461Phosphatidylinositol345___E2ChlorocebusSabaeus
+|        |   |            |  |     |  +--|
+|        |   |            |  |     |     |     +--XP0286933031LOWQUAL___Trisphosphate3PhosphataseTPTE2MacacaMulatta
+|        |   |            |  |     |     |  +--|
+|        |   |            |  |     |     |  |  +--XP0117540342LOWQUAL___Trisphosphate3PhosphataseTPTE2MacacaNemestrina
+|        |   |            |  |     |     +--|
+|        |   |            |  |     |        +--XP0653890211LOWQUA___Trisphosphate3PhosphataseTPTE2MacacaFascicularis
+|        |   |            |  |  +**|
+|        |   |            |  |  |  |     +**XP0118143921PREDICTE___TPTE2IsoformX2ColobusAngolensisPalliatus
+|        |   |            |  |  |  |  +--|
+|        |   |            |  |  |  |  |  +**XP0118143831PREDICTE___TPTE2IsoformX1ColobusAngolensisPalliatus
+|        |   |            |  |  |  +--|
+|        |   |            |  |  |     +--XP0230464071LOWQUA___PhosphataseTPTE2PiliocolobusTephrosceles
+|        |   |            |  +--|
+|        |   |            |     |  +--XP0307777891LOWQUA___PhosphataseTPTE2RhinopithecusRoxellana
+|        |   |            |     +--|
+|        |   |            |        +--XP0330530371LOWQUA___PhosphataseTPTE2TrachypithecusFrancoisi
+|        |   |         +--|
+|        |   |         |  |                  +--XP0321502391LOWQUAL___Trisphosphate3PhosphataseTPTE2LikeSapajusApella
+|        |   |         |  |               +--|
+|        |   |         |  |               |  +--XP0375993761Phosphatidylinositol345Trisphosphate3___X1CebusImitator
+|        |   |         |  |      +--------|
+|        |   |         |  |      |        |         +**XP0541127921Phosphatidylinositol345___X6CallithrixJacchus
+|        |   |         |  |      |        |      +--|
+|        |   |         |  |      |        |      |  +**XP0541127891Phosphatidylinositol345___X3CallithrixJacchus
+|        |   |         |  |      |        |   +**|
+|        |   |         |  |      |        |   |  |  +**XP0541127871Phosphatidylinositol345___X2CallithrixJacchus
+|        |   |         |  |      |        |   |  +**|
+|        |   |         |  |      |        |   |     +**XP0351584262Phosphatidylinositol345___X1CallithrixJacchus
+|        |   |         |  |      |        +---|
+|        |   |         |  |      |            +**XP0541127911Phosphatidylinositol345___X5CallithrixJacchus
+|        |   |         |  |  +---|
+|        |   |         |  |  |   |                                    +--XP0456527081Phosphatidylinositol345___LikeUrsusAmericanus
+|        |   |         |  |  |   |                                 +--|
+|        |   |         |  |  |   |                                 |  +--XP0087051222Phosphatidylinositol345___LikeUrsusMaritimus
+|        |   |         |  |  |   |                              +--|
+|        |   |         |  |  |   |                              |  +--XP0196535572Phosphatidylinositol345___E2AiluropodaMelanoleuca
+|        |   |         |  |  |   |                           +--|
+|        |   |         |  |  |   |                           |  |  +----XP0279606111Phosphatidylinositol345___LikeEumetopiasJubatus
+|        |   |         |  |  |   |                           |  +--|
+|        |   |         |  |  |   |                           |     +---XP0355827621Phosphatidylinositol345___LikeZalophusCalifornianus
+|        |   |         |  |  |   |                +----------|
+|        |   |         |  |  |   |                |          +-----------XP0327067611Phosphatidylinositol345___PartialLontraCanadensis
+|        |   |         |  |  |   |             +--|
+|        |   |         |  |  |   |             |  +--------------XP0276298971Phosphatidylinositol345Trisphosphate3___E2TupaiaChinensis
+|        |   |         |  |  |   |          +--|
+|        |   |         |  |  |   |          |  +-----------------XP0408470171Phosphatidylinositol345___LikeOchotonaCurzoniae
+|        |   |         |  |  |   +----------|
+|        |   |         |  |  |              |         +--XP0233638401Phosphatidylinositol345___LikeOtolemurGarnettii
+|        |   |         |  |  |              +---------|
+|        |   |         |  |  |                        |  +----XP0534190911Phosphatidylinositol345___X2NycticebusCoucang
+|        |   |         |  |  |                        +--|
+|        |   |         |  |  |                           +--XP0534190901Phosphatidylinositol345___X1NycticebusCoucang
+|        |   |         |  +--|
+|        |   |         |     |             +**XP0635708321Phosphatidylinositol345Trisphosphate3___X2PongoAbelii
+|        |   |         |     |          +--|
+|        |   |         |     |          |  |  +**XP0635708361Phosphatidylinositol345Trisphosphate3___X5PongoAbelii
+|        |   |         |     |          |  +**|
+|        |   |         |     |          |     |  +**XP0635708381Phosphatidylinositol345Trisphosphate3___X7PongoAbelii
+|        |   |         |     |          |     +--|
+|        |   |         |     |          |        |     +**XP0635708341Phosphatidylinositol345Trisphosphate3___X3PongoAbelii
+|        |   |         |     |          |        |  +**|
+|        |   |         |     |          |        |  |  |     +**XP0635708371Phosphatidylinositol345Trisphosphate3___X6PongoAbelii
+|        |   |         |     |          |        |  |  |  +--|
+|        |   |         |     |          |        |  |  |  |  +**XP0635708391Phosphatidylinositol345Trisphosphate3___X8PongoAbelii
+|        |   |         |     |          |        |  |  +**|
+|        |   |         |     |          |        |  |     +**XP0635708351Phosphatidylinositol345Trisphosphate3___X4PongoAbelii
+|        |   |         |     |          |        +**|
+|        |   |         |     |          |           +**XP0635708311Phosphatidylinositol345Trisphosphate3___X1PongoAbelii
+|        |   |         |     +----------|
+|        |   |         |                +--XP0635708211Phosphatidylinositol345Trisphosphate3___E2LikePongoAbelii
+|        |   |      +--|
+|        |   |      |  |        +--XP0634750931LOWQUA___PhosphataseTPTE2SymphalangusSyndactylus
+|        |   |      |  |     +--|
+|        |   |      |  |     |  +-----------XP0320066172Phosphatidylinositol345Trisphosphate3___E2HylobatesMoloch
+|        |   |      |  |  +--|
+|        |   |      |  |  |  +--XP0306691531Phosphatidylinositol345___X3NomascusLeucogenys
+|        |   |      |  +--|
+|        |   |      |     |  +--XP0306690921LOWQUAL___PhosphataseTPTE2LikeNomascusLeucogenys
+|        |   |      |     +--|
+|        |   |      |        +--XP0634749051Phosphatidylinositol345___X2SymphalangusSyndactylus
+|        |   |   +--|
+|        |   |   |  |     +--XP0635711501LOWQUALI___Trisphosphate3PhosphataseTPTE2LikePongoAbelii
+|        |   |   |  |  +**|
+|        |   |   |  |  |  +**XP0543853412LOWQUAL___Trisphosphate3PhosphataseTPTE2PongoAbelii
+|        |   |   |  +--|
+|        |   |   |     +--XP0635066121LOWQUAL___Trisphosphate3PhosphataseTPTE2PongoPygmaeus
+|        |   +---|
+|        |       |              +--XP0636484731LOWQUAL___Trisphosphate3PhosphataseTPTE2PanTroglodytes
+|        |       |           +**|
+|        |       |           |  |  +**PNI946731LOWQUALITYPROTEINTPTEIsoform2PanTroglodytes
+|        |       |           |  +**|
+|        |       |           |     +**PNI946721LOWQUALITYPROTEINTPTEIsoform1PanTroglodytes
+|        |       |        +**|
+|        |       |        |  +**PNI946751LOWQUALITYPROTEINTPTEIsoform4PanTroglodytes
+|        |       |     +--|
+|        |       |     |  +--PNI946741TPTEIsoform3PanTroglodytes
+|        |       |  +--|
+|        |       |  |  |        +--EAX082241TransmembranePhosphoinositide3Phosphatase___CRAFHomoSapiens
+|        |       |  |  |     +**|
+|        |       |  |  |     |  +**EAX082221TransmembranePhosphoinositide3Phosphatase___CRADHomoSapiens
+|        |       |  |  |  +--|
+|        |       |  |  |  |  +**EAX082201TransmembranePhosphoinositide3Phosphatase___CRABHomoSapiens
+|        |       |  |  +--|
+|        |       |  |     |        +--BAG632041UnnamedProteinProductHomoSapiens
+|        |       |  |     |     +**|
+|        |       |  |     |     |  +--AAP451461PhosphataseTPIPGammaIsoformHomoSapiens
+|        |       |  |     |  +--|
+|        |       |  |     |  |  |  +**KAI25688611TransmembranePhosphoinositide3___AndTensinLike2HomoSapiens
+|        |       |  |     |  |  +**|
+|        |       |  |     |  |     |  +--APX564281TransmembranePhosphoinositide3___ProteinIsoform2HomoSapiens
+|        |       |  |     |  |     +**|
+|        |       |  |     |  |        +--APX564271TransmembranePhosphoinositide3___ProteinIsoform1HomoSapiens
+|        |       |  |     +--|
+|        |       |  |        +**NP0013829071Phosphatidylinositol345Trisphosphate3___GammaHomoSapiens
+|        |       +--|
+|        |          |  +**XP0552155431LOWQUAL___PhosphataseTPTE2GorillaGorillaGorilla
+|        |          +--|
+|        |             +--XP0552201302LOWQUALI___PhosphataseTPTE2LikeGorillaGorillaGorilla
+|     +--|
+|     |  |  +--XP0635554131LOWQUALI___ProteinPhosphataseTPTEGorillaGorillaGorilla
+|     |  +--|
+|     |     |  +--XP0552239812LOWQUALI___ProteinPhosphataseTPTEGorillaGorillaGorilla
+|     |     +--|
+|     |        |     +--XP0552239861PutativeTyrosineProtein___TEGorillaGorillaGorilla
+|     |        |  +--|
+|     |        |  |  +--XP0552331411PutativeTyrosineProtein___TEGorillaGorillaGorilla
+|     |        +**|
+|     |           |     +-------XP0635588661PutativeTyrosineProtein___TEGorillaGorillaGorilla
+|     |           |  +--|
+|     |           |  |  +--XP0635588701PutativeTyrosineProtein___TEGorillaGorillaGorilla
+|     |           +--|
+|     |              +--XP0552298181PutativeTyrosineProtein___TEGorillaGorillaGorilla
+|  +--|
+|  |  +--XP0552313581PutativeTyrosineProtein___TEGorillaGorillaGorilla
++--|
+|  +--XP0552248361LOWQUALI___ProteinPhosphataseTPTEGorillaGorillaGorilla
+|
++**XP0552248171PutativeTyrosineProtein___TEGorillaGorillaGorilla
+
+Tree in newick format:
+
+(XP0552069131Phosphatidylinositol345___GorillaGorillaGorilla:0.0067778944,(((((((((((XP0473021701PutativeTyrosineProtein___EIsoformX4HomoSapiens:0.0000010000,(NP0014119461PutativeTyrosineProteinPhosphataseTPTEIsoform2HomoSapiens:0.0000010000,KAI25957591TransmembranePhosphataseWithTensinLikeyHomoSapiens:0.0000010000):0.0000010000):0.0000010000,XP0473021691PutativeTyrosineProtein___EIsoformX3HomoSapiens:0.0000010000):0.0000010000,(XP0473021621PutativeTyrosineProtein___EIsoformX1HomoSapiens:0.0000010000,(XP0473021711PutativeTyrosineProtein___EIsoformX5HomoSapiens:0.0000010000,XP0473021741PutativeTyrosineProtein___EIsoformX8HomoSapiens:0.0000010000):0.0000010000):0.0000010000):0.0000010000,NP0014119451PutativeTyrosineProteinPhosphataseTPTEIsoform1HomoSapiens:0.0000010000):0.0000022045,(((NP9548703PutativeTyrosineProtein___EIsoformAlphaHomoSapiens:0.0000029520,(NP9548682PutativeTyrosineProteinPhosphataseTPTEIsoformBetaHomoSapiens:0.0000010000,(NP9548692PutativeTyrosineProtein___EIsoformGammaHomoSapiens:0.0000010000,NP0012771532PutativeTyrosineProtein___EIsoformDeltaHomoSapiens:0.0000010000):0.0000010000):0.0000010000):0.0025027891,(BAG369441UnnamedProteinProductHomoSapiens:0.0000010000,AAQ066741BJHCC5HomoSapiens:0.0000010000):0.0000021735):0.0025026373,(AAC345741PutativeTyrosinePhosphataseHomoSapiens:0.0000010000,(AAH287191TransmembranePhosphataseWithTensinHomologyHomoSapiens:0.0000028049,(AAP451441PhosphataseTPTEGammaIsoformHomoSapiens:0.0000010000,AAP451451PhosphataseTPTEDeltaIsoformHomoSapiens:0.0000010000):0.0000010000):0.0000010000):0.0000024276):0.0025022390):0.0000022280,NP0014119471PutativeTyrosineProteinPhosphataseTPTEIsoform3HomoSapiens:0.0000010000):0.0000022043,KAI25957621TransmembranePhosphataseWithTensinLikeyHomoSapiens:0.0000027094):0.0419678462,(((((((XP0252538911LOWQUAL___PhosphataseTPTE2LikeTheropithecusGelada:0.1568618767,XP0118312541PREDICT___PhosphataseTPTE2LikeMandrillusLeucophaeus:0.1269235055):0.0523627586,XP0117382511LOWQUAL___PhosphataseTPTE2LikeMacacaNemestrina:0.0262687034):0.2324034629,(((((XP0118319221PREDICTE___PhosphataseTPTE2IsoformX1MandrillusLeucophaeus:0.0000023210,(XP0118319241PREDICTE___PhosphataseTPTE2IsoformX3MandrillusLeucophaeus:0.0000010000,XP0118319231PREDICTE___PhosphataseTPTE2IsoformX2MandrillusLeucophaeus:0.0043160932):0.0000025179):0.0128925184,((XP0119287691PREDICTE___PhosphataseTPTE2IsoformX3CercocebusAtys:0.0000010000,XP0119287751PREDICTE___PhosphataseTPTE2IsoformX9CercocebusAtys:0.0089274574):0.0000010000,XP0119287741PREDICTE___PhosphataseTPTE2IsoformX8CercocebusAtys:0.0194153193):0.0202621975):0.0073165979,(XP0378428461Phosphatidylinositol345___E2ChlorocebusSabaeus:0.0615727427,((XP0286933031LOWQUAL___Trisphosphate3PhosphataseTPTE2MacacaMulatta:0.0197777395,XP0117540342LOWQUAL___Trisphosphate3PhosphataseTPTE2MacacaNemestrina:0.0042403174):0.0078681945,XP0653890211LOWQUA___Trisphosphate3PhosphataseTPTE2MacacaFascicularis:0.0142081930):0.0048843418):0.0091825905):0.0240195454,((XP0118143921PREDICTE___TPTE2IsoformX2ColobusAngolensisPalliatus:0.0000010000,XP0118143831PREDICTE___TPTE2IsoformX1ColobusAngolensisPalliatus:0.0000010000):0.0296234558,XP0230464071LOWQUA___PhosphataseTPTE2PiliocolobusTephrosceles:0.0658766005):0.0136790604):0.0000434824,(XP0307777891LOWQUA___PhosphataseTPTE2RhinopithecusRoxellana:0.0316389140,XP0330530371LOWQUA___PhosphataseTPTE2TrachypithecusFrancoisi:0.0187279438):0.0144935755):0.0270870610):0.0389894293,((((XP0321502391LOWQUAL___Trisphosphate3PhosphataseTPTE2LikeSapajusApella:0.0050612106,XP0375993761Phosphatidylinositol345Trisphosphate3___X1CebusImitator:0.0036195729):0.0781548269,(((XP0541127921Phosphatidylinositol345___X6CallithrixJacchus:0.0000010000,XP0541127891Phosphatidylinositol345___X3CallithrixJacchus:0.0000010000):0.0772429528,(XP0541127871Phosphatidylinositol345___X2CallithrixJacchus:0.0000028729,XP0351584262Phosphatidylinositol345___X1CallithrixJacchus:0.0000010000):0.0000023624):0.0000021593,XP0541127911Phosphatidylinositol345___X5CallithrixJacchus:0.0000021221):0.1121451954):0.2401637197,(((((((XP0456527081Phosphatidylinositol345___LikeUrsusAmericanus:0.0154983149,XP0087051222Phosphatidylinositol345___LikeUrsusMaritimus:0.0617075580):0.0204639743,XP0196535572Phosphatidylinositol345___E2AiluropodaMelanoleuca:0.0096201081):0.0506752190,(XP0279606111Phosphatidylinositol345___LikeEumetopiasJubatus:0.1396673333,XP0355827621Phosphatidylinositol345___LikeZalophusCalifornianus:0.1094572950):0.0825330304):0.0377441529,XP0327067611Phosphatidylinositol345___PartialLontraCanadensis:0.3160456145):0.2831027630,XP0276298971Phosphatidylinositol345Trisphosphate3___E2TupaiaChinensis:0.3825419397):0.0490009409,XP0408470171Phosphatidylinositol345___LikeOchotonaCurzoniae:0.4532861515):0.0803572817,(XP0233638401Phosphatidylinositol345___LikeOtolemurGarnettii:0.0312497155,(XP0534190911Phosphatidylinositol345___X2NycticebusCoucang:0.1232694958,XP0534190901Phosphatidylinositol345___X1NycticebusCoucang:0.0457975057):0.0580623709):0.2482419238):0.2795268864):0.1181866957,((XP0635708321Phosphatidylinositol345Trisphosphate3___X2PongoAbelii:0.0000010000,(XP0635708361Phosphatidylinositol345Trisphosphate3___X5PongoAbelii:0.0000010000,(XP0635708381Phosphatidylinositol345Trisphosphate3___X7PongoAbelii:0.0000010000,((XP0635708341Phosphatidylinositol345Trisphosphate3___X3PongoAbelii:0.0000010000,((XP0635708371Phosphatidylinositol345Trisphosphate3___X6PongoAbelii:0.0000026050,XP0635708391Phosphatidylinositol345Trisphosphate3___X8PongoAbelii:0.0000024338):0.0299438270,XP0635708351Phosphatidylinositol345Trisphosphate3___X4PongoAbelii:0.0000010000):0.0000010000):0.0000010000,XP0635708311Phosphatidylinositol345Trisphosphate3___X1PongoAbelii:0.0000010000):0.0000010000):0.0270482125):0.0000010000):0.0024337673,XP0635708211Phosphatidylinositol345Trisphosphate3___E2LikePongoAbelii:0.0028824147):0.2714535054):0.0190895752):0.0295259255,(((XP0634750931LOWQUA___PhosphataseTPTE2SymphalangusSyndactylus:0.0129691455,XP0320066172Phosphatidylinositol345Trisphosphate3___E2HylobatesMoloch:0.3041447125):0.0091739432,XP0306691531Phosphatidylinositol345___X3NomascusLeucogenys:0.0231994174):0.0624771293,(XP0306690921LOWQUAL___PhosphataseTPTE2LikeNomascusLeucogenys:0.0204680140,XP0634749051Phosphatidylinositol345___X2SymphalangusSyndactylus:0.0287419741):0.0365646182):0.0216266874):0.0091061867,((XP0635711501LOWQUALI___Trisphosphate3PhosphataseTPTE2LikePongoAbelii:0.0064346143,XP0543853412LOWQUAL___Trisphosphate3PhosphataseTPTE2PongoAbelii:0.0000010000):0.0000027057,XP0635066121LOWQUAL___Trisphosphate3PhosphataseTPTE2PongoPygmaeus:0.0021388011):0.0496482687):0.0078487936,(((((XP0636484731LOWQUAL___Trisphosphate3PhosphataseTPTE2PanTroglodytes:0.0020392283,(PNI946731LOWQUALITYPROTEINTPTEIsoform2PanTroglodytes:0.0000010000,PNI946721LOWQUALITYPROTEINTPTEIsoform1PanTroglodytes:0.0000010000):0.0000010000):0.0000010000,PNI946751LOWQUALITYPROTEINTPTEIsoform4PanTroglodytes:0.0000010000):0.0000021307,PNI946741TPTEIsoform3PanTroglodytes:0.0043461401):0.0181054489,(((EAX082241TransmembranePhosphoinositide3Phosphatase___CRAFHomoSapiens:0.0128181889,EAX082221TransmembranePhosphoinositide3Phosphatase___CRADHomoSapiens:0.0000010000):0.0000024984,EAX082201TransmembranePhosphoinositide3Phosphatase___CRABHomoSapiens:0.0000010000):0.0045084983,(((BAG632041UnnamedProteinProductHomoSapiens:0.0622761825,AAP451461PhosphataseTPIPGammaIsoformHomoSapiens:0.0027932689):0.0001274627,(KAI25688611TransmembranePhosphoinositide3___AndTensinLike2HomoSapiens:0.0000010000,(APX564281TransmembranePhosphoinositide3___ProteinIsoform2HomoSapiens:0.0030961903,APX564271TransmembranePhosphoinositide3___ProteinIsoform1HomoSapiens:0.0070664795):0.0001407817):0.0000010000):0.0029176804,NP0013829071Phosphatidylinositol345Trisphosphate3___GammaHomoSapiens:0.0000024223):0.0067551579):0.0126569567):0.0072742098,(XP0552155431LOWQUAL___PhosphataseTPTE2GorillaGorillaGorilla:0.0000020763,XP0552201302LOWQUALI___PhosphataseTPTE2LikeGorillaGorillaGorilla:0.0111757909):0.0275999775):0.0292173782):0.1148850654):0.0992712566,(XP0635554131LOWQUALI___ProteinPhosphataseTPTEGorillaGorillaGorilla:0.0083822136,(XP0552239812LOWQUALI___ProteinPhosphataseTPTEGorillaGorillaGorilla:0.0033252363,((XP0552239861PutativeTyrosineProtein___TEGorillaGorillaGorilla:0.0100012610,XP0552331411PutativeTyrosineProtein___TEGorillaGorillaGorilla:0.0100003934):0.0032775387,((XP0635588661PutativeTyrosineProtein___TEGorillaGorillaGorilla:0.2075165258,XP0635588701PutativeTyrosineProtein___TEGorillaGorillaGorilla:0.0695597782):0.0771004140,XP0552298181PutativeTyrosineProtein___TEGorillaGorillaGorilla:0.0315340084):0.0335933077):0.0000020481):0.0050343688):0.0118462454):0.0138134981,XP0552313581PutativeTyrosineProtein___TEGorillaGorillaGorilla:0.0372008275):0.0212877553,XP0552248361LOWQUALI___ProteinPhosphataseTPTEGorillaGorillaGorilla:0.0067121687):0.0237872016,XP0552248171PutativeTyrosineProtein___TEGorillaGorillaGorilla:0.0000020665);
+
+TIME STAMP
+----------
+
+Date and time: Mon Jun 10 01:56:35 2024
+Total CPU time used: 2276.84 seconds (0h:37m:56s)
+Total wall-clock time used: 1144.01 seconds (0h:19m:4s)
+
